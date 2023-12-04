@@ -30,46 +30,89 @@ namespace test_project
             cn.Open();
         }
 
-        private void SignUpbtn_Click(object sender, EventArgs e)
-        {
-            if(txtPass.Text != string.Empty || txtPassConfirm.Text != string.Empty)//check if is it blank
-            { 
-                //not blank
-                if(txtPass.Text == txtPassConfirm.Text)//if enter the same password in form
-                {
-                   // cmd = new SqlCommand("select * from LoginTable where username='" + txtUserName.Text + "'", cn);
-                   // dr = cmd.ExecuteReader();
-                    //if (dr.Read())//check if username already exist
-                    //{
-                    //    dr.Close();
-                    //    MessageBox.Show("Username Already exist please try another ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    //}
-                   // else
-                   // {
-                        //dr.Close();
-                        //cmd = new SqlCommand("insert into LoginTable values(@username,@password)", cn);
-                        //cmd.Parameters.AddWithValue("username", txtUserName.Text);
-                        //cmd.Parameters.AddWithValue("password", txtPass.Text);
-                        //cmd.ExecuteNonQuery();
-                        MessageBox.Show("Your Account is created", "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        //sau khi dang ky thanh cong chuyen sang trang log in
-                        this.Hide();
-                        Login login = new Login();
-                        login.ShowDialog();
-                    //  }
-                }
-                else
-                {
-                    MessageBox.Show("Please enter both password same ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            }
-            else
-            {
-                MessageBox.Show("Please enter value in all field.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+        //private void SignUpbtn_Click(object sender, EventArgs e)
+        //{
+        //    if(txtPass.Text != string.Empty || txtPassConfirm.Text != string.Empty)//check if is it blank
+        //    { 
+        //        //not blank
+        //        if(txtPass.Text == txtPassConfirm.Text)//if enter the same password in form
+        //        {
+        //           // cmd = new SqlCommand("select * from LoginTable where username='" + txtUserName.Text + "'", cn);
+        //           // dr = cmd.ExecuteReader();
+        //            //if (dr.Read())//check if username already exist
+        //            //{
+        //            //    dr.Close();
+        //            //    MessageBox.Show("Username Already exist please try another ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        //            //}
+        //           // else
+        //           // {
+        //                //dr.Close();
+        //                //cmd = new SqlCommand("insert into LoginTable values(@username,@password)", cn);
+        //                //cmd.Parameters.AddWithValue("username", txtUserName.Text);
+        //                //cmd.Parameters.AddWithValue("password", txtPass.Text);
+        //                //cmd.ExecuteNonQuery();
+        //                MessageBox.Show("Your Account is created", "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        //                //sau khi dang ky thanh cong chuyen sang trang log in
+        //                this.Hide();
+        //                Login login = new Login();
+        //                login.ShowDialog();
+        //            //  }
+        //        }
+        //        else
+        //        {
+        //            MessageBox.Show("Please enter both password same ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        //        }
+        //    }
+        //    else
+        //    {
+        //        MessageBox.Show("Please enter value in all field.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        //    }
             
+        //}
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
 
-        
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Pencil_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CreateAnAccount_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DescriptionSU_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void UserName_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxUN_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxPW_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
