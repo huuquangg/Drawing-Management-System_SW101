@@ -60,7 +60,6 @@
             this.tableLayoutPanel1.Controls.Add(this.pictureBoxPWLI, 1, 6);
             this.tableLayoutPanel1.Controls.Add(this.LogInToAccount, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.DescriptionLI, 2, 1);
-            this.tableLayoutPanel1.Controls.Add(this.UserNameLI, 2, 3);
             this.tableLayoutPanel1.Controls.Add(this.PasswordLI, 2, 5);
             this.tableLayoutPanel1.Controls.Add(this.QuesLI, 2, 9);
             this.tableLayoutPanel1.Controls.Add(this.textBox1, 2, 4);
@@ -68,6 +67,7 @@
             this.tableLayoutPanel1.Controls.Add(this.checkBoxLI, 2, 7);
             this.tableLayoutPanel1.Controls.Add(this.buttonLI, 2, 8);
             this.tableLayoutPanel1.Controls.Add(this.buttonQuesLI, 2, 10);
+            this.tableLayoutPanel1.Controls.Add(this.UserNameLI, 2, 3);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 11;
