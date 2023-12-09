@@ -1,0 +1,15 @@
+C:\Users\ASUS\source\repos\SW101_\DAT\bin\Debug\net6.0\DAT.deps.json
+C:\Users\ASUS\source\repos\SW101_\DAT\bin\Debug\net6.0\DAT.dll
+C:\Users\ASUS\source\repos\SW101_\DAT\bin\Debug\net6.0\DAT.pdb
+C:\Users\ASUS\source\repos\SW101_\DAT\obj\Debug\net6.0\DAT.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\SW101_\DAT\obj\Debug\net6.0\DAT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\SW101_\DAT\obj\Debug\net6.0\DAT.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\SW101_\DAT\obj\Debug\net6.0\DAT.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\SW101_\DAT\obj\Debug\net6.0\DAT.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\SW101_\DAT\obj\Debug\net6.0\DAT.dll
+C:\Users\ASUS\source\repos\SW101_\DAT\obj\Debug\net6.0\refint\DAT.dll
+C:\Users\ASUS\source\repos\SW101_\DAT\obj\Debug\net6.0\DAT.pdb
+C:\Users\ASUS\source\repos\SW101_\DAT\obj\Debug\net6.0\ref\DAT.dll
+C:\Users\ASUS\source\repos\SW101_\DAT\bin\Debug\net6.0\DTO.dll
+C:\Users\ASUS\source\repos\SW101_\DAT\bin\Debug\net6.0\DTO.pdb
+C:\Users\ASUS\source\repos\SW101_\DAT\obj\Debug\net6.0\DAT.csproj.CopyComplete

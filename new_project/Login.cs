@@ -8,11 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Guna.UI2.WinForms;
+using DTO;
+using System.Security.Principal;
 
 namespace new_project
 {
     public partial class Login : Form
     {
+        Account account = new Account();
         public Login()
         {
             InitializeComponent();
@@ -26,7 +29,7 @@ namespace new_project
         {
             LogUserLoginPanel.Visible = true;
             LogSignTransition.HideSync(LogUserLoginPanel);
-        }
+        }   
         
         private void guna2Panel1_Paint(object sender, PaintEventArgs e)
         {
@@ -44,6 +47,11 @@ namespace new_project
         }
 
         private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LogUserTextBox_TextChanged(object sender, EventArgs e)
         {
 
         }

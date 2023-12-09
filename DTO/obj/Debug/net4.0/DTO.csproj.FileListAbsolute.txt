@@ -1,0 +1,5 @@
+C:\Users\ASUS\source\repos\SW101_\DTO\obj\Debug\net4.0\DTO.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\SW101_\DTO\obj\Debug\net4.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\SW101_\DTO\obj\Debug\net4.0\DTO.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\SW101_\DTO\obj\Debug\net4.0\DTO.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\SW101_\DTO\obj\Debug\net4.0\DTO.csproj.CoreCompileInputs.cache
