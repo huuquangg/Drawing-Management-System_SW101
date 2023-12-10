@@ -29,16 +29,10 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Guna.UI2.AnimatorNS.Animation animation16 = new Guna.UI2.AnimatorNS.Animation();
+            Guna.UI2.AnimatorNS.Animation animation1 = new Guna.UI2.AnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.SignUserSignupPanel = new Guna.UI2.WinForms.Guna2Panel();
             this.LogUserLoginPanel = new Guna.UI2.WinForms.Guna2Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.LogPassTextBox = new Guna.UI2.WinForms.Guna2TextBox();
@@ -48,6 +42,12 @@
             this.LogUserTextBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.SignUserSignupPanel = new Guna.UI2.WinForms.Guna2Panel();
             this.SignConfirmTextBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.SignPassTextBox = new Guna.UI2.WinForms.Guna2TextBox();
@@ -65,11 +65,11 @@
             this.LogSignTransition = new Guna.UI2.WinForms.Guna2Transition();
             this.guna2ColorTransition1 = new Guna.UI2.WinForms.Guna2ColorTransition(this.components);
             this.guna2Panel1.SuspendLayout();
+            this.LogUserLoginPanel.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SignUserSignupPanel.SuspendLayout();
-            this.LogUserLoginPanel.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -90,89 +90,6 @@
             this.guna2Panel1.Size = new System.Drawing.Size(318, 459);
             this.guna2Panel1.TabIndex = 0;
             this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
-            // 
-            // guna2Panel2
-            // 
-            this.guna2Panel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel2.BorderColor = System.Drawing.Color.Black;
-            this.guna2Panel2.Controls.Add(this.guna2Panel5);
-            this.LogSignTransition.SetDecoration(this.guna2Panel2, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Panel2.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
-            this.guna2Panel2.Size = new System.Drawing.Size(318, 183);
-            this.guna2Panel2.TabIndex = 0;
-            this.guna2Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel2_Paint);
-            // 
-            // guna2Panel5
-            // 
-            this.guna2Panel5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.guna2Panel5.BorderColor = System.Drawing.Color.Black;
-            this.guna2Panel5.Controls.Add(this.label8);
-            this.guna2Panel5.Controls.Add(this.label7);
-            this.guna2Panel5.Controls.Add(this.guna2PictureBox1);
-            this.LogSignTransition.SetDecoration(this.guna2Panel5, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Panel5.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel5.Name = "guna2Panel5";
-            this.guna2Panel5.ShadowDecoration.Parent = this.guna2Panel5;
-            this.guna2Panel5.Size = new System.Drawing.Size(321, 183);
-            this.guna2Panel5.TabIndex = 0;
-            this.guna2Panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel5_Paint);
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.LogSignTransition.SetDecoration(this.label8, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label8.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(47, 144);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(215, 17);
-            this.label8.TabIndex = 2;
-            this.label8.Text = "Remember everything important.";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.LogSignTransition.SetDecoration(this.label7, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label7.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(52)))), ((int)(((byte)(153)))));
-            this.label7.Location = new System.Drawing.Point(130, 118);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(79, 26);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "DETON";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
-            // 
-            // guna2PictureBox1
-            // 
-            this.LogSignTransition.SetDecoration(this.guna2PictureBox1, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2PictureBox1.Image = global::new_project.Properties.Resources._603570;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(155, 74);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
-            this.guna2PictureBox1.Size = new System.Drawing.Size(45, 41);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox1.TabIndex = 0;
-            this.guna2PictureBox1.TabStop = false;
-            // 
-            // SignUserSignupPanel
-            // 
-            this.SignUserSignupPanel.BackColor = System.Drawing.Color.Transparent;
-            this.SignUserSignupPanel.Controls.Add(this.SignConfirmTextBox);
-            this.SignUserSignupPanel.Controls.Add(this.label1);
-            this.SignUserSignupPanel.Controls.Add(this.SignPassTextBox);
-            this.SignUserSignupPanel.Controls.Add(this.SignLogButton);
-            this.SignUserSignupPanel.Controls.Add(this.SignCreateButton);
-            this.SignUserSignupPanel.Controls.Add(this.SignUserTextBox);
-            this.SignUserSignupPanel.Controls.Add(this.label3);
-            this.LogSignTransition.SetDecoration(this.SignUserSignupPanel, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.SignUserSignupPanel.Location = new System.Drawing.Point(0, 189);
-            this.SignUserSignupPanel.Name = "SignUserSignupPanel";
-            this.SignUserSignupPanel.ShadowDecoration.Parent = this.SignUserSignupPanel;
-            this.SignUserSignupPanel.Size = new System.Drawing.Size(318, 270);
-            this.SignUserSignupPanel.TabIndex = 3;
             // 
             // LogUserLoginPanel
             // 
@@ -358,6 +275,89 @@
             this.label6.Size = new System.Drawing.Size(97, 17);
             this.label6.TabIndex = 6;
             this.label6.Text = "Remember me";
+            // 
+            // guna2Panel2
+            // 
+            this.guna2Panel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel2.BorderColor = System.Drawing.Color.Black;
+            this.guna2Panel2.Controls.Add(this.guna2Panel5);
+            this.LogSignTransition.SetDecoration(this.guna2Panel2, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2Panel2.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel2.Name = "guna2Panel2";
+            this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
+            this.guna2Panel2.Size = new System.Drawing.Size(318, 183);
+            this.guna2Panel2.TabIndex = 0;
+            this.guna2Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel2_Paint);
+            // 
+            // guna2Panel5
+            // 
+            this.guna2Panel5.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.guna2Panel5.BorderColor = System.Drawing.Color.Black;
+            this.guna2Panel5.Controls.Add(this.label8);
+            this.guna2Panel5.Controls.Add(this.label7);
+            this.guna2Panel5.Controls.Add(this.guna2PictureBox1);
+            this.LogSignTransition.SetDecoration(this.guna2Panel5, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2Panel5.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel5.Name = "guna2Panel5";
+            this.guna2Panel5.ShadowDecoration.Parent = this.guna2Panel5;
+            this.guna2Panel5.Size = new System.Drawing.Size(321, 183);
+            this.guna2Panel5.TabIndex = 0;
+            this.guna2Panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel5_Paint);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.LogSignTransition.SetDecoration(this.label8, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label8.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(47, 144);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(215, 17);
+            this.label8.TabIndex = 2;
+            this.label8.Text = "Remember everything important.";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.LogSignTransition.SetDecoration(this.label7, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label7.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(52)))), ((int)(((byte)(153)))));
+            this.label7.Location = new System.Drawing.Point(130, 118);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(79, 26);
+            this.label7.TabIndex = 1;
+            this.label7.Text = "DETON";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
+            // 
+            // guna2PictureBox1
+            // 
+            this.LogSignTransition.SetDecoration(this.guna2PictureBox1, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2PictureBox1.Image = global::new_project.Properties.Resources._603570;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(155, 74);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
+            this.guna2PictureBox1.Size = new System.Drawing.Size(45, 41);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox1.TabIndex = 0;
+            this.guna2PictureBox1.TabStop = false;
+            // 
+            // SignUserSignupPanel
+            // 
+            this.SignUserSignupPanel.BackColor = System.Drawing.Color.Transparent;
+            this.SignUserSignupPanel.Controls.Add(this.SignConfirmTextBox);
+            this.SignUserSignupPanel.Controls.Add(this.label1);
+            this.SignUserSignupPanel.Controls.Add(this.SignPassTextBox);
+            this.SignUserSignupPanel.Controls.Add(this.SignLogButton);
+            this.SignUserSignupPanel.Controls.Add(this.SignCreateButton);
+            this.SignUserSignupPanel.Controls.Add(this.SignUserTextBox);
+            this.SignUserSignupPanel.Controls.Add(this.label3);
+            this.LogSignTransition.SetDecoration(this.SignUserSignupPanel, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.SignUserSignupPanel.Location = new System.Drawing.Point(0, 189);
+            this.SignUserSignupPanel.Name = "SignUserSignupPanel";
+            this.SignUserSignupPanel.ShadowDecoration.Parent = this.SignUserSignupPanel;
+            this.SignUserSignupPanel.Size = new System.Drawing.Size(318, 270);
+            this.SignUserSignupPanel.TabIndex = 3;
             // 
             // SignConfirmTextBox
             // 
@@ -600,22 +600,22 @@
             // 
             this.LogSignTransition.AnimationType = Guna.UI2.AnimatorNS.AnimationType.Transparent;
             this.LogSignTransition.Cursor = null;
-            animation16.AnimateOnlyDifferences = true;
-            animation16.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation16.BlindCoeff")));
-            animation16.LeafCoeff = 0F;
-            animation16.MaxTime = 1F;
-            animation16.MinTime = 0F;
-            animation16.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation16.MosaicCoeff")));
-            animation16.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation16.MosaicShift")));
-            animation16.MosaicSize = 0;
-            animation16.Padding = new System.Windows.Forms.Padding(0);
-            animation16.RotateCoeff = 0F;
-            animation16.RotateLimit = 0F;
-            animation16.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation16.ScaleCoeff")));
-            animation16.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation16.SlideCoeff")));
-            animation16.TimeCoeff = 0F;
-            animation16.TransparencyCoeff = 1F;
-            this.LogSignTransition.DefaultAnimation = animation16;
+            animation1.AnimateOnlyDifferences = true;
+            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
+            animation1.LeafCoeff = 0F;
+            animation1.MaxTime = 1F;
+            animation1.MinTime = 0F;
+            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
+            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
+            animation1.MosaicSize = 0;
+            animation1.Padding = new System.Windows.Forms.Padding(0);
+            animation1.RotateCoeff = 0F;
+            animation1.RotateLimit = 0F;
+            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
+            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
+            animation1.TimeCoeff = 0F;
+            animation1.TransparencyCoeff = 1F;
+            this.LogSignTransition.DefaultAnimation = animation1;
             // 
             // guna2ColorTransition1
             // 
@@ -642,14 +642,14 @@
             this.Name = "Login";
             this.Text = "Log in";
             this.guna2Panel1.ResumeLayout(false);
+            this.LogUserLoginPanel.ResumeLayout(false);
+            this.LogUserLoginPanel.PerformLayout();
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel5.ResumeLayout(false);
             this.guna2Panel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.SignUserSignupPanel.ResumeLayout(false);
             this.SignUserSignupPanel.PerformLayout();
-            this.LogUserLoginPanel.ResumeLayout(false);
-            this.LogUserLoginPanel.PerformLayout();
             this.guna2Panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 

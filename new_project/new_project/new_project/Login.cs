@@ -19,13 +19,13 @@ namespace new_project
         }
         private void SignSignButton_Click(object sender, EventArgs e)
         {
-            LogUserLoginPanel.Visible = false;
-            LogSignTransition.ShowSync(LogUserLoginPanel);
+            FillingFormLOGIN_container.Visible = false;
+            LogSignTransition.ShowSync(FillingFormLOGIN_container);
         }
         private void LogCreateButton_Click(object sender, EventArgs e)
         {
-            LogUserLoginPanel.Visible = true;
-            LogSignTransition.HideSync(LogUserLoginPanel);
+            FillingFormLOGIN_container.Visible = true;
+            LogSignTransition.HideSync(FillingFormLOGIN_container);
         }
         
         private void guna2Panel1_Paint(object sender, PaintEventArgs e)
@@ -44,6 +44,41 @@ namespace new_project
         }
 
         private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Description_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DontHaveAccount_textLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MinimizeBox_button_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Login_MainButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click_1(object sender, EventArgs e)
         {
 
         }

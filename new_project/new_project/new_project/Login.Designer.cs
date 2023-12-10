@@ -29,593 +29,538 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Guna.UI2.AnimatorNS.Animation animation16 = new Guna.UI2.AnimatorNS.Animation();
+            Guna.UI2.AnimatorNS.Animation animation10 = new Guna.UI2.AnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.SignUserSignupPanel = new Guna.UI2.WinForms.Guna2Panel();
-            this.LogUserLoginPanel = new Guna.UI2.WinForms.Guna2Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.LogPassTextBox = new Guna.UI2.WinForms.Guna2TextBox();
-            this.LogCreateButton = new Guna.UI2.WinForms.Guna2Button();
-            this.LogLogButton = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2ToggleSwitch1 = new Guna.UI2.WinForms.Guna2ToggleSwitch();
-            this.LogUserTextBox = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.SignConfirmTextBox = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.SignPassTextBox = new Guna.UI2.WinForms.Guna2TextBox();
-            this.SignLogButton = new Guna.UI2.WinForms.Guna2Button();
-            this.SignCreateButton = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.SignUserTextBox = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
+            this.LOGIN_FILLFORMNAME = new System.Windows.Forms.Label();
+            this.Password_login_txt = new Guna.UI2.WinForms.Guna2TextBox();
+            this.CreateAccount_btn = new Guna.UI2.WinForms.Guna2Button();
+            this.Login_BTN = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.RememberMe_ToggleSwitch = new Guna.UI2.WinForms.Guna2ToggleSwitch();
+            this.Username_signup_txt = new Guna.UI2.WinForms.Guna2TextBox();
+            this.RememberMe_txt = new System.Windows.Forms.Label();
+            this.BrandLogo_Container = new Guna.UI2.WinForms.Guna2Panel();
+            this.Deton_brandName = new System.Windows.Forms.Label();
+            this.NoteIcon = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.rePassword_signup_txt = new Guna.UI2.WinForms.Guna2TextBox();
+            this.Password_signup_txt = new Guna.UI2.WinForms.Guna2TextBox();
+            this.SignUP_btn = new Guna.UI2.WinForms.Guna2Button();
+            this.CreateAcc_btn = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.Username_login_txt = new Guna.UI2.WinForms.Guna2TextBox();
+            this.AreadyHaveAnAcc_txt = new System.Windows.Forms.Label();
+            this.TopNavigation = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.LogSignTransition = new Guna.UI2.WinForms.Guna2Transition();
+            this.Container_all = new System.Windows.Forms.TableLayoutPanel();
+            this.FormContainerSIGNUP = new System.Windows.Forms.Panel();
+            this.Container_Form = new System.Windows.Forms.Panel();
+            this.FillingFormLOGIN_container = new System.Windows.Forms.Panel();
+            this.OR = new System.Windows.Forms.Label();
             this.guna2ColorTransition1 = new Guna.UI2.WinForms.Guna2ColorTransition(this.components);
-            this.guna2Panel1.SuspendLayout();
-            this.guna2Panel2.SuspendLayout();
-            this.guna2Panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
-            this.SignUserSignupPanel.SuspendLayout();
-            this.LogUserLoginPanel.SuspendLayout();
-            this.guna2Panel3.SuspendLayout();
+            this.Close_boxbtn = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.MaximizeBox_button = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.MinimizeBox_button = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.SIGNUP_FILLFORMNAME = new System.Windows.Forms.Label();
+            this.BrandLogo_Container.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NoteIcon)).BeginInit();
+            this.TopNavigation.SuspendLayout();
+            this.Container_all.SuspendLayout();
+            this.FormContainerSIGNUP.SuspendLayout();
+            this.Container_Form.SuspendLayout();
+            this.FillingFormLOGIN_container.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2Elipse1
             // 
             this.guna2Elipse1.TargetControl = this;
             // 
-            // guna2Panel1
+            // LOGIN_FILLFORMNAME
             // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel1.Controls.Add(this.LogUserLoginPanel);
-            this.guna2Panel1.Controls.Add(this.guna2Panel2);
-            this.guna2Panel1.Controls.Add(this.SignUserSignupPanel);
-            this.LogSignTransition.SetDecoration(this.guna2Panel1, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Panel1.Location = new System.Drawing.Point(243, 55);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(318, 459);
-            this.guna2Panel1.TabIndex = 0;
-            this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
+            this.LOGIN_FILLFORMNAME.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.LOGIN_FILLFORMNAME.AutoSize = true;
+            this.LogSignTransition.SetDecoration(this.LOGIN_FILLFORMNAME, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.LOGIN_FILLFORMNAME.Font = new System.Drawing.Font("Comic Sans MS", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LOGIN_FILLFORMNAME.ForeColor = System.Drawing.Color.Black;
+            this.LOGIN_FILLFORMNAME.Location = new System.Drawing.Point(162, 25);
+            this.LOGIN_FILLFORMNAME.Name = "LOGIN_FILLFORMNAME";
+            this.LOGIN_FILLFORMNAME.Size = new System.Drawing.Size(111, 39);
+            this.LOGIN_FILLFORMNAME.TabIndex = 1;
+            this.LOGIN_FILLFORMNAME.Text = "LOGIN";
+            this.LOGIN_FILLFORMNAME.Click += new System.EventHandler(this.label4_Click);
             // 
-            // guna2Panel2
+            // Password_login_txt
             // 
-            this.guna2Panel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel2.BorderColor = System.Drawing.Color.Black;
-            this.guna2Panel2.Controls.Add(this.guna2Panel5);
-            this.LogSignTransition.SetDecoration(this.guna2Panel2, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Panel2.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
-            this.guna2Panel2.Size = new System.Drawing.Size(318, 183);
-            this.guna2Panel2.TabIndex = 0;
-            this.guna2Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel2_Paint);
+            this.Password_login_txt.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.Password_login_txt.Animated = true;
+            this.Password_login_txt.AutoRoundedCorners = true;
+            this.Password_login_txt.BorderColor = System.Drawing.Color.Black;
+            this.Password_login_txt.BorderRadius = 16;
+            this.Password_login_txt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.LogSignTransition.SetDecoration(this.Password_login_txt, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.Password_login_txt.DefaultText = "";
+            this.Password_login_txt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.Password_login_txt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.Password_login_txt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Password_login_txt.DisabledState.Parent = this.Password_login_txt;
+            this.Password_login_txt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Password_login_txt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
+            this.Password_login_txt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Password_login_txt.FocusedState.Parent = this.Password_login_txt;
+            this.Password_login_txt.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Password_login_txt.ForeColor = System.Drawing.Color.Black;
+            this.Password_login_txt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Password_login_txt.HoverState.Parent = this.Password_login_txt;
+            this.Password_login_txt.IconLeft = global::new_project.Properties.Resources.padlock;
+            this.Password_login_txt.IconLeftSize = new System.Drawing.Size(13, 13);
+            this.Password_login_txt.Location = new System.Drawing.Point(93, 122);
+            this.Password_login_txt.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.Password_login_txt.Name = "Password_login_txt";
+            this.Password_login_txt.PasswordChar = '\0';
+            this.Password_login_txt.PlaceholderForeColor = System.Drawing.Color.White;
+            this.Password_login_txt.PlaceholderText = "Password";
+            this.Password_login_txt.SelectedText = "";
+            this.Password_login_txt.ShadowDecoration.Parent = this.Password_login_txt;
+            this.Password_login_txt.Size = new System.Drawing.Size(260, 35);
+            this.Password_login_txt.TabIndex = 3;
+            this.Password_login_txt.UseSystemPasswordChar = true;
             // 
-            // guna2Panel5
+            // CreateAccount_btn
             // 
-            this.guna2Panel5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.guna2Panel5.BorderColor = System.Drawing.Color.Black;
-            this.guna2Panel5.Controls.Add(this.label8);
-            this.guna2Panel5.Controls.Add(this.label7);
-            this.guna2Panel5.Controls.Add(this.guna2PictureBox1);
-            this.LogSignTransition.SetDecoration(this.guna2Panel5, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Panel5.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel5.Name = "guna2Panel5";
-            this.guna2Panel5.ShadowDecoration.Parent = this.guna2Panel5;
-            this.guna2Panel5.Size = new System.Drawing.Size(321, 183);
-            this.guna2Panel5.TabIndex = 0;
-            this.guna2Panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel5_Paint);
+            this.CreateAccount_btn.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.CreateAccount_btn.CheckedState.Parent = this.CreateAccount_btn;
+            this.CreateAccount_btn.CustomImages.Parent = this.CreateAccount_btn;
+            this.LogSignTransition.SetDecoration(this.CreateAccount_btn, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.CreateAccount_btn.FillColor = System.Drawing.Color.Transparent;
+            this.CreateAccount_btn.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CreateAccount_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(167)))), ((int)(((byte)(255)))));
+            this.CreateAccount_btn.HoverState.Parent = this.CreateAccount_btn;
+            this.CreateAccount_btn.Image = global::new_project.Properties.Resources.icons8_arrow_right_48;
+            this.CreateAccount_btn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.CreateAccount_btn.Location = new System.Drawing.Point(103, 252);
+            this.CreateAccount_btn.Name = "CreateAccount_btn";
+            this.CreateAccount_btn.ShadowDecoration.Parent = this.CreateAccount_btn;
+            this.CreateAccount_btn.Size = new System.Drawing.Size(220, 35);
+            this.CreateAccount_btn.TabIndex = 8;
+            this.CreateAccount_btn.Text = "Create Account         ";
+            this.CreateAccount_btn.Click += new System.EventHandler(this.LogCreateButton_Click);
             // 
-            // label8
+            // Login_BTN
             // 
-            this.label8.AutoSize = true;
-            this.LogSignTransition.SetDecoration(this.label8, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label8.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(47, 144);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(215, 17);
-            this.label8.TabIndex = 2;
-            this.label8.Text = "Remember everything important.";
+            this.Login_BTN.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.Login_BTN.Animated = true;
+            this.Login_BTN.AutoRoundedCorners = true;
+            this.Login_BTN.BorderRadius = 19;
+            this.Login_BTN.CheckedState.Parent = this.Login_BTN;
+            this.Login_BTN.CustomImages.Parent = this.Login_BTN;
+            this.LogSignTransition.SetDecoration(this.Login_BTN, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.Login_BTN.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(167)))), ((int)(((byte)(255)))));
+            this.Login_BTN.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
+            this.Login_BTN.Font = new System.Drawing.Font("Segoe UI Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Login_BTN.ForeColor = System.Drawing.Color.White;
+            this.Login_BTN.HoverState.Parent = this.Login_BTN;
+            this.Login_BTN.Location = new System.Drawing.Point(122, 189);
+            this.Login_BTN.Name = "Login_BTN";
+            this.Login_BTN.ShadowDecoration.Parent = this.Login_BTN;
+            this.Login_BTN.Size = new System.Drawing.Size(185, 40);
+            this.Login_BTN.TabIndex = 4;
+            this.Login_BTN.Text = "Login";
+            this.Login_BTN.Click += new System.EventHandler(this.Login_MainButton_Click);
             // 
-            // label7
+            // RememberMe_ToggleSwitch
             // 
-            this.label7.AutoSize = true;
-            this.LogSignTransition.SetDecoration(this.label7, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label7.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(52)))), ((int)(((byte)(153)))));
-            this.label7.Location = new System.Drawing.Point(130, 118);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(79, 26);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "DETON";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
+            this.RememberMe_ToggleSwitch.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.RememberMe_ToggleSwitch.Animated = true;
+            this.RememberMe_ToggleSwitch.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.RememberMe_ToggleSwitch.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.RememberMe_ToggleSwitch.CheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.RememberMe_ToggleSwitch.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.RememberMe_ToggleSwitch.CheckedState.Parent = this.RememberMe_ToggleSwitch;
+            this.LogSignTransition.SetDecoration(this.RememberMe_ToggleSwitch, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.RememberMe_ToggleSwitch.Location = new System.Drawing.Point(132, 163);
+            this.RememberMe_ToggleSwitch.Name = "RememberMe_ToggleSwitch";
+            this.RememberMe_ToggleSwitch.ShadowDecoration.Parent = this.RememberMe_ToggleSwitch;
+            this.RememberMe_ToggleSwitch.Size = new System.Drawing.Size(35, 20);
+            this.RememberMe_ToggleSwitch.TabIndex = 5;
+            this.RememberMe_ToggleSwitch.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.RememberMe_ToggleSwitch.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.RememberMe_ToggleSwitch.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.RememberMe_ToggleSwitch.UncheckedState.InnerColor = System.Drawing.Color.White;
+            this.RememberMe_ToggleSwitch.UncheckedState.Parent = this.RememberMe_ToggleSwitch;
             // 
-            // guna2PictureBox1
+            // Username_signup_txt
             // 
-            this.LogSignTransition.SetDecoration(this.guna2PictureBox1, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2PictureBox1.Image = global::new_project.Properties.Resources._603570;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(155, 74);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
-            this.guna2PictureBox1.Size = new System.Drawing.Size(45, 41);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox1.TabIndex = 0;
-            this.guna2PictureBox1.TabStop = false;
+            this.Username_signup_txt.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.Username_signup_txt.Animated = true;
+            this.Username_signup_txt.AutoRoundedCorners = true;
+            this.Username_signup_txt.BackColor = System.Drawing.Color.Transparent;
+            this.Username_signup_txt.BorderColor = System.Drawing.Color.Black;
+            this.Username_signup_txt.BorderRadius = 16;
+            this.Username_signup_txt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.LogSignTransition.SetDecoration(this.Username_signup_txt, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.Username_signup_txt.DefaultText = "";
+            this.Username_signup_txt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.Username_signup_txt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.Username_signup_txt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Username_signup_txt.DisabledState.Parent = this.Username_signup_txt;
+            this.Username_signup_txt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Username_signup_txt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
+            this.Username_signup_txt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Username_signup_txt.FocusedState.Parent = this.Username_signup_txt;
+            this.Username_signup_txt.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Username_signup_txt.ForeColor = System.Drawing.Color.Black;
+            this.Username_signup_txt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Username_signup_txt.HoverState.Parent = this.Username_signup_txt;
+            this.Username_signup_txt.IconLeft = global::new_project.Properties.Resources.user;
+            this.Username_signup_txt.IconLeftSize = new System.Drawing.Size(13, 13);
+            this.Username_signup_txt.Location = new System.Drawing.Point(93, 68);
+            this.Username_signup_txt.Margin = new System.Windows.Forms.Padding(4);
+            this.Username_signup_txt.Name = "Username_signup_txt";
+            this.Username_signup_txt.PasswordChar = '\0';
+            this.Username_signup_txt.PlaceholderForeColor = System.Drawing.Color.Black;
+            this.Username_signup_txt.PlaceholderText = "Username";
+            this.Username_signup_txt.SelectedText = "";
+            this.Username_signup_txt.ShadowDecoration.Parent = this.Username_signup_txt;
+            this.Username_signup_txt.Size = new System.Drawing.Size(260, 35);
+            this.Username_signup_txt.TabIndex = 2;
             // 
-            // SignUserSignupPanel
+            // RememberMe_txt
             // 
-            this.SignUserSignupPanel.BackColor = System.Drawing.Color.Transparent;
-            this.SignUserSignupPanel.Controls.Add(this.SignConfirmTextBox);
-            this.SignUserSignupPanel.Controls.Add(this.label1);
-            this.SignUserSignupPanel.Controls.Add(this.SignPassTextBox);
-            this.SignUserSignupPanel.Controls.Add(this.SignLogButton);
-            this.SignUserSignupPanel.Controls.Add(this.SignCreateButton);
-            this.SignUserSignupPanel.Controls.Add(this.SignUserTextBox);
-            this.SignUserSignupPanel.Controls.Add(this.label3);
-            this.LogSignTransition.SetDecoration(this.SignUserSignupPanel, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.SignUserSignupPanel.Location = new System.Drawing.Point(0, 189);
-            this.SignUserSignupPanel.Name = "SignUserSignupPanel";
-            this.SignUserSignupPanel.ShadowDecoration.Parent = this.SignUserSignupPanel;
-            this.SignUserSignupPanel.Size = new System.Drawing.Size(318, 270);
-            this.SignUserSignupPanel.TabIndex = 3;
+            this.RememberMe_txt.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.RememberMe_txt.AutoSize = true;
+            this.LogSignTransition.SetDecoration(this.RememberMe_txt, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.RememberMe_txt.Font = new System.Drawing.Font("Segoe UI Semibold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RememberMe_txt.ForeColor = System.Drawing.Color.Black;
+            this.RememberMe_txt.Location = new System.Drawing.Point(173, 166);
+            this.RememberMe_txt.Name = "RememberMe_txt";
+            this.RememberMe_txt.Size = new System.Drawing.Size(97, 17);
+            this.RememberMe_txt.TabIndex = 6;
+            this.RememberMe_txt.Text = "Remember me";
             // 
-            // LogUserLoginPanel
+            // BrandLogo_Container
             // 
-            this.LogUserLoginPanel.BackColor = System.Drawing.Color.Transparent;
-            this.LogUserLoginPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.LogUserLoginPanel.Controls.Add(this.label4);
-            this.LogUserLoginPanel.Controls.Add(this.LogPassTextBox);
-            this.LogUserLoginPanel.Controls.Add(this.LogCreateButton);
-            this.LogUserLoginPanel.Controls.Add(this.LogLogButton);
-            this.LogUserLoginPanel.Controls.Add(this.guna2ToggleSwitch1);
-            this.LogUserLoginPanel.Controls.Add(this.LogUserTextBox);
-            this.LogUserLoginPanel.Controls.Add(this.label5);
-            this.LogUserLoginPanel.Controls.Add(this.label6);
-            this.LogSignTransition.SetDecoration(this.LogUserLoginPanel, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.LogUserLoginPanel.Location = new System.Drawing.Point(0, 189);
-            this.LogUserLoginPanel.Name = "LogUserLoginPanel";
-            this.LogUserLoginPanel.ShadowDecoration.Parent = this.LogUserLoginPanel;
-            this.LogUserLoginPanel.Size = new System.Drawing.Size(318, 270);
-            this.LogUserLoginPanel.TabIndex = 9;
+            this.BrandLogo_Container.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.BrandLogo_Container.BackColor = System.Drawing.Color.Transparent;
+            this.BrandLogo_Container.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.BrandLogo_Container.BorderColor = System.Drawing.Color.Black;
+            this.BrandLogo_Container.Controls.Add(this.Deton_brandName);
+            this.BrandLogo_Container.Controls.Add(this.NoteIcon);
+            this.LogSignTransition.SetDecoration(this.BrandLogo_Container, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.BrandLogo_Container.Location = new System.Drawing.Point(173, 3);
+            this.BrandLogo_Container.Name = "BrandLogo_Container";
+            this.BrandLogo_Container.ShadowDecoration.Parent = this.BrandLogo_Container;
+            this.BrandLogo_Container.Size = new System.Drawing.Size(141, 128);
+            this.BrandLogo_Container.TabIndex = 0;
+            this.BrandLogo_Container.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel5_Paint);
             // 
-            // label4
+            // Deton_brandName
             // 
-            this.label4.AutoSize = true;
-            this.LogSignTransition.SetDecoration(this.label4, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(114, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(95, 23);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "User Login";
+            this.Deton_brandName.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.Deton_brandName.AutoSize = true;
+            this.LogSignTransition.SetDecoration(this.Deton_brandName, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.Deton_brandName.Font = new System.Drawing.Font("Cooper Black", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Deton_brandName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(52)))), ((int)(((byte)(153)))));
+            this.Deton_brandName.Location = new System.Drawing.Point(-10, 0);
+            this.Deton_brandName.Name = "Deton_brandName";
+            this.Deton_brandName.Size = new System.Drawing.Size(160, 42);
+            this.Deton_brandName.TabIndex = 1;
+            this.Deton_brandName.Text = "DETON";
+            this.Deton_brandName.Click += new System.EventHandler(this.label7_Click);
             // 
-            // LogPassTextBox
+            // NoteIcon
             // 
-            this.LogPassTextBox.Animated = true;
-            this.LogPassTextBox.AutoRoundedCorners = true;
-            this.LogPassTextBox.BorderColor = System.Drawing.Color.Black;
-            this.LogPassTextBox.BorderRadius = 14;
-            this.LogPassTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.LogSignTransition.SetDecoration(this.LogPassTextBox, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.LogPassTextBox.DefaultText = "";
-            this.LogPassTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.LogPassTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.LogPassTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.LogPassTextBox.DisabledState.Parent = this.LogPassTextBox;
-            this.LogPassTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.LogPassTextBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
-            this.LogPassTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.LogPassTextBox.FocusedState.Parent = this.LogPassTextBox;
-            this.LogPassTextBox.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LogPassTextBox.ForeColor = System.Drawing.Color.Black;
-            this.LogPassTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.LogPassTextBox.HoverState.Parent = this.LogPassTextBox;
-            this.LogPassTextBox.IconLeft = global::new_project.Properties.Resources.padlock;
-            this.LogPassTextBox.IconLeftSize = new System.Drawing.Size(13, 13);
-            this.LogPassTextBox.Location = new System.Drawing.Point(27, 81);
-            this.LogPassTextBox.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.LogPassTextBox.Name = "LogPassTextBox";
-            this.LogPassTextBox.PasswordChar = '\0';
-            this.LogPassTextBox.PlaceholderForeColor = System.Drawing.Color.White;
-            this.LogPassTextBox.PlaceholderText = "Password";
-            this.LogPassTextBox.SelectedText = "";
-            this.LogPassTextBox.ShadowDecoration.Parent = this.LogPassTextBox;
-            this.LogPassTextBox.Size = new System.Drawing.Size(260, 30);
-            this.LogPassTextBox.TabIndex = 3;
-            this.LogPassTextBox.UseSystemPasswordChar = true;
+            this.NoteIcon.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.LogSignTransition.SetDecoration(this.NoteIcon, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.NoteIcon.Image = global::new_project.Properties.Resources.notes;
+            this.NoteIcon.Location = new System.Drawing.Point(26, 45);
+            this.NoteIcon.Name = "NoteIcon";
+            this.NoteIcon.ShadowDecoration.Parent = this.NoteIcon;
+            this.NoteIcon.Size = new System.Drawing.Size(98, 80);
+            this.NoteIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.NoteIcon.TabIndex = 0;
+            this.NoteIcon.TabStop = false;
             // 
-            // LogCreateButton
+            // rePassword_signup_txt
             // 
-            this.LogCreateButton.CheckedState.Parent = this.LogCreateButton;
-            this.LogCreateButton.CustomImages.Parent = this.LogCreateButton;
-            this.LogSignTransition.SetDecoration(this.LogCreateButton, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.LogCreateButton.FillColor = System.Drawing.Color.Transparent;
-            this.LogCreateButton.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LogCreateButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(167)))), ((int)(((byte)(255)))));
-            this.LogCreateButton.HoverState.Parent = this.LogCreateButton;
-            this.LogCreateButton.Image = global::new_project.Properties.Resources.icons8_arrow_right_48;
-            this.LogCreateButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.LogCreateButton.Location = new System.Drawing.Point(39, 238);
-            this.LogCreateButton.Name = "LogCreateButton";
-            this.LogCreateButton.ShadowDecoration.Parent = this.LogCreateButton;
-            this.LogCreateButton.Size = new System.Drawing.Size(260, 29);
-            this.LogCreateButton.TabIndex = 8;
-            this.LogCreateButton.Text = "Create Account      ";
-            this.LogCreateButton.Click += new System.EventHandler(this.LogCreateButton_Click);
+            this.rePassword_signup_txt.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.rePassword_signup_txt.Animated = true;
+            this.rePassword_signup_txt.AutoRoundedCorners = true;
+            this.rePassword_signup_txt.BorderColor = System.Drawing.Color.Black;
+            this.rePassword_signup_txt.BorderRadius = 16;
+            this.rePassword_signup_txt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.LogSignTransition.SetDecoration(this.rePassword_signup_txt, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.rePassword_signup_txt.DefaultText = "";
+            this.rePassword_signup_txt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.rePassword_signup_txt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.rePassword_signup_txt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.rePassword_signup_txt.DisabledState.Parent = this.rePassword_signup_txt;
+            this.rePassword_signup_txt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.rePassword_signup_txt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
+            this.rePassword_signup_txt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.rePassword_signup_txt.FocusedState.Parent = this.rePassword_signup_txt;
+            this.rePassword_signup_txt.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rePassword_signup_txt.ForeColor = System.Drawing.Color.Black;
+            this.rePassword_signup_txt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.rePassword_signup_txt.HoverState.Parent = this.rePassword_signup_txt;
+            this.rePassword_signup_txt.IconLeft = global::new_project.Properties.Resources.padlock;
+            this.rePassword_signup_txt.IconLeftSize = new System.Drawing.Size(13, 13);
+            this.rePassword_signup_txt.Location = new System.Drawing.Point(93, 148);
+            this.rePassword_signup_txt.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.rePassword_signup_txt.Name = "rePassword_signup_txt";
+            this.rePassword_signup_txt.PasswordChar = '\0';
+            this.rePassword_signup_txt.PlaceholderForeColor = System.Drawing.Color.White;
+            this.rePassword_signup_txt.PlaceholderText = "Confirm password";
+            this.rePassword_signup_txt.SelectedText = "";
+            this.rePassword_signup_txt.ShadowDecoration.Parent = this.rePassword_signup_txt;
+            this.rePassword_signup_txt.Size = new System.Drawing.Size(260, 35);
+            this.rePassword_signup_txt.TabIndex = 9;
+            this.rePassword_signup_txt.UseSystemPasswordChar = true;
             // 
-            // LogLogButton
+            // Password_signup_txt
             // 
-            this.LogLogButton.Animated = true;
-            this.LogLogButton.AutoRoundedCorners = true;
-            this.LogLogButton.BorderRadius = 19;
-            this.LogLogButton.CheckedState.Parent = this.LogLogButton;
-            this.LogLogButton.CustomImages.Parent = this.LogLogButton;
-            this.LogSignTransition.SetDecoration(this.LogLogButton, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.LogLogButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(167)))), ((int)(((byte)(255)))));
-            this.LogLogButton.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
-            this.LogLogButton.Font = new System.Drawing.Font("Segoe UI Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LogLogButton.ForeColor = System.Drawing.Color.White;
-            this.LogLogButton.HoverState.Parent = this.LogLogButton;
-            this.LogLogButton.Location = new System.Drawing.Point(27, 160);
-            this.LogLogButton.Name = "LogLogButton";
-            this.LogLogButton.ShadowDecoration.Parent = this.LogLogButton;
-            this.LogLogButton.Size = new System.Drawing.Size(266, 40);
-            this.LogLogButton.TabIndex = 4;
-            this.LogLogButton.Text = "Login";
+            this.Password_signup_txt.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.Password_signup_txt.Animated = true;
+            this.Password_signup_txt.AutoRoundedCorners = true;
+            this.Password_signup_txt.BorderColor = System.Drawing.Color.Black;
+            this.Password_signup_txt.BorderRadius = 16;
+            this.Password_signup_txt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.LogSignTransition.SetDecoration(this.Password_signup_txt, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.Password_signup_txt.DefaultText = "";
+            this.Password_signup_txt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.Password_signup_txt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.Password_signup_txt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Password_signup_txt.DisabledState.Parent = this.Password_signup_txt;
+            this.Password_signup_txt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Password_signup_txt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
+            this.Password_signup_txt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Password_signup_txt.FocusedState.Parent = this.Password_signup_txt;
+            this.Password_signup_txt.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Password_signup_txt.ForeColor = System.Drawing.Color.Black;
+            this.Password_signup_txt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Password_signup_txt.HoverState.Parent = this.Password_signup_txt;
+            this.Password_signup_txt.IconLeft = global::new_project.Properties.Resources.padlock;
+            this.Password_signup_txt.IconLeftSize = new System.Drawing.Size(13, 13);
+            this.Password_signup_txt.Location = new System.Drawing.Point(93, 108);
+            this.Password_signup_txt.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.Password_signup_txt.Name = "Password_signup_txt";
+            this.Password_signup_txt.PasswordChar = '\0';
+            this.Password_signup_txt.PlaceholderForeColor = System.Drawing.Color.White;
+            this.Password_signup_txt.PlaceholderText = "Password";
+            this.Password_signup_txt.SelectedText = "";
+            this.Password_signup_txt.ShadowDecoration.Parent = this.Password_signup_txt;
+            this.Password_signup_txt.Size = new System.Drawing.Size(260, 35);
+            this.Password_signup_txt.TabIndex = 3;
+            this.Password_signup_txt.UseSystemPasswordChar = true;
             // 
-            // guna2ToggleSwitch1
+            // SignUP_btn
             // 
-            this.guna2ToggleSwitch1.Animated = true;
-            this.guna2ToggleSwitch1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ToggleSwitch1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ToggleSwitch1.CheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.guna2ToggleSwitch1.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.guna2ToggleSwitch1.CheckedState.Parent = this.guna2ToggleSwitch1;
-            this.LogSignTransition.SetDecoration(this.guna2ToggleSwitch1, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2ToggleSwitch1.Location = new System.Drawing.Point(27, 123);
-            this.guna2ToggleSwitch1.Name = "guna2ToggleSwitch1";
-            this.guna2ToggleSwitch1.ShadowDecoration.Parent = this.guna2ToggleSwitch1;
-            this.guna2ToggleSwitch1.Size = new System.Drawing.Size(35, 20);
-            this.guna2ToggleSwitch1.TabIndex = 5;
-            this.guna2ToggleSwitch1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2ToggleSwitch1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2ToggleSwitch1.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.guna2ToggleSwitch1.UncheckedState.InnerColor = System.Drawing.Color.White;
-            this.guna2ToggleSwitch1.UncheckedState.Parent = this.guna2ToggleSwitch1;
+            this.SignUP_btn.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.SignUP_btn.CheckedState.Parent = this.SignUP_btn;
+            this.SignUP_btn.CustomImages.Parent = this.SignUP_btn;
+            this.LogSignTransition.SetDecoration(this.SignUP_btn, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.SignUP_btn.FillColor = System.Drawing.Color.Transparent;
+            this.SignUP_btn.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SignUP_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(167)))), ((int)(((byte)(255)))));
+            this.SignUP_btn.HoverState.Parent = this.SignUP_btn;
+            this.SignUP_btn.Image = global::new_project.Properties.Resources.icons8_arrow_left_48;
+            this.SignUP_btn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.SignUP_btn.Location = new System.Drawing.Point(93, 250);
+            this.SignUP_btn.Name = "SignUP_btn";
+            this.SignUP_btn.ShadowDecoration.Parent = this.SignUP_btn;
+            this.SignUP_btn.Size = new System.Drawing.Size(260, 35);
+            this.SignUP_btn.TabIndex = 8;
+            this.SignUP_btn.Text = "Log in";
+            this.SignUP_btn.Click += new System.EventHandler(this.SignSignButton_Click);
             // 
-            // LogUserTextBox
+            // CreateAcc_btn
             // 
-            this.LogUserTextBox.Animated = true;
-            this.LogUserTextBox.AutoRoundedCorners = true;
-            this.LogUserTextBox.BackColor = System.Drawing.Color.Transparent;
-            this.LogUserTextBox.BorderColor = System.Drawing.Color.Black;
-            this.LogUserTextBox.BorderRadius = 14;
-            this.LogUserTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.LogSignTransition.SetDecoration(this.LogUserTextBox, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.LogUserTextBox.DefaultText = "";
-            this.LogUserTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.LogUserTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.LogUserTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.LogUserTextBox.DisabledState.Parent = this.LogUserTextBox;
-            this.LogUserTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.LogUserTextBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
-            this.LogUserTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.LogUserTextBox.FocusedState.Parent = this.LogUserTextBox;
-            this.LogUserTextBox.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LogUserTextBox.ForeColor = System.Drawing.Color.Black;
-            this.LogUserTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.LogUserTextBox.HoverState.Parent = this.LogUserTextBox;
-            this.LogUserTextBox.IconLeft = global::new_project.Properties.Resources.user;
-            this.LogUserTextBox.IconLeftSize = new System.Drawing.Size(13, 13);
-            this.LogUserTextBox.Location = new System.Drawing.Point(27, 41);
-            this.LogUserTextBox.Margin = new System.Windows.Forms.Padding(4);
-            this.LogUserTextBox.Name = "LogUserTextBox";
-            this.LogUserTextBox.PasswordChar = '\0';
-            this.LogUserTextBox.PlaceholderForeColor = System.Drawing.Color.Black;
-            this.LogUserTextBox.PlaceholderText = "Username";
-            this.LogUserTextBox.SelectedText = "";
-            this.LogUserTextBox.ShadowDecoration.Parent = this.LogUserTextBox;
-            this.LogUserTextBox.Size = new System.Drawing.Size(260, 30);
-            this.LogUserTextBox.TabIndex = 2;
+            this.CreateAcc_btn.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.CreateAcc_btn.Animated = true;
+            this.CreateAcc_btn.AutoRoundedCorners = true;
+            this.CreateAcc_btn.BorderRadius = 16;
+            this.CreateAcc_btn.CheckedState.Parent = this.CreateAcc_btn;
+            this.CreateAcc_btn.CustomImages.Parent = this.CreateAcc_btn;
+            this.LogSignTransition.SetDecoration(this.CreateAcc_btn, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.CreateAcc_btn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(167)))), ((int)(((byte)(255)))));
+            this.CreateAcc_btn.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
+            this.CreateAcc_btn.Font = new System.Drawing.Font("Segoe UI Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CreateAcc_btn.ForeColor = System.Drawing.Color.White;
+            this.CreateAcc_btn.HoverState.Parent = this.CreateAcc_btn;
+            this.CreateAcc_btn.Location = new System.Drawing.Point(102, 192);
+            this.CreateAcc_btn.Name = "CreateAcc_btn";
+            this.CreateAcc_btn.ShadowDecoration.Parent = this.CreateAcc_btn;
+            this.CreateAcc_btn.Size = new System.Drawing.Size(240, 35);
+            this.CreateAcc_btn.TabIndex = 4;
+            this.CreateAcc_btn.Text = "Create Account";
             // 
-            // label5
+            // Username_login_txt
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.LogSignTransition.SetDecoration(this.label5, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(106, 203);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(135, 17);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "Don\'t have account ?";
+            this.Username_login_txt.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.Username_login_txt.Animated = true;
+            this.Username_login_txt.AutoRoundedCorners = true;
+            this.Username_login_txt.BackColor = System.Drawing.Color.Transparent;
+            this.Username_login_txt.BorderColor = System.Drawing.Color.Black;
+            this.Username_login_txt.BorderRadius = 16;
+            this.Username_login_txt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.LogSignTransition.SetDecoration(this.Username_login_txt, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.Username_login_txt.DefaultText = "";
+            this.Username_login_txt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.Username_login_txt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.Username_login_txt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Username_login_txt.DisabledState.Parent = this.Username_login_txt;
+            this.Username_login_txt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Username_login_txt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
+            this.Username_login_txt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Username_login_txt.FocusedState.Parent = this.Username_login_txt;
+            this.Username_login_txt.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Username_login_txt.ForeColor = System.Drawing.Color.Black;
+            this.Username_login_txt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Username_login_txt.HoverState.Parent = this.Username_login_txt;
+            this.Username_login_txt.IconLeft = global::new_project.Properties.Resources.user;
+            this.Username_login_txt.IconLeftSize = new System.Drawing.Size(13, 13);
+            this.Username_login_txt.Location = new System.Drawing.Point(93, 77);
+            this.Username_login_txt.Margin = new System.Windows.Forms.Padding(4);
+            this.Username_login_txt.Name = "Username_login_txt";
+            this.Username_login_txt.PasswordChar = '\0';
+            this.Username_login_txt.PlaceholderForeColor = System.Drawing.Color.Black;
+            this.Username_login_txt.PlaceholderText = "Username";
+            this.Username_login_txt.SelectedText = "";
+            this.Username_login_txt.ShadowDecoration.Parent = this.Username_login_txt;
+            this.Username_login_txt.Size = new System.Drawing.Size(260, 35);
+            this.Username_login_txt.TabIndex = 2;
             // 
-            // label6
+            // AreadyHaveAnAcc_txt
             // 
-            this.label6.AutoSize = true;
-            this.LogSignTransition.SetDecoration(this.label6, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(58, 123);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(97, 17);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "Remember me";
+            this.AreadyHaveAnAcc_txt.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.AreadyHaveAnAcc_txt.AutoSize = true;
+            this.LogSignTransition.SetDecoration(this.AreadyHaveAnAcc_txt, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.AreadyHaveAnAcc_txt.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AreadyHaveAnAcc_txt.Location = new System.Drawing.Point(141, 230);
+            this.AreadyHaveAnAcc_txt.Name = "AreadyHaveAnAcc_txt";
+            this.AreadyHaveAnAcc_txt.Size = new System.Drawing.Size(164, 17);
+            this.AreadyHaveAnAcc_txt.TabIndex = 7;
+            this.AreadyHaveAnAcc_txt.Text = " Already have an account ?";
             // 
-            // SignConfirmTextBox
+            // TopNavigation
             // 
-            this.SignConfirmTextBox.Animated = true;
-            this.SignConfirmTextBox.AutoRoundedCorners = true;
-            this.SignConfirmTextBox.BorderColor = System.Drawing.Color.Black;
-            this.SignConfirmTextBox.BorderRadius = 14;
-            this.SignConfirmTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.LogSignTransition.SetDecoration(this.SignConfirmTextBox, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.SignConfirmTextBox.DefaultText = "";
-            this.SignConfirmTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.SignConfirmTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.SignConfirmTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.SignConfirmTextBox.DisabledState.Parent = this.SignConfirmTextBox;
-            this.SignConfirmTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.SignConfirmTextBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
-            this.SignConfirmTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.SignConfirmTextBox.FocusedState.Parent = this.SignConfirmTextBox;
-            this.SignConfirmTextBox.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SignConfirmTextBox.ForeColor = System.Drawing.Color.Black;
-            this.SignConfirmTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.SignConfirmTextBox.HoverState.Parent = this.SignConfirmTextBox;
-            this.SignConfirmTextBox.IconLeft = global::new_project.Properties.Resources.padlock;
-            this.SignConfirmTextBox.IconLeftSize = new System.Drawing.Size(13, 13);
-            this.SignConfirmTextBox.Location = new System.Drawing.Point(33, 123);
-            this.SignConfirmTextBox.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.SignConfirmTextBox.Name = "SignConfirmTextBox";
-            this.SignConfirmTextBox.PasswordChar = '\0';
-            this.SignConfirmTextBox.PlaceholderForeColor = System.Drawing.Color.White;
-            this.SignConfirmTextBox.PlaceholderText = "Confirm password";
-            this.SignConfirmTextBox.SelectedText = "";
-            this.SignConfirmTextBox.ShadowDecoration.Parent = this.SignConfirmTextBox;
-            this.SignConfirmTextBox.Size = new System.Drawing.Size(260, 30);
-            this.SignConfirmTextBox.TabIndex = 9;
-            this.SignConfirmTextBox.UseSystemPasswordChar = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.LogSignTransition.SetDecoration(this.label1, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(105, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(107, 23);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "User Signup";
-            // 
-            // SignPassTextBox
-            // 
-            this.SignPassTextBox.Animated = true;
-            this.SignPassTextBox.AutoRoundedCorners = true;
-            this.SignPassTextBox.BorderColor = System.Drawing.Color.Black;
-            this.SignPassTextBox.BorderRadius = 14;
-            this.SignPassTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.LogSignTransition.SetDecoration(this.SignPassTextBox, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.SignPassTextBox.DefaultText = "";
-            this.SignPassTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.SignPassTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.SignPassTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.SignPassTextBox.DisabledState.Parent = this.SignPassTextBox;
-            this.SignPassTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.SignPassTextBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
-            this.SignPassTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.SignPassTextBox.FocusedState.Parent = this.SignPassTextBox;
-            this.SignPassTextBox.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SignPassTextBox.ForeColor = System.Drawing.Color.Black;
-            this.SignPassTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.SignPassTextBox.HoverState.Parent = this.SignPassTextBox;
-            this.SignPassTextBox.IconLeft = global::new_project.Properties.Resources.padlock;
-            this.SignPassTextBox.IconLeftSize = new System.Drawing.Size(13, 13);
-            this.SignPassTextBox.Location = new System.Drawing.Point(33, 81);
-            this.SignPassTextBox.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.SignPassTextBox.Name = "SignPassTextBox";
-            this.SignPassTextBox.PasswordChar = '\0';
-            this.SignPassTextBox.PlaceholderForeColor = System.Drawing.Color.White;
-            this.SignPassTextBox.PlaceholderText = "Password";
-            this.SignPassTextBox.SelectedText = "";
-            this.SignPassTextBox.ShadowDecoration.Parent = this.SignPassTextBox;
-            this.SignPassTextBox.Size = new System.Drawing.Size(260, 30);
-            this.SignPassTextBox.TabIndex = 3;
-            this.SignPassTextBox.UseSystemPasswordChar = true;
-            // 
-            // SignLogButton
-            // 
-            this.SignLogButton.CheckedState.Parent = this.SignLogButton;
-            this.SignLogButton.CustomImages.Parent = this.SignLogButton;
-            this.LogSignTransition.SetDecoration(this.SignLogButton, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.SignLogButton.FillColor = System.Drawing.Color.Transparent;
-            this.SignLogButton.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SignLogButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(167)))), ((int)(((byte)(255)))));
-            this.SignLogButton.HoverState.Parent = this.SignLogButton;
-            this.SignLogButton.Image = global::new_project.Properties.Resources.icons8_arrow_left_48;
-            this.SignLogButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.SignLogButton.Location = new System.Drawing.Point(33, 238);
-            this.SignLogButton.Name = "SignLogButton";
-            this.SignLogButton.ShadowDecoration.Parent = this.SignLogButton;
-            this.SignLogButton.Size = new System.Drawing.Size(260, 29);
-            this.SignLogButton.TabIndex = 8;
-            this.SignLogButton.Text = "Log in";
-            this.SignLogButton.Click += new System.EventHandler(this.SignSignButton_Click);
-            // 
-            // SignCreateButton
-            // 
-            this.SignCreateButton.Animated = true;
-            this.SignCreateButton.AutoRoundedCorners = true;
-            this.SignCreateButton.BorderRadius = 19;
-            this.SignCreateButton.CheckedState.Parent = this.SignCreateButton;
-            this.SignCreateButton.CustomImages.Parent = this.SignCreateButton;
-            this.LogSignTransition.SetDecoration(this.SignCreateButton, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.SignCreateButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(167)))), ((int)(((byte)(255)))));
-            this.SignCreateButton.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
-            this.SignCreateButton.Font = new System.Drawing.Font("Segoe UI Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SignCreateButton.ForeColor = System.Drawing.Color.White;
-            this.SignCreateButton.HoverState.Parent = this.SignCreateButton;
-            this.SignCreateButton.Location = new System.Drawing.Point(33, 163);
-            this.SignCreateButton.Name = "SignCreateButton";
-            this.SignCreateButton.ShadowDecoration.Parent = this.SignCreateButton;
-            this.SignCreateButton.Size = new System.Drawing.Size(260, 40);
-            this.SignCreateButton.TabIndex = 4;
-            this.SignCreateButton.Text = "Create Account";
-            // 
-            // SignUserTextBox
-            // 
-            this.SignUserTextBox.Animated = true;
-            this.SignUserTextBox.AutoRoundedCorners = true;
-            this.SignUserTextBox.BackColor = System.Drawing.Color.Transparent;
-            this.SignUserTextBox.BorderColor = System.Drawing.Color.Black;
-            this.SignUserTextBox.BorderRadius = 14;
-            this.SignUserTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.LogSignTransition.SetDecoration(this.SignUserTextBox, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.SignUserTextBox.DefaultText = "";
-            this.SignUserTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.SignUserTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.SignUserTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.SignUserTextBox.DisabledState.Parent = this.SignUserTextBox;
-            this.SignUserTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.SignUserTextBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
-            this.SignUserTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.SignUserTextBox.FocusedState.Parent = this.SignUserTextBox;
-            this.SignUserTextBox.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SignUserTextBox.ForeColor = System.Drawing.Color.Black;
-            this.SignUserTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.SignUserTextBox.HoverState.Parent = this.SignUserTextBox;
-            this.SignUserTextBox.IconLeft = global::new_project.Properties.Resources.user;
-            this.SignUserTextBox.IconLeftSize = new System.Drawing.Size(13, 13);
-            this.SignUserTextBox.Location = new System.Drawing.Point(33, 41);
-            this.SignUserTextBox.Margin = new System.Windows.Forms.Padding(4);
-            this.SignUserTextBox.Name = "SignUserTextBox";
-            this.SignUserTextBox.PasswordChar = '\0';
-            this.SignUserTextBox.PlaceholderForeColor = System.Drawing.Color.Black;
-            this.SignUserTextBox.PlaceholderText = "Username";
-            this.SignUserTextBox.SelectedText = "";
-            this.SignUserTextBox.ShadowDecoration.Parent = this.SignUserTextBox;
-            this.SignUserTextBox.Size = new System.Drawing.Size(260, 30);
-            this.SignUserTextBox.TabIndex = 2;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.LogSignTransition.SetDecoration(this.label3, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(36, 203);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(164, 17);
-            this.label3.TabIndex = 7;
-            this.label3.Text = " Already have an account ?";
-            // 
-            // guna2Panel3
-            // 
-            this.guna2Panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
-            this.guna2Panel3.Controls.Add(this.guna2ControlBox3);
-            this.guna2Panel3.Controls.Add(this.guna2ControlBox2);
-            this.guna2Panel3.Controls.Add(this.guna2ControlBox1);
-            this.LogSignTransition.SetDecoration(this.guna2Panel3, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Panel3.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.ShadowDecoration.Parent = this.guna2Panel3;
-            this.guna2Panel3.Size = new System.Drawing.Size(800, 49);
-            this.guna2Panel3.TabIndex = 1;
-            // 
-            // guna2ControlBox3
-            // 
-            this.guna2ControlBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2ControlBox3.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
-            this.LogSignTransition.SetDecoration(this.guna2ControlBox3, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2ControlBox3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
-            this.guna2ControlBox3.HoverState.Parent = this.guna2ControlBox3;
-            this.guna2ControlBox3.IconColor = System.Drawing.Color.Black;
-            this.guna2ControlBox3.Location = new System.Drawing.Point(653, 0);
-            this.guna2ControlBox3.Name = "guna2ControlBox3";
-            this.guna2ControlBox3.ShadowDecoration.Parent = this.guna2ControlBox3;
-            this.guna2ControlBox3.Size = new System.Drawing.Size(48, 48);
-            this.guna2ControlBox3.TabIndex = 2;
-            // 
-            // guna2ControlBox2
-            // 
-            this.guna2ControlBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
-            this.LogSignTransition.SetDecoration(this.guna2ControlBox2, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2ControlBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
-            this.guna2ControlBox2.HoverState.Parent = this.guna2ControlBox2;
-            this.guna2ControlBox2.IconColor = System.Drawing.Color.Black;
-            this.guna2ControlBox2.Location = new System.Drawing.Point(707, 0);
-            this.guna2ControlBox2.Name = "guna2ControlBox2";
-            this.guna2ControlBox2.ShadowDecoration.Parent = this.guna2ControlBox2;
-            this.guna2ControlBox2.Size = new System.Drawing.Size(48, 48);
-            this.guna2ControlBox2.TabIndex = 1;
-            // 
-            // guna2ControlBox1
-            // 
-            this.guna2ControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.LogSignTransition.SetDecoration(this.guna2ControlBox1, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2ControlBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
-            this.guna2ControlBox1.HoverState.Parent = this.guna2ControlBox1;
-            this.guna2ControlBox1.IconColor = System.Drawing.Color.Black;
-            this.guna2ControlBox1.Location = new System.Drawing.Point(752, 0);
-            this.guna2ControlBox1.Name = "guna2ControlBox1";
-            this.guna2ControlBox1.ShadowDecoration.Parent = this.guna2ControlBox1;
-            this.guna2ControlBox1.Size = new System.Drawing.Size(48, 48);
-            this.guna2ControlBox1.TabIndex = 0;
-            // 
-            // guna2Panel4
-            // 
-            this.guna2Panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
-            this.LogSignTransition.SetDecoration(this.guna2Panel4, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.guna2Panel4.Location = new System.Drawing.Point(0, 560);
-            this.guna2Panel4.Name = "guna2Panel4";
-            this.guna2Panel4.ShadowDecoration.Parent = this.guna2Panel4;
-            this.guna2Panel4.Size = new System.Drawing.Size(800, 40);
-            this.guna2Panel4.TabIndex = 2;
+            this.TopNavigation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
+            this.TopNavigation.Controls.Add(this.MinimizeBox_button);
+            this.TopNavigation.Controls.Add(this.MaximizeBox_button);
+            this.TopNavigation.Controls.Add(this.Close_boxbtn);
+            this.LogSignTransition.SetDecoration(this.TopNavigation, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.TopNavigation.Dock = System.Windows.Forms.DockStyle.Top;
+            this.TopNavigation.Location = new System.Drawing.Point(0, 0);
+            this.TopNavigation.Name = "TopNavigation";
+            this.TopNavigation.ShadowDecoration.Parent = this.TopNavigation;
+            this.TopNavigation.Size = new System.Drawing.Size(935, 45);
+            this.TopNavigation.TabIndex = 1;
             // 
             // guna2DragControl1
             // 
-            this.guna2DragControl1.TargetControl = this.guna2Panel3;
+            this.guna2DragControl1.TargetControl = this.TopNavigation;
             // 
             // LogSignTransition
             // 
             this.LogSignTransition.AnimationType = Guna.UI2.AnimatorNS.AnimationType.Transparent;
             this.LogSignTransition.Cursor = null;
-            animation16.AnimateOnlyDifferences = true;
-            animation16.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation16.BlindCoeff")));
-            animation16.LeafCoeff = 0F;
-            animation16.MaxTime = 1F;
-            animation16.MinTime = 0F;
-            animation16.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation16.MosaicCoeff")));
-            animation16.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation16.MosaicShift")));
-            animation16.MosaicSize = 0;
-            animation16.Padding = new System.Windows.Forms.Padding(0);
-            animation16.RotateCoeff = 0F;
-            animation16.RotateLimit = 0F;
-            animation16.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation16.ScaleCoeff")));
-            animation16.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation16.SlideCoeff")));
-            animation16.TimeCoeff = 0F;
-            animation16.TransparencyCoeff = 1F;
-            this.LogSignTransition.DefaultAnimation = animation16;
+            animation10.AnimateOnlyDifferences = true;
+            animation10.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation10.BlindCoeff")));
+            animation10.LeafCoeff = 0F;
+            animation10.MaxTime = 1F;
+            animation10.MinTime = 0F;
+            animation10.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation10.MosaicCoeff")));
+            animation10.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation10.MosaicShift")));
+            animation10.MosaicSize = 0;
+            animation10.Padding = new System.Windows.Forms.Padding(0);
+            animation10.RotateCoeff = 0F;
+            animation10.RotateLimit = 0F;
+            animation10.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation10.ScaleCoeff")));
+            animation10.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation10.SlideCoeff")));
+            animation10.TimeCoeff = 0F;
+            animation10.TransparencyCoeff = 1F;
+            this.LogSignTransition.DefaultAnimation = animation10;
+            // 
+            // Container_all
+            // 
+            this.Container_all.BackColor = System.Drawing.Color.Transparent;
+            this.Container_all.ColumnCount = 3;
+            this.Container_all.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 23.80952F));
+            this.Container_all.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 52.38095F));
+            this.Container_all.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 23.80952F));
+            this.Container_all.Controls.Add(this.Container_Form, 1, 1);
+            this.LogSignTransition.SetDecoration(this.Container_all, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.Container_all.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Container_all.Location = new System.Drawing.Point(0, 0);
+            this.Container_all.Name = "Container_all";
+            this.Container_all.RowCount = 3;
+            this.Container_all.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.Container_all.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70F));
+            this.Container_all.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.Container_all.Size = new System.Drawing.Size(935, 623);
+            this.Container_all.TabIndex = 3;
+            // 
+            // FormContainerSIGNUP
+            // 
+            this.FormContainerSIGNUP.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.FormContainerSIGNUP.BackColor = System.Drawing.Color.IndianRed;
+            this.FormContainerSIGNUP.Controls.Add(this.SIGNUP_FILLFORMNAME);
+            this.FormContainerSIGNUP.Controls.Add(this.Username_signup_txt);
+            this.FormContainerSIGNUP.Controls.Add(this.SignUP_btn);
+            this.FormContainerSIGNUP.Controls.Add(this.AreadyHaveAnAcc_txt);
+            this.FormContainerSIGNUP.Controls.Add(this.rePassword_signup_txt);
+            this.FormContainerSIGNUP.Controls.Add(this.CreateAcc_btn);
+            this.FormContainerSIGNUP.Controls.Add(this.Password_signup_txt);
+            this.LogSignTransition.SetDecoration(this.FormContainerSIGNUP, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.FormContainerSIGNUP.Location = new System.Drawing.Point(31, 134);
+            this.FormContainerSIGNUP.Name = "FormContainerSIGNUP";
+            this.FormContainerSIGNUP.Size = new System.Drawing.Size(430, 335);
+            this.FormContainerSIGNUP.TabIndex = 4;
+            // 
+            // Container_Form
+            // 
+            this.Container_Form.BackColor = System.Drawing.Color.RosyBrown;
+            this.Container_Form.Controls.Add(this.FillingFormLOGIN_container);
+            this.Container_Form.Controls.Add(this.FormContainerSIGNUP);
+            this.Container_Form.Controls.Add(this.BrandLogo_Container);
+            this.LogSignTransition.SetDecoration(this.Container_Form, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.Container_Form.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Container_Form.Location = new System.Drawing.Point(225, 127);
+            this.Container_Form.Name = "Container_Form";
+            this.Container_Form.Size = new System.Drawing.Size(483, 430);
+            this.Container_Form.TabIndex = 5;
+            // 
+            // FillingFormLOGIN_container
+            // 
+            this.FillingFormLOGIN_container.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.FillingFormLOGIN_container.BackColor = System.Drawing.Color.Gray;
+            this.FillingFormLOGIN_container.Controls.Add(this.OR);
+            this.FillingFormLOGIN_container.Controls.Add(this.CreateAccount_btn);
+            this.FillingFormLOGIN_container.Controls.Add(this.LOGIN_FILLFORMNAME);
+            this.FillingFormLOGIN_container.Controls.Add(this.RememberMe_txt);
+            this.FillingFormLOGIN_container.Controls.Add(this.RememberMe_ToggleSwitch);
+            this.FillingFormLOGIN_container.Controls.Add(this.Username_login_txt);
+            this.FillingFormLOGIN_container.Controls.Add(this.Login_BTN);
+            this.FillingFormLOGIN_container.Controls.Add(this.Password_login_txt);
+            this.LogSignTransition.SetDecoration(this.FillingFormLOGIN_container, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.FillingFormLOGIN_container.Location = new System.Drawing.Point(31, 130);
+            this.FillingFormLOGIN_container.Name = "FillingFormLOGIN_container";
+            this.FillingFormLOGIN_container.Size = new System.Drawing.Size(430, 340);
+            this.FillingFormLOGIN_container.TabIndex = 2;
+            // 
+            // OR
+            // 
+            this.OR.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.OR.AutoSize = true;
+            this.OR.BackColor = System.Drawing.Color.Transparent;
+            this.LogSignTransition.SetDecoration(this.OR, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.OR.Font = new System.Drawing.Font("Segoe UI Semibold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OR.ForeColor = System.Drawing.Color.White;
+            this.OR.Location = new System.Drawing.Point(206, 232);
+            this.OR.Name = "OR";
+            this.OR.Size = new System.Drawing.Size(23, 17);
+            this.OR.TabIndex = 7;
+            this.OR.Text = "Or";
+            this.OR.Click += new System.EventHandler(this.DontHaveAccount_textLabel_Click);
             // 
             // guna2ColorTransition1
             // 
@@ -626,31 +571,87 @@
             this.guna2ColorTransition1.EndColor = System.Drawing.Color.Yellow;
             this.guna2ColorTransition1.StartColor = System.Drawing.Color.IndianRed;
             // 
+            // Close_boxbtn
+            // 
+            this.LogSignTransition.SetDecoration(this.Close_boxbtn, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.Close_boxbtn.Dock = System.Windows.Forms.DockStyle.Right;
+            this.Close_boxbtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
+            this.Close_boxbtn.HoverState.Parent = this.Close_boxbtn;
+            this.Close_boxbtn.IconColor = System.Drawing.Color.Black;
+            this.Close_boxbtn.Location = new System.Drawing.Point(869, 0);
+            this.Close_boxbtn.Name = "Close_boxbtn";
+            this.Close_boxbtn.ShadowDecoration.Parent = this.Close_boxbtn;
+            this.Close_boxbtn.Size = new System.Drawing.Size(66, 45);
+            this.Close_boxbtn.TabIndex = 3;
+            // 
+            // MaximizeBox_button
+            // 
+            this.MaximizeBox_button.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
+            this.LogSignTransition.SetDecoration(this.MaximizeBox_button, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.MaximizeBox_button.Dock = System.Windows.Forms.DockStyle.Right;
+            this.MaximizeBox_button.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
+            this.MaximizeBox_button.HoverState.Parent = this.MaximizeBox_button;
+            this.MaximizeBox_button.IconColor = System.Drawing.Color.Black;
+            this.MaximizeBox_button.Location = new System.Drawing.Point(803, 0);
+            this.MaximizeBox_button.Name = "MaximizeBox_button";
+            this.MaximizeBox_button.ShadowDecoration.Parent = this.MaximizeBox_button;
+            this.MaximizeBox_button.Size = new System.Drawing.Size(66, 45);
+            this.MaximizeBox_button.TabIndex = 1;
+            // 
+            // MinimizeBox_button
+            // 
+            this.MinimizeBox_button.BackColor = System.Drawing.Color.Black;
+            this.MinimizeBox_button.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
+            this.LogSignTransition.SetDecoration(this.MinimizeBox_button, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.MinimizeBox_button.Dock = System.Windows.Forms.DockStyle.Right;
+            this.MinimizeBox_button.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
+            this.MinimizeBox_button.HoverState.Parent = this.MinimizeBox_button;
+            this.MinimizeBox_button.IconColor = System.Drawing.Color.Black;
+            this.MinimizeBox_button.Location = new System.Drawing.Point(737, 0);
+            this.MinimizeBox_button.Name = "MinimizeBox_button";
+            this.MinimizeBox_button.ShadowDecoration.Parent = this.MinimizeBox_button;
+            this.MinimizeBox_button.Size = new System.Drawing.Size(66, 45);
+            this.MinimizeBox_button.TabIndex = 2;
+            this.MinimizeBox_button.Click += new System.EventHandler(this.MinimizeBox_button_Click);
+            // 
+            // SIGNUP_FILLFORMNAME
+            // 
+            this.SIGNUP_FILLFORMNAME.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.SIGNUP_FILLFORMNAME.AutoSize = true;
+            this.LogSignTransition.SetDecoration(this.SIGNUP_FILLFORMNAME, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.SIGNUP_FILLFORMNAME.Font = new System.Drawing.Font("Comic Sans MS", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SIGNUP_FILLFORMNAME.ForeColor = System.Drawing.Color.Black;
+            this.SIGNUP_FILLFORMNAME.Location = new System.Drawing.Point(139, 13);
+            this.SIGNUP_FILLFORMNAME.Name = "SIGNUP_FILLFORMNAME";
+            this.SIGNUP_FILLFORMNAME.Size = new System.Drawing.Size(141, 39);
+            this.SIGNUP_FILLFORMNAME.TabIndex = 10;
+            this.SIGNUP_FILLFORMNAME.Text = "SIGN UP";
+            this.SIGNUP_FILLFORMNAME.Click += new System.EventHandler(this.label4_Click_1);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
             this.BackgroundImage = global::new_project.Properties.Resources.f8da0698df90bb808dac336a301d1975;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(800, 600);
-            this.Controls.Add(this.guna2Panel4);
-            this.Controls.Add(this.guna2Panel3);
-            this.Controls.Add(this.guna2Panel1);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(935, 623);
+            this.Controls.Add(this.TopNavigation);
+            this.Controls.Add(this.Container_all);
             this.LogSignTransition.SetDecoration(this, Guna.UI2.AnimatorNS.DecorationType.None);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Login";
             this.Text = "Log in";
-            this.guna2Panel1.ResumeLayout(false);
-            this.guna2Panel2.ResumeLayout(false);
-            this.guna2Panel5.ResumeLayout(false);
-            this.guna2Panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
-            this.SignUserSignupPanel.ResumeLayout(false);
-            this.SignUserSignupPanel.PerformLayout();
-            this.LogUserLoginPanel.ResumeLayout(false);
-            this.LogUserLoginPanel.PerformLayout();
-            this.guna2Panel3.ResumeLayout(false);
+            this.BrandLogo_Container.ResumeLayout(false);
+            this.BrandLogo_Container.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NoteIcon)).EndInit();
+            this.TopNavigation.ResumeLayout(false);
+            this.Container_all.ResumeLayout(false);
+            this.FormContainerSIGNUP.ResumeLayout(false);
+            this.FormContainerSIGNUP.PerformLayout();
+            this.Container_Form.ResumeLayout(false);
+            this.FillingFormLOGIN_container.ResumeLayout(false);
+            this.FillingFormLOGIN_container.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -658,39 +659,37 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
-        private System.Windows.Forms.Label label1;
-        private Guna.UI2.WinForms.Guna2TextBox SignUserTextBox;
-        private Guna.UI2.WinForms.Guna2TextBox SignPassTextBox;
-        private Guna.UI2.WinForms.Guna2GradientButton SignCreateButton;
-        private Guna.UI2.WinForms.Guna2ToggleSwitch guna2ToggleSwitch1;
+        private Guna.UI2.WinForms.Guna2TextBox Username_login_txt;
+        private Guna.UI2.WinForms.Guna2TextBox Password_signup_txt;
+        private Guna.UI2.WinForms.Guna2GradientButton CreateAcc_btn;
+        private Guna.UI2.WinForms.Guna2ToggleSwitch RememberMe_ToggleSwitch;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private Guna.UI2.WinForms.Guna2Button SignLogButton;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
-        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox3;
-        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox2;
-        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
+        private System.Windows.Forms.Label AreadyHaveAnAcc_txt;
+        private Guna.UI2.WinForms.Guna2Button SignUP_btn;
+        private Guna.UI2.WinForms.Guna2Panel TopNavigation;
         private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
-        private Guna.UI2.WinForms.Guna2Panel SignUserSignupPanel;
-        private Guna.UI2.WinForms.Guna2Panel LogUserLoginPanel;
-        private System.Windows.Forms.Label label4;
-        private Guna.UI2.WinForms.Guna2TextBox LogPassTextBox;
-        private Guna.UI2.WinForms.Guna2Button LogCreateButton;
-        private Guna.UI2.WinForms.Guna2GradientButton LogLogButton;
-        private Guna.UI2.WinForms.Guna2TextBox LogUserTextBox;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private Guna.UI2.WinForms.Guna2TextBox SignConfirmTextBox;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel5;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label LOGIN_FILLFORMNAME;
+        private Guna.UI2.WinForms.Guna2TextBox Password_login_txt;
+        private Guna.UI2.WinForms.Guna2Button CreateAccount_btn;
+        private Guna.UI2.WinForms.Guna2GradientButton Login_BTN;
+        private Guna.UI2.WinForms.Guna2TextBox Username_signup_txt;
+        private System.Windows.Forms.Label RememberMe_txt;
+        private Guna.UI2.WinForms.Guna2TextBox rePassword_signup_txt;
+        private Guna.UI2.WinForms.Guna2PictureBox NoteIcon;
+        private Guna.UI2.WinForms.Guna2Panel BrandLogo_Container;
+        private System.Windows.Forms.Label Deton_brandName;
         private Guna.UI2.WinForms.Guna2Transition LogSignTransition;
         private Guna.UI2.WinForms.Guna2ColorTransition guna2ColorTransition1;
+        private System.Windows.Forms.TableLayoutPanel Container_all;
+        private System.Windows.Forms.Label OR;
+        private System.Windows.Forms.Panel FormContainerSIGNUP;
+        private System.Windows.Forms.Panel Container_Form;
+        private System.Windows.Forms.Panel FillingFormLOGIN_container;
+        private Guna.UI2.WinForms.Guna2ControlBox MinimizeBox_button;
+        private Guna.UI2.WinForms.Guna2ControlBox MaximizeBox_button;
+        private Guna.UI2.WinForms.Guna2ControlBox Close_boxbtn;
+        private System.Windows.Forms.Label SIGNUP_FILLFORMNAME;
     }
 }
 
