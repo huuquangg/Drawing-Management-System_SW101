@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Guna.UI2.WinForms;
 
-namespace new_project
+namespace GUI
 {
     public partial class Login : Form
     {
@@ -26,61 +26,6 @@ namespace new_project
         {
             FillingFormLOGIN_container.Visible = true;
             LogSignTransition.HideSync(FillingFormLOGIN_container);
-        }
-        
-        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void guna2Panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void guna2Panel5_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Description_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void DontHaveAccount_textLabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void MinimizeBox_button_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Login_MainButton_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click_1(object sender, EventArgs e)
-        {
-
         }
     }
 }

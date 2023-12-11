@@ -1,4 +1,6 @@
-﻿namespace new_project
+﻿using System;
+
+namespace GUI
 {
     partial class Login
     {
@@ -29,7 +31,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Guna.UI2.AnimatorNS.Animation animation10 = new Guna.UI2.AnimatorNS.Animation();
+            Guna.UI2.AnimatorNS.Animation animation1 = new Guna.UI2.AnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.LOGIN_FILLFORMNAME = new System.Windows.Forms.Label();
@@ -49,26 +51,26 @@
             this.Username_login_txt = new Guna.UI2.WinForms.Guna2TextBox();
             this.AreadyHaveAnAcc_txt = new System.Windows.Forms.Label();
             this.TopNavigation = new Guna.UI2.WinForms.Guna2Panel();
+            this.MinimizeBox_button = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.MaximizeBox_button = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.Close_boxbtn = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.LogSignTransition = new Guna.UI2.WinForms.Guna2Transition();
             this.Container_all = new System.Windows.Forms.TableLayoutPanel();
-            this.FormContainerSIGNUP = new System.Windows.Forms.Panel();
             this.Container_Form = new System.Windows.Forms.Panel();
             this.FillingFormLOGIN_container = new System.Windows.Forms.Panel();
             this.OR = new System.Windows.Forms.Label();
-            this.guna2ColorTransition1 = new Guna.UI2.WinForms.Guna2ColorTransition(this.components);
-            this.Close_boxbtn = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.MaximizeBox_button = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.MinimizeBox_button = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.FormContainerSIGNUP = new System.Windows.Forms.Panel();
             this.SIGNUP_FILLFORMNAME = new System.Windows.Forms.Label();
+            this.guna2ColorTransition1 = new Guna.UI2.WinForms.Guna2ColorTransition(this.components);
             this.BrandLogo_Container.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NoteIcon)).BeginInit();
             this.TopNavigation.SuspendLayout();
             this.Container_all.SuspendLayout();
-            this.FormContainerSIGNUP.SuspendLayout();
             this.Container_Form.SuspendLayout();
             this.FillingFormLOGIN_container.SuspendLayout();
+            this.FormContainerSIGNUP.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2Elipse1
@@ -87,7 +89,6 @@
             this.LOGIN_FILLFORMNAME.Size = new System.Drawing.Size(111, 39);
             this.LOGIN_FILLFORMNAME.TabIndex = 1;
             this.LOGIN_FILLFORMNAME.Text = "LOGIN";
-            this.LOGIN_FILLFORMNAME.Click += new System.EventHandler(this.label4_Click);
             // 
             // Password_login_txt
             // 
@@ -165,7 +166,6 @@
             this.Login_BTN.Size = new System.Drawing.Size(185, 40);
             this.Login_BTN.TabIndex = 4;
             this.Login_BTN.Text = "Login";
-            this.Login_BTN.Click += new System.EventHandler(this.Login_MainButton_Click);
             // 
             // RememberMe_ToggleSwitch
             // 
@@ -251,7 +251,6 @@
             this.BrandLogo_Container.ShadowDecoration.Parent = this.BrandLogo_Container;
             this.BrandLogo_Container.Size = new System.Drawing.Size(141, 128);
             this.BrandLogo_Container.TabIndex = 0;
-            this.BrandLogo_Container.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel5_Paint);
             // 
             // Deton_brandName
             // 
@@ -265,7 +264,6 @@
             this.Deton_brandName.Size = new System.Drawing.Size(160, 42);
             this.Deton_brandName.TabIndex = 1;
             this.Deton_brandName.Text = "DETON";
-            this.Deton_brandName.Click += new System.EventHandler(this.label7_Click);
             // 
             // NoteIcon
             // 
@@ -455,6 +453,48 @@
             this.TopNavigation.Size = new System.Drawing.Size(935, 45);
             this.TopNavigation.TabIndex = 1;
             // 
+            // MinimizeBox_button
+            // 
+            this.MinimizeBox_button.BackColor = System.Drawing.Color.Black;
+            this.MinimizeBox_button.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
+            this.LogSignTransition.SetDecoration(this.MinimizeBox_button, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.MinimizeBox_button.Dock = System.Windows.Forms.DockStyle.Right;
+            this.MinimizeBox_button.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
+            this.MinimizeBox_button.HoverState.Parent = this.MinimizeBox_button;
+            this.MinimizeBox_button.IconColor = System.Drawing.Color.Black;
+            this.MinimizeBox_button.Location = new System.Drawing.Point(737, 0);
+            this.MinimizeBox_button.Name = "MinimizeBox_button";
+            this.MinimizeBox_button.ShadowDecoration.Parent = this.MinimizeBox_button;
+            this.MinimizeBox_button.Size = new System.Drawing.Size(66, 45);
+            this.MinimizeBox_button.TabIndex = 2;
+            // 
+            // MaximizeBox_button
+            // 
+            this.MaximizeBox_button.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
+            this.LogSignTransition.SetDecoration(this.MaximizeBox_button, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.MaximizeBox_button.Dock = System.Windows.Forms.DockStyle.Right;
+            this.MaximizeBox_button.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
+            this.MaximizeBox_button.HoverState.Parent = this.MaximizeBox_button;
+            this.MaximizeBox_button.IconColor = System.Drawing.Color.Black;
+            this.MaximizeBox_button.Location = new System.Drawing.Point(803, 0);
+            this.MaximizeBox_button.Name = "MaximizeBox_button";
+            this.MaximizeBox_button.ShadowDecoration.Parent = this.MaximizeBox_button;
+            this.MaximizeBox_button.Size = new System.Drawing.Size(66, 45);
+            this.MaximizeBox_button.TabIndex = 1;
+            // 
+            // Close_boxbtn
+            // 
+            this.LogSignTransition.SetDecoration(this.Close_boxbtn, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.Close_boxbtn.Dock = System.Windows.Forms.DockStyle.Right;
+            this.Close_boxbtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
+            this.Close_boxbtn.HoverState.Parent = this.Close_boxbtn;
+            this.Close_boxbtn.IconColor = System.Drawing.Color.Black;
+            this.Close_boxbtn.Location = new System.Drawing.Point(869, 0);
+            this.Close_boxbtn.Name = "Close_boxbtn";
+            this.Close_boxbtn.ShadowDecoration.Parent = this.Close_boxbtn;
+            this.Close_boxbtn.Size = new System.Drawing.Size(66, 45);
+            this.Close_boxbtn.TabIndex = 3;
+            // 
             // guna2DragControl1
             // 
             this.guna2DragControl1.TargetControl = this.TopNavigation;
@@ -463,22 +503,22 @@
             // 
             this.LogSignTransition.AnimationType = Guna.UI2.AnimatorNS.AnimationType.Transparent;
             this.LogSignTransition.Cursor = null;
-            animation10.AnimateOnlyDifferences = true;
-            animation10.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation10.BlindCoeff")));
-            animation10.LeafCoeff = 0F;
-            animation10.MaxTime = 1F;
-            animation10.MinTime = 0F;
-            animation10.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation10.MosaicCoeff")));
-            animation10.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation10.MosaicShift")));
-            animation10.MosaicSize = 0;
-            animation10.Padding = new System.Windows.Forms.Padding(0);
-            animation10.RotateCoeff = 0F;
-            animation10.RotateLimit = 0F;
-            animation10.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation10.ScaleCoeff")));
-            animation10.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation10.SlideCoeff")));
-            animation10.TimeCoeff = 0F;
-            animation10.TransparencyCoeff = 1F;
-            this.LogSignTransition.DefaultAnimation = animation10;
+            animation1.AnimateOnlyDifferences = true;
+            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
+            animation1.LeafCoeff = 0F;
+            animation1.MaxTime = 1F;
+            animation1.MinTime = 0F;
+            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
+            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
+            animation1.MosaicSize = 0;
+            animation1.Padding = new System.Windows.Forms.Padding(0);
+            animation1.RotateCoeff = 0F;
+            animation1.RotateLimit = 0F;
+            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
+            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
+            animation1.TimeCoeff = 0F;
+            animation1.TransparencyCoeff = 1F;
+            this.LogSignTransition.DefaultAnimation = animation1;
             // 
             // Container_all
             // 
@@ -498,23 +538,6 @@
             this.Container_all.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.Container_all.Size = new System.Drawing.Size(935, 623);
             this.Container_all.TabIndex = 3;
-            // 
-            // FormContainerSIGNUP
-            // 
-            this.FormContainerSIGNUP.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.FormContainerSIGNUP.BackColor = System.Drawing.Color.IndianRed;
-            this.FormContainerSIGNUP.Controls.Add(this.SIGNUP_FILLFORMNAME);
-            this.FormContainerSIGNUP.Controls.Add(this.Username_signup_txt);
-            this.FormContainerSIGNUP.Controls.Add(this.SignUP_btn);
-            this.FormContainerSIGNUP.Controls.Add(this.AreadyHaveAnAcc_txt);
-            this.FormContainerSIGNUP.Controls.Add(this.rePassword_signup_txt);
-            this.FormContainerSIGNUP.Controls.Add(this.CreateAcc_btn);
-            this.FormContainerSIGNUP.Controls.Add(this.Password_signup_txt);
-            this.LogSignTransition.SetDecoration(this.FormContainerSIGNUP, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.FormContainerSIGNUP.Location = new System.Drawing.Point(31, 134);
-            this.FormContainerSIGNUP.Name = "FormContainerSIGNUP";
-            this.FormContainerSIGNUP.Size = new System.Drawing.Size(430, 335);
-            this.FormContainerSIGNUP.TabIndex = 4;
             // 
             // Container_Form
             // 
@@ -562,57 +585,22 @@
             this.OR.Text = "Or";
             this.OR.Click += new System.EventHandler(this.DontHaveAccount_textLabel_Click);
             // 
-            // guna2ColorTransition1
+            // FormContainerSIGNUP
             // 
-            this.guna2ColorTransition1.ColorArray = new System.Drawing.Color[] {
-        System.Drawing.Color.Red,
-        System.Drawing.Color.Blue,
-        System.Drawing.Color.Orange};
-            this.guna2ColorTransition1.EndColor = System.Drawing.Color.Yellow;
-            this.guna2ColorTransition1.StartColor = System.Drawing.Color.IndianRed;
-            // 
-            // Close_boxbtn
-            // 
-            this.LogSignTransition.SetDecoration(this.Close_boxbtn, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.Close_boxbtn.Dock = System.Windows.Forms.DockStyle.Right;
-            this.Close_boxbtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
-            this.Close_boxbtn.HoverState.Parent = this.Close_boxbtn;
-            this.Close_boxbtn.IconColor = System.Drawing.Color.Black;
-            this.Close_boxbtn.Location = new System.Drawing.Point(869, 0);
-            this.Close_boxbtn.Name = "Close_boxbtn";
-            this.Close_boxbtn.ShadowDecoration.Parent = this.Close_boxbtn;
-            this.Close_boxbtn.Size = new System.Drawing.Size(66, 45);
-            this.Close_boxbtn.TabIndex = 3;
-            // 
-            // MaximizeBox_button
-            // 
-            this.MaximizeBox_button.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
-            this.LogSignTransition.SetDecoration(this.MaximizeBox_button, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.MaximizeBox_button.Dock = System.Windows.Forms.DockStyle.Right;
-            this.MaximizeBox_button.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
-            this.MaximizeBox_button.HoverState.Parent = this.MaximizeBox_button;
-            this.MaximizeBox_button.IconColor = System.Drawing.Color.Black;
-            this.MaximizeBox_button.Location = new System.Drawing.Point(803, 0);
-            this.MaximizeBox_button.Name = "MaximizeBox_button";
-            this.MaximizeBox_button.ShadowDecoration.Parent = this.MaximizeBox_button;
-            this.MaximizeBox_button.Size = new System.Drawing.Size(66, 45);
-            this.MaximizeBox_button.TabIndex = 1;
-            // 
-            // MinimizeBox_button
-            // 
-            this.MinimizeBox_button.BackColor = System.Drawing.Color.Black;
-            this.MinimizeBox_button.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
-            this.LogSignTransition.SetDecoration(this.MinimizeBox_button, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.MinimizeBox_button.Dock = System.Windows.Forms.DockStyle.Right;
-            this.MinimizeBox_button.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
-            this.MinimizeBox_button.HoverState.Parent = this.MinimizeBox_button;
-            this.MinimizeBox_button.IconColor = System.Drawing.Color.Black;
-            this.MinimizeBox_button.Location = new System.Drawing.Point(737, 0);
-            this.MinimizeBox_button.Name = "MinimizeBox_button";
-            this.MinimizeBox_button.ShadowDecoration.Parent = this.MinimizeBox_button;
-            this.MinimizeBox_button.Size = new System.Drawing.Size(66, 45);
-            this.MinimizeBox_button.TabIndex = 2;
-            this.MinimizeBox_button.Click += new System.EventHandler(this.MinimizeBox_button_Click);
+            this.FormContainerSIGNUP.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.FormContainerSIGNUP.BackColor = System.Drawing.Color.IndianRed;
+            this.FormContainerSIGNUP.Controls.Add(this.SIGNUP_FILLFORMNAME);
+            this.FormContainerSIGNUP.Controls.Add(this.Username_signup_txt);
+            this.FormContainerSIGNUP.Controls.Add(this.SignUP_btn);
+            this.FormContainerSIGNUP.Controls.Add(this.AreadyHaveAnAcc_txt);
+            this.FormContainerSIGNUP.Controls.Add(this.rePassword_signup_txt);
+            this.FormContainerSIGNUP.Controls.Add(this.CreateAcc_btn);
+            this.FormContainerSIGNUP.Controls.Add(this.Password_signup_txt);
+            this.LogSignTransition.SetDecoration(this.FormContainerSIGNUP, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.FormContainerSIGNUP.Location = new System.Drawing.Point(31, 134);
+            this.FormContainerSIGNUP.Name = "FormContainerSIGNUP";
+            this.FormContainerSIGNUP.Size = new System.Drawing.Size(430, 335);
+            this.FormContainerSIGNUP.TabIndex = 4;
             // 
             // SIGNUP_FILLFORMNAME
             // 
@@ -626,7 +614,15 @@
             this.SIGNUP_FILLFORMNAME.Size = new System.Drawing.Size(141, 39);
             this.SIGNUP_FILLFORMNAME.TabIndex = 10;
             this.SIGNUP_FILLFORMNAME.Text = "SIGN UP";
-            this.SIGNUP_FILLFORMNAME.Click += new System.EventHandler(this.label4_Click_1);
+            // 
+            // guna2ColorTransition1
+            // 
+            this.guna2ColorTransition1.ColorArray = new System.Drawing.Color[] {
+        System.Drawing.Color.Red,
+        System.Drawing.Color.Blue,
+        System.Drawing.Color.Orange};
+            this.guna2ColorTransition1.EndColor = System.Drawing.Color.Yellow;
+            this.guna2ColorTransition1.StartColor = System.Drawing.Color.IndianRed;
             // 
             // Login
             // 
@@ -647,13 +643,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.NoteIcon)).EndInit();
             this.TopNavigation.ResumeLayout(false);
             this.Container_all.ResumeLayout(false);
-            this.FormContainerSIGNUP.ResumeLayout(false);
-            this.FormContainerSIGNUP.PerformLayout();
             this.Container_Form.ResumeLayout(false);
             this.FillingFormLOGIN_container.ResumeLayout(false);
             this.FillingFormLOGIN_container.PerformLayout();
+            this.FormContainerSIGNUP.ResumeLayout(false);
+            this.FormContainerSIGNUP.PerformLayout();
             this.ResumeLayout(false);
 
+        }
+
+        private void DontHaveAccount_textLabel_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
