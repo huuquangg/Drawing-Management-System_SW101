@@ -1,0 +1,24 @@
+D:\CNPM\new_project\new_project\new_project\bin\Debug\new_project.exe.config
+D:\CNPM\new_project\new_project\new_project\bin\Debug\new_project.exe
+D:\CNPM\new_project\new_project\new_project\bin\Debug\new_project.pdb
+D:\CNPM\new_project\new_project\new_project\bin\Debug\Guna.UI.dll
+D:\CNPM\new_project\new_project\new_project\obj\Debug\new_project.csproj.AssemblyReference.cache
+D:\CNPM\new_project\new_project\new_project\obj\Debug\new_project.Login.resources
+D:\CNPM\new_project\new_project\new_project\obj\Debug\new_project.Properties.Resources.resources
+D:\CNPM\new_project\new_project\new_project\obj\Debug\new_project.csproj.GenerateResource.cache
+D:\CNPM\new_project\new_project\new_project\obj\Debug\new_project.csproj.CoreCompileInputs.cache
+D:\CNPM\new_project\new_project\new_project\obj\Debug\new_project.csproj.CopyComplete
+D:\CNPM\new_project\new_project\new_project\obj\Debug\new_project.exe
+D:\CNPM\new_project\new_project\new_project\obj\Debug\new_project.pdb
+D:\CNPM\new_project\new_project\new_project\bin\Debug\Guna.UI2.dll
+E:\University\V Software 101\O12dot1\ver104\SW101_\new_project\new_project\new_project\bin\Debug\new_project.exe.config
+E:\University\V Software 101\O12dot1\ver104\SW101_\new_project\new_project\new_project\bin\Debug\new_project.exe
+E:\University\V Software 101\O12dot1\ver104\SW101_\new_project\new_project\new_project\bin\Debug\new_project.pdb
+E:\University\V Software 101\O12dot1\ver104\SW101_\new_project\new_project\new_project\obj\Debug\new_project.csproj.AssemblyReference.cache
+E:\University\V Software 101\O12dot1\ver104\SW101_\new_project\new_project\new_project\obj\Debug\new_project.Login.resources
+E:\University\V Software 101\O12dot1\ver104\SW101_\new_project\new_project\new_project\obj\Debug\new_project.Properties.Resources.resources
+E:\University\V Software 101\O12dot1\ver104\SW101_\new_project\new_project\new_project\obj\Debug\new_project.csproj.GenerateResource.cache
+E:\University\V Software 101\O12dot1\ver104\SW101_\new_project\new_project\new_project\obj\Debug\new_project.csproj.CoreCompileInputs.cache
+E:\University\V Software 101\O12dot1\ver104\SW101_\new_project\new_project\new_project\obj\Debug\new_project.csproj.CopyComplete
+E:\University\V Software 101\O12dot1\ver104\SW101_\new_project\new_project\new_project\obj\Debug\new_project.exe
+E:\University\V Software 101\O12dot1\ver104\SW101_\new_project\new_project\new_project\obj\Debug\new_project.pdb
