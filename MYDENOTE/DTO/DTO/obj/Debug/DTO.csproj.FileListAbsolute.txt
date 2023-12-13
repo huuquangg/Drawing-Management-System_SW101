@@ -1,6 +1,6 @@
-E:\University\V Software 101\myNotePaint\SW101_\MYDENOTE\DTO\DTO\bin\Debug\BUS.dll
-E:\University\V Software 101\myNotePaint\SW101_\MYDENOTE\DTO\DTO\bin\Debug\BUS.pdb
-E:\University\V Software 101\myNotePaint\SW101_\MYDENOTE\DTO\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
-E:\University\V Software 101\myNotePaint\SW101_\MYDENOTE\DTO\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
-E:\University\V Software 101\myNotePaint\SW101_\MYDENOTE\DTO\DTO\obj\Debug\BUS.dll
-E:\University\V Software 101\myNotePaint\SW101_\MYDENOTE\DTO\DTO\obj\Debug\BUS.pdb
+E:\University\V Software 101\test\SW101_\MYDENOTE\DTO\DTO\bin\Debug\DTO.dll
+E:\University\V Software 101\test\SW101_\MYDENOTE\DTO\DTO\bin\Debug\DTO.pdb
+E:\University\V Software 101\test\SW101_\MYDENOTE\DTO\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+E:\University\V Software 101\test\SW101_\MYDENOTE\DTO\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+E:\University\V Software 101\test\SW101_\MYDENOTE\DTO\DTO\obj\Debug\DTO.dll
+E:\University\V Software 101\test\SW101_\MYDENOTE\DTO\DTO\obj\Debug\DTO.pdb

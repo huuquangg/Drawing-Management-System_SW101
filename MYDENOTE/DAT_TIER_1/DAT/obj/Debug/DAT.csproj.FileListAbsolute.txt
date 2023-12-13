@@ -1,0 +1,11 @@
+E:\University\V Software 101\test\SW101_\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\dbUSER.mdb
+E:\University\V Software 101\test\SW101_\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\DAT.dll.config
+E:\University\V Software 101\test\SW101_\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\DAT.dll
+E:\University\V Software 101\test\SW101_\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\DAT.pdb
+E:\University\V Software 101\test\SW101_\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\DTO.dll
+E:\University\V Software 101\test\SW101_\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\DTO.pdb
+E:\University\V Software 101\test\SW101_\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.csproj.AssemblyReference.cache
+E:\University\V Software 101\test\SW101_\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.csproj.CoreCompileInputs.cache
+E:\University\V Software 101\test\SW101_\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.csproj.CopyComplete
+E:\University\V Software 101\test\SW101_\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.dll
+E:\University\V Software 101\test\SW101_\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.pdb

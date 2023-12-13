@@ -138,12 +138,12 @@
     <None Include="Resources\notes.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BUS_2\BUS\BUS.csproj">
-      <Project>{a340d0ea-be57-4cd4-9338-b79c8264c2ff}</Project>
+    <ProjectReference Include="..\BUS_TIER_2\BUS\BUS.csproj">
+      <Project>{4f019028-12b6-4262-9d60-36e038b38f02}</Project>
       <Name>BUS</Name>
     </ProjectReference>
     <ProjectReference Include="..\DTO\DTO\DTO.csproj">
-      <Project>{7e08cf99-7e5a-40cd-9ec3-dfe77ecf7a89}</Project>
+      <Project>{f2557233-89f1-4e67-94d1-0f664427ea3b}</Project>
       <Name>DTO</Name>
     </ProjectReference>
   </ItemGroup>

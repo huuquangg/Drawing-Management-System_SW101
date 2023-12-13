@@ -31,7 +31,7 @@ namespace GUI
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Guna.UI2.AnimatorNS.Animation animation1 = new Guna.UI2.AnimatorNS.Animation();
+            Guna.UI2.AnimatorNS.Animation animation2 = new Guna.UI2.AnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.LOGIN_FILLFORMNAME = new System.Windows.Forms.Label();
@@ -166,6 +166,7 @@ namespace GUI
             this.Login_BTN.Size = new System.Drawing.Size(185, 40);
             this.Login_BTN.TabIndex = 4;
             this.Login_BTN.Text = "Login";
+            this.Login_BTN.Click += new System.EventHandler(this.Login_BTN_Click);
             // 
             // RememberMe_ToggleSwitch
             // 
@@ -390,6 +391,7 @@ namespace GUI
             this.CreateAcc_btn.Size = new System.Drawing.Size(240, 35);
             this.CreateAcc_btn.TabIndex = 4;
             this.CreateAcc_btn.Text = "Create Account";
+            this.CreateAcc_btn.Click += new System.EventHandler(this.CreateAcc_btn_Click);
             // 
             // Username_login_txt
             // 
@@ -503,22 +505,22 @@ namespace GUI
             // 
             this.LogSignTransition.AnimationType = Guna.UI2.AnimatorNS.AnimationType.Transparent;
             this.LogSignTransition.Cursor = null;
-            animation1.AnimateOnlyDifferences = true;
-            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
-            animation1.LeafCoeff = 0F;
-            animation1.MaxTime = 1F;
-            animation1.MinTime = 0F;
-            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
-            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
-            animation1.MosaicSize = 0;
-            animation1.Padding = new System.Windows.Forms.Padding(0);
-            animation1.RotateCoeff = 0F;
-            animation1.RotateLimit = 0F;
-            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
-            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
-            animation1.TimeCoeff = 0F;
-            animation1.TransparencyCoeff = 1F;
-            this.LogSignTransition.DefaultAnimation = animation1;
+            animation2.AnimateOnlyDifferences = true;
+            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
+            animation2.LeafCoeff = 0F;
+            animation2.MaxTime = 1F;
+            animation2.MinTime = 0F;
+            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
+            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
+            animation2.MosaicSize = 0;
+            animation2.Padding = new System.Windows.Forms.Padding(0);
+            animation2.RotateCoeff = 0F;
+            animation2.RotateLimit = 0F;
+            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
+            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
+            animation2.TimeCoeff = 0F;
+            animation2.TransparencyCoeff = 1F;
+            this.LogSignTransition.DefaultAnimation = animation2;
             // 
             // Container_all
             // 
@@ -565,7 +567,7 @@ namespace GUI
             this.FillingFormLOGIN_container.Controls.Add(this.Login_BTN);
             this.FillingFormLOGIN_container.Controls.Add(this.Password_login_txt);
             this.LogSignTransition.SetDecoration(this.FillingFormLOGIN_container, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.FillingFormLOGIN_container.Location = new System.Drawing.Point(31, 130);
+            this.FillingFormLOGIN_container.Location = new System.Drawing.Point(31, 134);
             this.FillingFormLOGIN_container.Name = "FillingFormLOGIN_container";
             this.FillingFormLOGIN_container.Size = new System.Drawing.Size(430, 340);
             this.FillingFormLOGIN_container.TabIndex = 2;

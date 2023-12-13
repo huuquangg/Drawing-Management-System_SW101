@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\MYDENOTE"
+    "\\MYDENOTE",
+    "\\MYDENOTE\\Database",
+    "\\MYDENOTE\\DTO",
+    "\\MYDENOTE\\DTO\\DTO",
+    "\\MYDENOTE\\PresentationTIER_3"
   ],
   "SelectedNode": "\\MYDENOTE\\MyDeNote.sln",
   "PreviewInSolutionExplorer": false
