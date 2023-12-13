@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DAT;
+using DTO;
 
 namespace BUS
 {
@@ -11,32 +12,28 @@ namespace BUS
     {
         UserDAO objUserDAO = new UserDAO();
 
-        public void GetUserById(int id)
+
+        public bool checkLogin(User objUser)
         {
-            objUserDAO.GetUserById(id);
+            return objUserDAO.checkLogin(objUser);
         }
 
-        public bool checkLogin(string username, string password)
+        public void AddUser(User objUSER)
         {
-            return objUserDAO.checkLogin(username, password);
-        }
-
-        public void AddUser(string username, string password)
-        {
-            if(username == "" || password == "")
+            if (objUSER.Username == "" || objUSER.Password == "")
             {
                 throw new Exception("Please fill in all the fields!");
             }
             else
             {
-                if (objUserDAO.checkLogin(username, password))
+                if (objUserDAO.checkLogin(objUSER))
                 {
                     throw new Exception("Username already exists!");
                 }
             }
-            objUserDAO.AddUser(username, password);
+            objUserDAO.AddUser(objUSER);
         }
 
-
+       
     }
 }

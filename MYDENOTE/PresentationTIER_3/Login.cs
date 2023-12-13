@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using BUS;
+using DTO;
 using Guna.UI2.WinForms;
 
 namespace GUI
@@ -39,8 +40,8 @@ namespace GUI
             }
             else
             {
-                BUS.UserBUS objUserBUS = new BUS.UserBUS();
-                if (objUserBUS.checkLogin(Username_login_txt.Text, Password_login_txt.Text))
+                User objUSER = new User(Username_login_txt.Text, Password_login_txt.Text);
+                if (objUserBUS.checkLogin(objUSER))
                 {
                     MessageBox.Show("Login successful!");
                     this.Hide();
@@ -78,7 +79,8 @@ namespace GUI
             {
                 try
                 {
-                    objUserBUS.AddUser(Username_signup_txt.Text, Password_signup_txt.Text);
+                    User objUSERadded = new User(Username_signup_txt.Text, Password_signup_txt.Text);
+                    objUserBUS.AddUser(objUSERadded);
                     MessageBox.Show("Account created successfully!");
                 }
                 catch (Exception ex)
