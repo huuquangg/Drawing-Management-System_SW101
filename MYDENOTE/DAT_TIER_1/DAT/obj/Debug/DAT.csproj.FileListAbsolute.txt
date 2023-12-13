@@ -9,3 +9,13 @@ E:\University\V Software 101\test\SW101_\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.c
 E:\University\V Software 101\test\SW101_\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.csproj.CopyComplete
 E:\University\V Software 101\test\SW101_\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.dll
 E:\University\V Software 101\test\SW101_\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.pdb
+E:\University\V Software 101\test\SW101_\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\BCrypt.Net-Next.dll
+E:\University\V Software 101\test\SW101_\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\System.Buffers.dll
+E:\University\V Software 101\test\SW101_\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\System.Memory.dll
+E:\University\V Software 101\test\SW101_\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\System.Numerics.Vectors.dll
+E:\University\V Software 101\test\SW101_\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\University\V Software 101\test\SW101_\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\BCrypt.Net-Next.xml
+E:\University\V Software 101\test\SW101_\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\System.Buffers.xml
+E:\University\V Software 101\test\SW101_\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\System.Memory.xml
+E:\University\V Software 101\test\SW101_\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\System.Numerics.Vectors.xml
+E:\University\V Software 101\test\SW101_\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml

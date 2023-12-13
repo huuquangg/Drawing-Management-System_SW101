@@ -5,10 +5,12 @@
     "\\MYDENOTE\\BUS_TIER_2",
     "\\MYDENOTE\\BUS_TIER_2\\BUS",
     "\\MYDENOTE\\Database",
+    "\\MYDENOTE\\DAT_TIER_1",
+    "\\MYDENOTE\\DAT_TIER_1\\DAT",
     "\\MYDENOTE\\DTO",
     "\\MYDENOTE\\DTO\\DTO",
     "\\MYDENOTE\\PresentationTIER_3"
   ],
-  "SelectedNode": "\\MYDENOTE\\PresentationTIER_3\\Login.cs",
+  "SelectedNode": "\\MYDENOTE\\DAT_TIER_1\\DAT\\UserDAO.cs",
   "PreviewInSolutionExplorer": false
 }

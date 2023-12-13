@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DTO;
+using BCrypt;
 
 namespace DAT
 {
@@ -20,16 +21,23 @@ namespace DAT
             {
 
                 if (ConnectoR.State != System.Data.ConnectionState.Open) { ConnectoR.Open(); }
-                OleDbCommand command = new OleDbCommand("SELECT * FROM userACCOUNT WHERE Username = @username AND Password = @password", ConnectoR);
+                OleDbCommand command = new OleDbCommand("SELECT * FROM userACCOUNT WHERE Username = @username", ConnectoR);
                
                 //command.Parameters.AddWithValue("@username", username);
                 //command.Parameters.AddWithValue("@password", password);
                 command.Parameters.Add("@username", OleDbType.VarChar).Value = objUser.Username;
-                command.Parameters.Add("@password", OleDbType.VarChar).Value = objUser.Password;
-
+                //command.Parameters.Add("@password", OleDbType.VarChar).Value = objUser.Password;
                 OleDbDataReader reader = command.ExecuteReader();
                 if (reader.Read())
                 {
+                    if (BCrypt.Net.BCrypt.Verify(objUser.Password, reader["Password"].ToString()))
+                    {
+                        result = true;
+                    }
+                    else
+                    {
+                        result = false;
+                    }
                     ConnectoR.Close();
                     return true;
                 }

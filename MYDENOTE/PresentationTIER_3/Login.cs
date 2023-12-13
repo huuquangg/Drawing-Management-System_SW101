@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using BUS;
 using DTO;
 using Guna.UI2.WinForms;
+using BCrypt;
 
 namespace GUI
 {
@@ -79,7 +80,12 @@ namespace GUI
             {
                 try
                 {
-                    User objUSERadded = new User(Username_signup_txt.Text, Password_signup_txt.Text);
+                    // Generate a salt for bcrypt encryption
+                    string salt = BCrypt.Net.BCrypt.GenerateSalt();
+                    // Hash the password with bcrypt
+                    string hashPassword = BCrypt.Net.BCrypt.HashPassword(Password_signup_txt.Text, salt);
+
+                    User objUSERadded = new User(Username_signup_txt.Text, hashPassword);
                     objUserBUS.AddUser(objUSERadded);
                     MessageBox.Show("Account created successfully!");
                 }
