@@ -11,6 +11,7 @@ using BUS;
 using DTO;
 using Guna.UI2.WinForms;
 using BCrypt;
+using new_project;
 
 namespace GUI
 {
@@ -35,7 +36,7 @@ namespace GUI
 
         private void Login_BTN_Click(object sender, EventArgs e)
         {
-            if(Username_login_txt.Text == "" || Password_login_txt.Text == "")
+            if (Username_login_txt.Text == "" || Password_login_txt.Text == "")
             {
                 MessageBox.Show("Please fill in all the fields!");
             }
@@ -46,7 +47,7 @@ namespace GUI
                 {
                     MessageBox.Show("Login successful!");
                     this.Hide();
-                    //new Home().Show();
+                    new HomeScreen().Show();
                 }
                 else
                 {
@@ -58,17 +59,17 @@ namespace GUI
 
         private void CreateAcc_btn_Click(object sender, EventArgs e)
         {
-            if(Username_signup_txt.Text == "" || Password_signup_txt.Text == "")
+            if (Username_signup_txt.Text == "" || Password_signup_txt.Text == "")
             {
-                if(Username_signup_txt.Text == "")
+                if (Username_signup_txt.Text == "")
                 {
                     Username_signup_txt.BorderColor = Color.Red;
                 }
-                if(Password_signup_txt.Text == "")
+                if (Password_signup_txt.Text == "")
                 {
                     Password_signup_txt.BorderColor = Color.Red;
                 }
-                if(Password_signup_txt.Text != rePassword_signup_txt.Text)
+                if (Password_signup_txt.Text != rePassword_signup_txt.Text)
                 {
                     MessageBox.Show("Passwords do not match!");
                     rePassword_signup_txt.BorderColor = Color.Red;
@@ -88,6 +89,8 @@ namespace GUI
                     User objUSERadded = new User(Username_signup_txt.Text, hashPassword);
                     objUserBUS.AddUser(objUSERadded);
                     MessageBox.Show("Account created successfully!");
+                    FillingFormLOGIN_container.Visible = false;
+                    LogSignTransition.ShowSync(FillingFormLOGIN_container);
                 }
                 catch (Exception ex)
                 {
