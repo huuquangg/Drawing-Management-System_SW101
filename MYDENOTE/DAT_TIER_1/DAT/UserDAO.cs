@@ -2,15 +2,16 @@
 using System.Collections.Generic;
 using System.Data.OleDb;
 using System.Linq;
+using System.Security.Principal;
 using System.Text;
 using System.Threading.Tasks;
+using DTO;
 
 namespace DAT
 {
     public class UserDAO : DBConnection
     {
         public UserDAO() : base() { }
-
         public void GetUserById(int id)
         {
             try
@@ -31,18 +32,18 @@ namespace DAT
                 throw;
             }
         }
-
+        public string CheckLogic(User user)
+        {
+                string info = CheckLogic(user);
+                return info;
+        }
         public bool checkLogin(string username, string password)
         {
             bool result = false;
             try
             {
-
                 if (ConnectoR.State != System.Data.ConnectionState.Open) { ConnectoR.Open(); }
-                OleDbCommand command = new OleDbCommand("SELECT * FROM Users WHERE Username = @username AND Password = @password", ConnectoR);
-               
-                //command.Parameters.AddWithValue("@username", username);
-                //command.Parameters.AddWithValue("@password", password);
+                OleDbCommand command = new OleDbCommand("SELECT * FROM userACCOUNT WHERE Username = @username AND Password = @password", ConnectoR);
                 command.Parameters.Add("@username", OleDbType.VarChar).Value = username;
                 command.Parameters.Add("@password", OleDbType.VarChar).Value = password;
 

@@ -2,7 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\MYDENOTE",
+    "\\MYDENOTE\\BUS_2",
+    "\\MYDENOTE\\BUS_2\\BUS",
     "\\MYDENOTE\\Database",
+    "\\MYDENOTE\\DAT_2",
+    "\\MYDENOTE\\DAT_2\\DAT",
     "\\MYDENOTE\\DTO",
     "\\MYDENOTE\\DTO\\DTO",
     "\\MYDENOTE\\PresentationTIER_3"

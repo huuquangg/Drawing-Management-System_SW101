@@ -33,13 +33,13 @@ namespace GUI
 
         private void Login_BTN_Click(object sender, EventArgs e)
         {
-            if(Username_login_txt.Text == "" || Password_login_txt.Text == "")
+            if(Username_login_txt.ToString() == "" || Password_login_txt.ToString() == "")
             {
                 MessageBox.Show("Please fill in all the fields!");
             }
             else
             {
-                BUS.UserBUS objUserBUS = new BUS.UserBUS();
+                UserBUS objUserBUS = new UserBUS();
                 if (objUserBUS.checkLogin(Username_login_txt.Text, Password_login_txt.Text))
                 {
                     MessageBox.Show("Login successful!");

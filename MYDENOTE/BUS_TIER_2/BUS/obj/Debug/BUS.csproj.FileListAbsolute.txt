@@ -11,3 +11,16 @@ E:\University\V Software 101\test\SW101_\MYDENOTE\BUS_TIER_2\BUS\obj\Debug\BUS.c
 E:\University\V Software 101\test\SW101_\MYDENOTE\BUS_TIER_2\BUS\obj\Debug\BUS.csproj.CopyComplete
 E:\University\V Software 101\test\SW101_\MYDENOTE\BUS_TIER_2\BUS\obj\Debug\BUS.dll
 E:\University\V Software 101\test\SW101_\MYDENOTE\BUS_TIER_2\BUS\obj\Debug\BUS.pdb
+C:\Users\ASUS\source\repos\SW101_\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\dbUSER.mdb
+C:\Users\ASUS\source\repos\SW101_\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\BUS.dll
+C:\Users\ASUS\source\repos\SW101_\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\BUS.pdb
+C:\Users\ASUS\source\repos\SW101_\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\DAT.dll
+C:\Users\ASUS\source\repos\SW101_\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\DTO.dll
+C:\Users\ASUS\source\repos\SW101_\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\DAT.pdb
+C:\Users\ASUS\source\repos\SW101_\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\DAT.dll.config
+C:\Users\ASUS\source\repos\SW101_\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\DTO.pdb
+C:\Users\ASUS\source\repos\SW101_\MYDENOTE\BUS_TIER_2\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\SW101_\MYDENOTE\BUS_TIER_2\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\SW101_\MYDENOTE\BUS_TIER_2\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\ASUS\source\repos\SW101_\MYDENOTE\BUS_TIER_2\BUS\obj\Debug\BUS.dll
+C:\Users\ASUS\source\repos\SW101_\MYDENOTE\BUS_TIER_2\BUS\obj\Debug\BUS.pdb

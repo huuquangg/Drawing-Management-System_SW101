@@ -9,3 +9,14 @@ E:\University\V Software 101\test\SW101_\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.c
 E:\University\V Software 101\test\SW101_\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.csproj.CopyComplete
 E:\University\V Software 101\test\SW101_\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.dll
 E:\University\V Software 101\test\SW101_\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.pdb
+C:\Users\ASUS\source\repos\SW101_\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\dbUSER.mdb
+C:\Users\ASUS\source\repos\SW101_\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\DAT.dll.config
+C:\Users\ASUS\source\repos\SW101_\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\DAT.dll
+C:\Users\ASUS\source\repos\SW101_\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\DAT.pdb
+C:\Users\ASUS\source\repos\SW101_\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\DTO.dll
+C:\Users\ASUS\source\repos\SW101_\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\DTO.pdb
+C:\Users\ASUS\source\repos\SW101_\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\SW101_\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\SW101_\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.csproj.CopyComplete
+C:\Users\ASUS\source\repos\SW101_\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.dll
+C:\Users\ASUS\source\repos\SW101_\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.pdb
