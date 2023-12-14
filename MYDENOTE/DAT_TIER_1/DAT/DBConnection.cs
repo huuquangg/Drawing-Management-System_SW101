@@ -17,11 +17,17 @@ namespace DAT
             {
                 //Provider=Microsoft.ACE.OLEDB.12.0;Data Source="E:\University\V Software 101\test\SW101_\MYDENOTE\Database\dbUSER.mdb"
                 //E:\University\V Software 101\test\SW101_\MYDENOTE\DAT_TIER_1\DAT\dbUSER.mdb
-                string strConnect = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=\"E:\\University\\V Software 101\\test\\SW101_\\MYDENOTE\\Database\\dbUSER.mdb\"";
+                //string strConnect = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=dbUSER.mdb";
+                
+                //dynamic get link to db folder in \MYDENOTE\Database\dbUSER.mdb
+                string strConnect = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + System.IO.Path.GetFullPath(System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\..\Database\dbUSER.mdb"));
+
                 ConnectoR = new OleDbConnection(strConnect);
                 // print ConnectoR is connected
+                Console.WriteLine(strConnect);
                 Console.WriteLine(ConnectoR.Database.ToString());
                 Console.WriteLine("Connected");
+
 
             }
             catch (Exception e)
