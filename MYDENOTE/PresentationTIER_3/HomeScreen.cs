@@ -16,5 +16,15 @@ namespace new_project
         {
             InitializeComponent();
         }
+
+        private void guna2Panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void HomeScreen_Load(object sender, EventArgs e)
+        {
+         
+        }
     }
 }

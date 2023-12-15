@@ -47,3 +47,33 @@ E:\University\V Software 101\test\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\S
 E:\University\V Software 101\test\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\System.Memory.xml
 E:\University\V Software 101\test\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\System.Numerics.Vectors.xml
 E:\University\V Software 101\test\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\dbUSER.mdb
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\new_project.exe.config
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\new_project.exe
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\new_project.pdb
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\BCrypt.Net-Next.dll
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\BUS.dll
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\DTO.dll
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\System.Buffers.dll
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\System.Memory.dll
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\System.Numerics.Vectors.dll
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\DAT.dll
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\BUS.pdb
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\DTO.pdb
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\BCrypt.Net-Next.xml
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\System.Buffers.xml
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\System.Memory.xml
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\System.Numerics.Vectors.xml
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\DAT.pdb
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\DAT.dll.config
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.csproj.AssemblyReference.cache
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.Login.resources
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\obj\Debug\new_project.Properties.Resources.resources
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.csproj.CopyComplete
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\obj\Debug\new_project.exe
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\obj\Debug\new_project.pdb
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\obj\Debug\new_project.HomeScreen.resources

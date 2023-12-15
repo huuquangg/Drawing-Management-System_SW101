@@ -23,6 +23,10 @@ namespace GUI
         {
             InitializeComponent();
         }
+        private void Login_Load(object sender, EventArgs e)
+        {
+            Container_Form.BackColor = Color.FromArgb(30, 0, 0, 0);
+        }
         private void SignSignButton_Click(object sender, EventArgs e)
         {
             FillingFormLOGIN_container.Visible = false;
@@ -97,6 +101,11 @@ namespace GUI
                     MessageBox.Show(ex.Message);
                 }
             }
+
+        }
+
+        private void Container_all_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }

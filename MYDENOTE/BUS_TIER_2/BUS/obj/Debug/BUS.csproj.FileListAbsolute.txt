@@ -21,3 +21,26 @@ E:\University\V Software 101\test\SW101_\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\Syste
 E:\University\V Software 101\test\SW101_\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\System.Memory.xml
 E:\University\V Software 101\test\SW101_\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\System.Numerics.Vectors.xml
 E:\University\V Software 101\test\SW101_\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Test_CNPM\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\dbUSER.mdb
+D:\Test_CNPM\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\BUS.dll
+D:\Test_CNPM\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\BUS.pdb
+D:\Test_CNPM\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\BCrypt.Net-Next.dll
+D:\Test_CNPM\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\DAT.dll
+D:\Test_CNPM\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\DTO.dll
+D:\Test_CNPM\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\System.Buffers.dll
+D:\Test_CNPM\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\System.Memory.dll
+D:\Test_CNPM\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\System.Numerics.Vectors.dll
+D:\Test_CNPM\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Test_CNPM\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\DAT.pdb
+D:\Test_CNPM\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\DAT.dll.config
+D:\Test_CNPM\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\DTO.pdb
+D:\Test_CNPM\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\BCrypt.Net-Next.xml
+D:\Test_CNPM\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\System.Buffers.xml
+D:\Test_CNPM\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\System.Memory.xml
+D:\Test_CNPM\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\System.Numerics.Vectors.xml
+D:\Test_CNPM\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Test_CNPM\MYDENOTE\BUS_TIER_2\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+D:\Test_CNPM\MYDENOTE\BUS_TIER_2\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\Test_CNPM\MYDENOTE\BUS_TIER_2\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\Test_CNPM\MYDENOTE\BUS_TIER_2\BUS\obj\Debug\BUS.dll
+D:\Test_CNPM\MYDENOTE\BUS_TIER_2\BUS\obj\Debug\BUS.pdb

@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\MYDENOTE",
+    "\\MYDENOTE\\DAT_TIER_1"
   ],
-  "SelectedNode": "\\MyDeNote.sln",
+  "SelectedNode": "\\MYDENOTE\\MyDeNote.sln",
   "PreviewInSolutionExplorer": false
 }
