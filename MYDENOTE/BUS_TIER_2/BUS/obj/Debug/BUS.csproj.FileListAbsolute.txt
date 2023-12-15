@@ -44,3 +44,26 @@ D:\Test_CNPM\MYDENOTE\BUS_TIER_2\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cach
 D:\Test_CNPM\MYDENOTE\BUS_TIER_2\BUS\obj\Debug\BUS.csproj.CopyComplete
 D:\Test_CNPM\MYDENOTE\BUS_TIER_2\BUS\obj\Debug\BUS.dll
 D:\Test_CNPM\MYDENOTE\BUS_TIER_2\BUS\obj\Debug\BUS.pdb
+D:\đồ án cnpm\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\dbUSER.mdb
+D:\đồ án cnpm\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\BUS.dll
+D:\đồ án cnpm\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\BUS.pdb
+D:\đồ án cnpm\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\BCrypt.Net-Next.dll
+D:\đồ án cnpm\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\DAT.dll
+D:\đồ án cnpm\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\DTO.dll
+D:\đồ án cnpm\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\System.Buffers.dll
+D:\đồ án cnpm\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\System.Memory.dll
+D:\đồ án cnpm\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\System.Numerics.Vectors.dll
+D:\đồ án cnpm\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\đồ án cnpm\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\DAT.pdb
+D:\đồ án cnpm\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\DAT.dll.config
+D:\đồ án cnpm\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\DTO.pdb
+D:\đồ án cnpm\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\BCrypt.Net-Next.xml
+D:\đồ án cnpm\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\System.Buffers.xml
+D:\đồ án cnpm\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\System.Memory.xml
+D:\đồ án cnpm\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\System.Numerics.Vectors.xml
+D:\đồ án cnpm\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\đồ án cnpm\MYDENOTE\BUS_TIER_2\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+D:\đồ án cnpm\MYDENOTE\BUS_TIER_2\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\đồ án cnpm\MYDENOTE\BUS_TIER_2\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\đồ án cnpm\MYDENOTE\BUS_TIER_2\BUS\obj\Debug\BUS.dll
+D:\đồ án cnpm\MYDENOTE\BUS_TIER_2\BUS\obj\Debug\BUS.pdb

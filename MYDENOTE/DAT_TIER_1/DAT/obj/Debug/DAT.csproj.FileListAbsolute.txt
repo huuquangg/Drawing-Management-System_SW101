@@ -40,3 +40,24 @@ D:\Test_CNPM\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.csproj.CoreCompileInputs.cach
 D:\Test_CNPM\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.csproj.CopyComplete
 D:\Test_CNPM\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.dll
 D:\Test_CNPM\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.pdb
+D:\đồ án cnpm\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\dbUSER.mdb
+D:\đồ án cnpm\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\DAT.dll.config
+D:\đồ án cnpm\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\DAT.dll
+D:\đồ án cnpm\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\DAT.pdb
+D:\đồ án cnpm\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\BCrypt.Net-Next.dll
+D:\đồ án cnpm\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\DTO.dll
+D:\đồ án cnpm\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\System.Buffers.dll
+D:\đồ án cnpm\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\System.Memory.dll
+D:\đồ án cnpm\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\System.Numerics.Vectors.dll
+D:\đồ án cnpm\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\đồ án cnpm\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\DTO.pdb
+D:\đồ án cnpm\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\BCrypt.Net-Next.xml
+D:\đồ án cnpm\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\System.Buffers.xml
+D:\đồ án cnpm\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\System.Memory.xml
+D:\đồ án cnpm\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\System.Numerics.Vectors.xml
+D:\đồ án cnpm\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\đồ án cnpm\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.csproj.AssemblyReference.cache
+D:\đồ án cnpm\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.csproj.CoreCompileInputs.cache
+D:\đồ án cnpm\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.csproj.CopyComplete
+D:\đồ án cnpm\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.dll
+D:\đồ án cnpm\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.pdb

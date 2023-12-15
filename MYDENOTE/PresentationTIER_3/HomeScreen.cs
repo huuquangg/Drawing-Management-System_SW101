@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using MyPaint;
 namespace new_project
 {
     public partial class HomeScreen : Form
@@ -17,14 +17,16 @@ namespace new_project
             InitializeComponent();
         }
 
-        private void guna2Panel3_Paint(object sender, PaintEventArgs e)
+        private void btnOpenPaint_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Paint paint = new Paint();
+            paint.ShowDialog();
         }
 
-        private void HomeScreen_Load(object sender, EventArgs e)
+        private void btnNewPage_Click(object sender, EventArgs e)
         {
-         
+          
         }
     }
 }

@@ -21,22 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BUS", "BUS_TIER_2\BUS\BUS.c
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{5218C1C8-A9FD-4968-82F7-BB58E0980B80}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3EBEB612-D7A6-4198-8E8B-57977F52E2E8}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\soucre\.gitignore = ..\..\soucre\.gitignore
-		..\..\soucre\Action.cs = ..\..\soucre\Action.cs
-		..\..\soucre\App.config = ..\..\soucre\App.config
-		..\..\soucre\Form1.cs = ..\..\soucre\Form1.cs
-		..\..\soucre\Form1.Designer.cs = ..\..\soucre\Form1.Designer.cs
-		..\..\soucre\Form1.resx = ..\..\soucre\Form1.resx
-		..\..\soucre\Form2.cs = ..\..\soucre\Form2.cs
-		..\..\soucre\Form2.Designer.cs = ..\..\soucre\Form2.Designer.cs
-		..\..\soucre\Form2.resx = ..\..\soucre\Form2.resx
-		..\..\soucre\MyPaint.csproj = ..\..\soucre\MyPaint.csproj
-		..\..\soucre\MyPaint.sln = ..\..\soucre\MyPaint.sln
-		..\..\soucre\Program.cs = ..\..\soucre\Program.cs
-		..\..\soucre\README.md = ..\..\soucre\README.md
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPaint", "..\..\paint\MyPaint.csproj", "{5D7799E5-0E61-4414-A870-66C20AD2999E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,6 +45,10 @@ Global
 		{4F019028-12B6-4262-9D60-36E038B38F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F019028-12B6-4262-9D60-36E038B38F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F019028-12B6-4262-9D60-36E038B38F02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D7799E5-0E61-4414-A870-66C20AD2999E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D7799E5-0E61-4414-A870-66C20AD2999E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D7799E5-0E61-4414-A870-66C20AD2999E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D7799E5-0E61-4414-A870-66C20AD2999E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +58,7 @@ Global
 		{F2557233-89F1-4E67-94D1-0F664427EA3B} = {7158C975-948B-4D67-B25A-52BDD7F0C9FB}
 		{900C25C6-6171-41E4-9327-E53B18BE8889} = {CA557F50-9C60-466E-B53D-C0AEAD697B02}
 		{4F019028-12B6-4262-9D60-36E038B38F02} = {B9B06FAC-ACD4-4FAA-B957-4497F44ABCA8}
+		{5D7799E5-0E61-4414-A870-66C20AD2999E} = {9E82D47C-F0F5-49B5-B4C9-BFCE8A91FDC2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {955032BD-122A-4477-BC91-E196B6EE19EE}

@@ -164,6 +164,10 @@
     <None Include="Resources\notes.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\paint\MyPaint.csproj">
+      <Project>{5d7799e5-0e61-4414-a870-66c20ad2999e}</Project>
+      <Name>MyPaint</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BUS_TIER_2\BUS\BUS.csproj">
       <Project>{4f019028-12b6-4262-9d60-36e038b38f02}</Project>
       <Name>BUS</Name>
@@ -199,6 +203,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-document-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
