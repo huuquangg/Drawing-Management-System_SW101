@@ -13,6 +13,28 @@ namespace DAT
     {
         public UserDAO() : base() { }
 
+        public int getUserId(User objUser)
+        {
+            int result = 0;
+            try
+            {
+                if (ConnectoR.State != System.Data.ConnectionState.Open) { ConnectoR.Open(); }
+                OleDbCommand command = new OleDbCommand("SELECT * FROM userACCOUNT WHERE Username = @username", ConnectoR);
+                command.Parameters.Add("@username", OleDbType.VarChar).Value = objUser.Username;
+                OleDbDataReader reader = command.ExecuteReader();
+                if (reader.Read())
+                {
+                    result = (int)reader["Id"];
+                }
+                ConnectoR.Close();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                throw;
+            }
+            return result;
+        }
 
         public bool checkLogin(User objUser)
         {
@@ -22,7 +44,7 @@ namespace DAT
 
                 if (ConnectoR.State != System.Data.ConnectionState.Open) { ConnectoR.Open(); }
                 OleDbCommand command = new OleDbCommand("SELECT * FROM userACCOUNT WHERE Username = @username", ConnectoR);
-               
+
                 //command.Parameters.AddWithValue("@username", username);
                 //command.Parameters.AddWithValue("@password", password);
                 command.Parameters.Add("@username", OleDbType.VarChar).Value = objUser.Username;
@@ -76,10 +98,10 @@ namespace DAT
                 if (ConnectoR.State != System.Data.ConnectionState.Open) { ConnectoR.Open(); }
 
                 OleDbCommand command = new OleDbCommand("INSERT INTO userACCOUNT VALUES (@Id,@username, @password)", ConnectoR);
-                command.Parameters.Add("@Id", OleDbType.Integer).Value = getNumberofUsers()+1; // auto increment (auto number)
+                command.Parameters.Add("@Id", OleDbType.Integer).Value = getNumberofUsers() + 1; // auto increment (auto number)
                 command.Parameters.Add("@username", OleDbType.VarChar).Value = addedUSER.Username;
                 command.Parameters.Add("@password", OleDbType.VarChar).Value = addedUSER.Password;
-                
+
                 command.ExecuteNonQuery();
 
                 ConnectoR.Close();

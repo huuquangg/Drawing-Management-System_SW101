@@ -17,7 +17,9 @@ namespace GUI
 {
     public partial class Login : Form
     {
+        public static User currUser;
         UserBUS objUserBUS = new UserBUS();
+
 
         public Login()
         {
@@ -50,6 +52,7 @@ namespace GUI
                 if (objUserBUS.checkLogin(objUSER))
                 {
                     MessageBox.Show("Login successful!");
+                    currUser = objUSER;
                     this.Hide();
                     new HomeScreen().Show();
                 }

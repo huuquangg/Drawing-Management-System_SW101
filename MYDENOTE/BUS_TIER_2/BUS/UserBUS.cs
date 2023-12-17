@@ -34,6 +34,10 @@ namespace BUS
             objUserDAO.AddUser(objUSER);
         }
 
+        public int getUserId(User objUSER)
+        {
+            return objUserDAO.getUserId(objUSER);
+        }
        
     }
 }

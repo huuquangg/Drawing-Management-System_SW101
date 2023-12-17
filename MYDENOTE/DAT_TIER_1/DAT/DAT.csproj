@@ -59,6 +59,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BluePrintDAO.cs" />
     <Compile Include="DBConnection.cs" />
     <Compile Include="dbUSERDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -72,12 +73,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
     <Compile Include="UserDAO.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\DTO\DTO\DTO.csproj">
-      <Project>{f2557233-89f1-4e67-94d1-0f664427ea3b}</Project>
-      <Name>DTO</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="dbUSER.mdb">
@@ -102,6 +97,12 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DTO\DTO\DTO.csproj">
+      <Project>{f2557233-89f1-4e67-94d1-0f664427ea3b}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
