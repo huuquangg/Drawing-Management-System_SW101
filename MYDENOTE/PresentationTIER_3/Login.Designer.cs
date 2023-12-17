@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 
 namespace GUI
 {
@@ -59,19 +60,18 @@ namespace GUI
             this.LogSignTransition = new Guna.UI2.WinForms.Guna2Transition();
             this.Container_all = new System.Windows.Forms.TableLayoutPanel();
             this.Container_Form = new System.Windows.Forms.Panel();
-            this.FormContainerSIGNUP = new System.Windows.Forms.Panel();
             this.FillingFormLOGIN_container = new System.Windows.Forms.Panel();
             this.OR = new System.Windows.Forms.Label();
+            this.FormContainerSIGNUP = new System.Windows.Forms.Panel();
             this.SIGNUP_FILLFORMNAME = new System.Windows.Forms.Label();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2ColorTransition1 = new Guna.UI2.WinForms.Guna2ColorTransition(this.components);
             this.BrandLogo_Container.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NoteIcon)).BeginInit();
             this.TopNavigation.SuspendLayout();
             this.Container_all.SuspendLayout();
             this.Container_Form.SuspendLayout();
-            this.FormContainerSIGNUP.SuspendLayout();
             this.FillingFormLOGIN_container.SuspendLayout();
+            this.FormContainerSIGNUP.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2Elipse1
@@ -86,7 +86,7 @@ namespace GUI
             this.LogSignTransition.SetDecoration(this.LOGIN_FILLFORMNAME, Guna.UI2.AnimatorNS.DecorationType.None);
             this.LOGIN_FILLFORMNAME.Font = new System.Drawing.Font("Comic Sans MS", 19.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LOGIN_FILLFORMNAME.ForeColor = System.Drawing.Color.Black;
-            this.LOGIN_FILLFORMNAME.Location = new System.Drawing.Point(163, 0);
+            this.LOGIN_FILLFORMNAME.Location = new System.Drawing.Point(161, 19);
             this.LOGIN_FILLFORMNAME.Name = "LOGIN_FILLFORMNAME";
             this.LOGIN_FILLFORMNAME.Size = new System.Drawing.Size(129, 45);
             this.LOGIN_FILLFORMNAME.TabIndex = 1;
@@ -278,8 +278,8 @@ namespace GUI
             // 
             this.NoteIcon.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.LogSignTransition.SetDecoration(this.NoteIcon, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.NoteIcon.Image = global::new_project.Properties.Resources.notes;
-            this.NoteIcon.Location = new System.Drawing.Point(32, 45);
+            this.NoteIcon.Image = global::new_project.Properties.Resources.color_palette;
+            this.NoteIcon.Location = new System.Drawing.Point(23, 45);
             this.NoteIcon.Name = "NoteIcon";
             this.NoteIcon.ShadowDecoration.Parent = this.NoteIcon;
             this.NoteIcon.Size = new System.Drawing.Size(98, 80);
@@ -543,7 +543,6 @@ namespace GUI
             this.Container_all.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 52.38095F));
             this.Container_all.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 23.80952F));
             this.Container_all.Controls.Add(this.Container_Form, 1, 1);
-            this.Container_all.Controls.Add(this.flowLayoutPanel1, 1, 0);
             this.LogSignTransition.SetDecoration(this.Container_all, Guna.UI2.AnimatorNS.DecorationType.None);
             this.Container_all.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Container_all.Location = new System.Drawing.Point(0, 0);
@@ -557,7 +556,8 @@ namespace GUI
             // 
             // Container_Form
             // 
-            this.Container_Form.BackColor = System.Drawing.Color.Transparent;
+            //this.Container_Form.BackColor = System.Drawing.Color.Transparent;
+            this.Container_Form.BackColor = Color.FromArgb(150,Color.Black);
             this.Container_Form.Controls.Add(this.FillingFormLOGIN_container);
             this.Container_Form.Controls.Add(this.FormContainerSIGNUP);
             this.Container_Form.Controls.Add(this.BrandLogo_Container);
@@ -568,24 +568,7 @@ namespace GUI
             this.Container_Form.Name = "Container_Form";
             this.Container_Form.Size = new System.Drawing.Size(483, 430);
             this.Container_Form.TabIndex = 5;
-            // 
-            // FormContainerSIGNUP
-            // 
-            this.FormContainerSIGNUP.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.FormContainerSIGNUP.BackColor = System.Drawing.Color.Transparent;
-            this.FormContainerSIGNUP.Controls.Add(this.SIGNUP_FILLFORMNAME);
-            this.FormContainerSIGNUP.Controls.Add(this.Username_signup_txt);
-            this.FormContainerSIGNUP.Controls.Add(this.SignUP_btn);
-            this.FormContainerSIGNUP.Controls.Add(this.AreadyHaveAnAcc_txt);
-            this.FormContainerSIGNUP.Controls.Add(this.rePassword_signup_txt);
-            this.FormContainerSIGNUP.Controls.Add(this.CreateAcc_btn);
-            this.FormContainerSIGNUP.Controls.Add(this.Password_signup_txt);
-            this.LogSignTransition.SetDecoration(this.FormContainerSIGNUP, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.FormContainerSIGNUP.ForeColor = System.Drawing.Color.Transparent;
-            this.FormContainerSIGNUP.Location = new System.Drawing.Point(29, 142);
-            this.FormContainerSIGNUP.Name = "FormContainerSIGNUP";
-            this.FormContainerSIGNUP.Size = new System.Drawing.Size(430, 335);
-            this.FormContainerSIGNUP.TabIndex = 4;
+            this.Container_Form.Paint += new System.Windows.Forms.PaintEventHandler(this.Container_Form_Paint);
             // 
             // FillingFormLOGIN_container
             // 
@@ -621,6 +604,24 @@ namespace GUI
             this.OR.Text = "Or";
             this.OR.Click += new System.EventHandler(this.DontHaveAccount_textLabel_Click);
             // 
+            // FormContainerSIGNUP
+            // 
+            this.FormContainerSIGNUP.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.FormContainerSIGNUP.BackColor = System.Drawing.Color.Transparent;
+            this.FormContainerSIGNUP.Controls.Add(this.SIGNUP_FILLFORMNAME);
+            this.FormContainerSIGNUP.Controls.Add(this.Username_signup_txt);
+            this.FormContainerSIGNUP.Controls.Add(this.SignUP_btn);
+            this.FormContainerSIGNUP.Controls.Add(this.AreadyHaveAnAcc_txt);
+            this.FormContainerSIGNUP.Controls.Add(this.rePassword_signup_txt);
+            this.FormContainerSIGNUP.Controls.Add(this.CreateAcc_btn);
+            this.FormContainerSIGNUP.Controls.Add(this.Password_signup_txt);
+            this.LogSignTransition.SetDecoration(this.FormContainerSIGNUP, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.FormContainerSIGNUP.ForeColor = System.Drawing.Color.Transparent;
+            this.FormContainerSIGNUP.Location = new System.Drawing.Point(29, 142);
+            this.FormContainerSIGNUP.Name = "FormContainerSIGNUP";
+            this.FormContainerSIGNUP.Size = new System.Drawing.Size(430, 335);
+            this.FormContainerSIGNUP.TabIndex = 4;
+            // 
             // SIGNUP_FILLFORMNAME
             // 
             this.SIGNUP_FILLFORMNAME.Anchor = System.Windows.Forms.AnchorStyles.Top;
@@ -634,14 +635,6 @@ namespace GUI
             this.SIGNUP_FILLFORMNAME.Size = new System.Drawing.Size(162, 45);
             this.SIGNUP_FILLFORMNAME.TabIndex = 10;
             this.SIGNUP_FILLFORMNAME.Text = "SIGN UP";
-            // 
-            // flowLayoutPanel1
-            // 
-            this.LogSignTransition.SetDecoration(this.flowLayoutPanel1, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(225, 3);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(200, 100);
-            this.flowLayoutPanel1.TabIndex = 6;
             // 
             // guna2ColorTransition1
             // 
@@ -657,7 +650,7 @@ namespace GUI
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
-            this.BackgroundImage = global::new_project.Properties.Resources.f8da0698df90bb808dac336a301d1975;
+            this.BackgroundImage = global::new_project.Properties.Resources.resize54cab884252275_5d569fac38068;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(935, 623);
             this.Controls.Add(this.TopNavigation);
@@ -673,10 +666,10 @@ namespace GUI
             this.TopNavigation.ResumeLayout(false);
             this.Container_all.ResumeLayout(false);
             this.Container_Form.ResumeLayout(false);
-            this.FormContainerSIGNUP.ResumeLayout(false);
-            this.FormContainerSIGNUP.PerformLayout();
             this.FillingFormLOGIN_container.ResumeLayout(false);
             this.FillingFormLOGIN_container.PerformLayout();
+            this.FormContainerSIGNUP.ResumeLayout(false);
+            this.FormContainerSIGNUP.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -720,7 +713,6 @@ namespace GUI
         private Guna.UI2.WinForms.Guna2ControlBox MaximizeBox_button;
         private Guna.UI2.WinForms.Guna2ControlBox Close_boxbtn;
         private System.Windows.Forms.Label SIGNUP_FILLFORMNAME;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
     }
 }
 

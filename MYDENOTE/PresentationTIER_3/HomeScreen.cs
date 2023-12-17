@@ -20,13 +20,28 @@ namespace new_project
         private void btnOpenPaint_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Paint paint = new Paint();
+            MyPaint.MyPaint paint = new MyPaint.MyPaint();
             paint.ShowDialog();
         }
 
         private void btnNewPage_Click(object sender, EventArgs e)
         {
           
+        }
+
+        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

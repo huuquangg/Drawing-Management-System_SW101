@@ -108,5 +108,10 @@ namespace GUI
         {
 
         }
+
+        private void Container_Form_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

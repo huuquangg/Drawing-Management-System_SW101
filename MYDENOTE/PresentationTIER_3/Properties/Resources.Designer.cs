@@ -63,9 +63,69 @@ namespace new_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _500e21cfded3539829e6d1eb5fd4550a {
+            get {
+                object obj = ResourceManager.GetObject("500e21cfded3539829e6d1eb5fd4550a", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _54cab884252275_5d569fac38068 {
+            get {
+                object obj = ResourceManager.GetObject("54cab884252275.5d569fac38068", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _603570 {
             get {
                 object obj = ResourceManager.GetObject("603570", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _7ee9b150fdfd97bd81e2229ddc171d61 {
+            get {
+                object obj = ResourceManager.GetObject("7ee9b150fdfd97bd81e2229ddc171d61", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bed72fb3eb4a499c54b95fbee7681905 {
+            get {
+                object obj = ResourceManager.GetObject("bed72fb3eb4a499c54b95fbee7681905", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BGround {
+            get {
+                object obj = ResourceManager.GetObject("BGround", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap color_palette {
+            get {
+                object obj = ResourceManager.GetObject("color-palette", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -243,6 +303,16 @@ namespace new_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap kitty {
+            get {
+                object obj = ResourceManager.GetObject("kitty", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap notes {
             get {
                 object obj = ResourceManager.GetObject("notes", resourceCulture);
@@ -256,6 +326,16 @@ namespace new_project.Properties {
         internal static System.Drawing.Bitmap padlock {
             get {
                 object obj = ResourceManager.GetObject("padlock", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap resize54cab884252275_5d569fac38068 {
+            get {
+                object obj = ResourceManager.GetObject("resize54cab884252275.5d569fac38068", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -286,6 +366,16 @@ namespace new_project.Properties {
         internal static System.Drawing.Bitmap Screenshot_2023_12_08_1854031 {
             get {
                 object obj = ResourceManager.GetObject("Screenshot 2023-12-08 1854031", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tumblr_bb11089a19efabe9b2831231518bd517_a4187617_1280 {
+            get {
+                object obj = ResourceManager.GetObject("tumblr_bb11089a19efabe9b2831231518bd517_a4187617_1280", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

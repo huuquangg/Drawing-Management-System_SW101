@@ -164,10 +164,6 @@
     <None Include="Resources\notes.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\paint\MyPaint.csproj">
-      <Project>{5d7799e5-0e61-4414-a870-66c20ad2999e}</Project>
-      <Name>MyPaint</Name>
-    </ProjectReference>
     <ProjectReference Include="..\BUS_TIER_2\BUS\BUS.csproj">
       <Project>{4f019028-12b6-4262-9d60-36e038b38f02}</Project>
       <Name>BUS</Name>
@@ -175,6 +171,10 @@
     <ProjectReference Include="..\DTO\DTO\DTO.csproj">
       <Project>{f2557233-89f1-4e67-94d1-0f664427ea3b}</Project>
       <Name>DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ref\myPaint-main\MyPaint.csproj">
+      <Project>{c72f01e6-017f-4d6b-9b0e-04fae6e4f501}</Project>
+      <Name>MyPaint</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -206,6 +206,33 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BGround.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7ee9b150fdfd97bd81e2229ddc171d61.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\500e21cfded3539829e6d1eb5fd4550a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumblr_bb11089a19efabe9b2831231518bd517_a4187617_1280.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bed72fb3eb4a499c54b95fbee7681905.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color-palette.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\54cab884252275.5d569fac38068.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resize54cab884252275.5d569fac38068.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kitty.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
