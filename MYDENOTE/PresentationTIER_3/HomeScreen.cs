@@ -27,7 +27,40 @@ namespace new_project
 
         BluePrintBUS objBluePrintBUS = new BluePrintBUS();
         UserBUS objUserBUS_HomeScreen = new UserBUS();
+        // Create C
+        private void btnNewPage_Click(object sender, EventArgs e)
+        {
 
+            try
+            {
+                string setBluePrintName = Interaction.InputBox("New BluePrint Name", "", "", 250, 150);
+                if (setBluePrintName != "")
+                {
+                    MessageBox.Show(setBluePrintName + " was created");
+                    MyPaint.MyPaint paint = new MyPaint.MyPaint();
+                    this.Hide();
+                    paint.ShowDialog();
+                    string path = System.IO.Path.GetFullPath(paint.SavedFilePath);
+                    BluePrint objBluePrint = new BluePrint(0, setBluePrintName, path, DateTime.Now, objUserBUS_HomeScreen.getUserId(Login.currUser));
+
+                    objBluePrintBUS.AddBluePrint(objBluePrint);
+                    isUpdated = false;
+                    isAvailable = false;
+                }
+                else
+                {
+                    MessageBox.Show("Please enter a name for the blueprint!");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                this.Show();
+            }
+        }
 
         private void btnOpenPaint_Click(object sender, EventArgs e)
         {
@@ -59,9 +92,8 @@ namespace new_project
                 }
 
                 MyPaint.MyPaint paint = new MyPaint.MyPaint();
-                paint.OpenMyPaint(path);
+                paint.LoadMyPaintwithThePATH(path);
                 paint.ShowDialog();
-
 
                 isUpdated = false;
                 isAvailable = false;
@@ -76,54 +108,36 @@ namespace new_project
             }
         }
 
-        // Create C
-        private void btnNewPage_Click(object sender, EventArgs e)
-        {
-
-            try
-            {
-                this.Hide();
-                string setBluePrintName = Interaction.InputBox("New BluePrint Name", "", "", 250, 150);
-                if (setBluePrintName != "")
-                {
-                    MessageBox.Show(setBluePrintName + " was created");
-                    MyPaint.MyPaint paint = new MyPaint.MyPaint();
-                    paint.ShowDialog();
-                    string path = System.IO.Path.GetFullPath(paint.SavedFilePath);
-                    BluePrint objBluePrint = new BluePrint(0, setBluePrintName, path, DateTime.Now, objUserBUS_HomeScreen.getUserId(Login.currUser));
-
-                    objBluePrintBUS.AddBluePrint(objBluePrint);
-                    isUpdated = false;
-                    isAvailable = false;
-                }
-                else
-                {
-                    MessageBox.Show("Please enter a name for the blueprint!");
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-            finally
-            {
-                this.Show();
-            }
-        }
 
         private void guna2TextBox1_TextChanged(object sender, EventArgs e)
         {
+
+            // simple search
+
         }
 
         private void guna2Button4_Click(object sender, EventArgs e)
         {
+            // Back to Login
+            this.Close();
+            // delete all blueprint in flowlayout
+            isUpdated = false;
+            isAvailable = false;
+            // delete current user
+            Login.currUser = null;
+            // disconnect database
+            objBluePrintBUS = null;
+            objUserBUS_HomeScreen = null;
+
+            Login login = new Login();
+            login.ShowDialog();
         }
 
+        // Delete D
         private void btnDelete_Click(object sender, EventArgs e)
         {
             try
             {
-                this.Hide();
                 if (sender is Label)
                 {
                     Label lbl = sender as Label;
@@ -147,6 +161,7 @@ namespace new_project
                     {
                         objBluePrintBUS.DeleteBluePrint(name, objUserBUS_HomeScreen.getUserId(Login.currUser));
                         MessageBox.Show(name + " was deleted");
+                        // reload flowlayout
                     }
                 }
                 else
@@ -155,6 +170,8 @@ namespace new_project
                 }
                 isUpdated = false;
                 isAvailable = false;
+                // reload flowlayout or HomeScreen
+                if (objBluePrintBUS != null) { this.FlowBPItem_Paint(sender, null); }
             }
             catch (Exception ex)
             {
@@ -166,9 +183,7 @@ namespace new_project
             }
         }
 
-
-
-
+        // Read R
         private bool isAvailable = false;
         private bool isUpdated = false;
         private void FlowBPItem_Paint(object sender, PaintEventArgs e)
@@ -248,8 +263,8 @@ namespace new_project
                 }
             }
 
-            Guna2Button newPaint = new Guna2Button();
 
+            Guna2Button newPaint = new Guna2Button();
             newPaint.BackColor = SystemColors.AppWorkspace;
             newPaint.BorderThickness = 1;
             newPaint.CheckedState.Parent = newPaint;
@@ -277,5 +292,9 @@ namespace new_project
 
         }
 
+        private void Close_btn_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

@@ -45,7 +45,7 @@ namespace new_project
             this.User_container = new Guna.UI2.WinForms.Guna2Panel();
             this.Username = new System.Windows.Forms.Label();
             this.UserAvatar = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.TrashCan = new Guna.UI2.WinForms.Guna2Button();
+            this.LogOut = new Guna.UI2.WinForms.Guna2Button();
             this.Reminder = new Guna.UI2.WinForms.Guna2Button();
             this.Note = new Guna.UI2.WinForms.Guna2Button();
             this.SearchBox = new Guna.UI2.WinForms.Guna2TextBox();
@@ -113,6 +113,7 @@ namespace new_project
             this.Close_btn.ShadowDecoration.Parent = this.Close_btn;
             this.Close_btn.Size = new System.Drawing.Size(67, 46);
             this.Close_btn.TabIndex = 1;
+            this.Close_btn.Click += new System.EventHandler(this.Close_btn_Click);
             // 
             // guna2Elipse1
             // 
@@ -185,7 +186,7 @@ namespace new_project
             this.User_container.BackColor = System.Drawing.Color.LightPink;
             this.User_container.Controls.Add(this.Username);
             this.User_container.Controls.Add(this.UserAvatar);
-            this.User_container.Controls.Add(this.TrashCan);
+            this.User_container.Controls.Add(this.LogOut);
             this.User_container.Controls.Add(this.Reminder);
             this.User_container.Controls.Add(this.Note);
             this.User_container.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -205,7 +206,8 @@ namespace new_project
             this.Username.Name = "Username";
             this.Username.Size = new System.Drawing.Size(106, 28);
             this.Username.TabIndex = 10;
-            this.Username.Text = "Username";
+            this.Username.Text = "Username"; // hardcode while waiting for the above line to work
+            //this.Username.Text = objUserBUS_HomeScreen.getUsername(Login.currUser);
             // 
             // UserAvatar
             // 
@@ -221,41 +223,41 @@ namespace new_project
             this.UserAvatar.TabIndex = 9;
             this.UserAvatar.TabStop = false;
             // 
-            // TrashCan
+            // LogOut
             // 
-            this.TrashCan.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.LogOut.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.TrashCan.Animated = true;
-            this.TrashCan.AutoRoundedCorners = true;
-            this.TrashCan.BackColor = System.Drawing.Color.Transparent;
-            this.TrashCan.BorderColor = System.Drawing.Color.Transparent;
-            this.TrashCan.BorderRadius = 26;
-            this.TrashCan.BorderThickness = 1;
-            this.TrashCan.CheckedState.Parent = this.TrashCan;
-            this.TrashCan.CustomImages.Parent = this.TrashCan;
-            this.TrashCan.FillColor = System.Drawing.Color.Transparent;
-            this.TrashCan.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TrashCan.ForeColor = System.Drawing.Color.Black;
-            this.TrashCan.HoverState.BorderColor = System.Drawing.Color.Transparent;
-            this.TrashCan.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
-            this.TrashCan.HoverState.ForeColor = System.Drawing.Color.Black;
-            this.TrashCan.HoverState.Parent = this.TrashCan;
-            this.TrashCan.Image = global::new_project.Properties.Resources.icons8_trash_64;
-            this.TrashCan.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.TrashCan.ImageOffset = new System.Drawing.Point(25, 0);
-            this.TrashCan.ImageSize = new System.Drawing.Size(22, 22);
-            this.TrashCan.Location = new System.Drawing.Point(-21, 250);
-            this.TrashCan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.TrashCan.Name = "TrashCan";
-            this.TrashCan.ShadowDecoration.BorderRadius = 26;
-            this.TrashCan.ShadowDecoration.Color = System.Drawing.Color.Transparent;
-            this.TrashCan.ShadowDecoration.Enabled = true;
-            this.TrashCan.ShadowDecoration.Parent = this.TrashCan;
-            this.TrashCan.Size = new System.Drawing.Size(211, 55);
-            this.TrashCan.TabIndex = 3;
-            this.TrashCan.Text = "Trash can";
-            this.TrashCan.TextOffset = new System.Drawing.Point(20, 0);
-            this.TrashCan.Click += new System.EventHandler(this.guna2Button4_Click);
+            this.LogOut.Animated = true;
+            this.LogOut.AutoRoundedCorners = true;
+            this.LogOut.BackColor = System.Drawing.Color.Transparent;
+            this.LogOut.BorderColor = System.Drawing.Color.Transparent;
+            this.LogOut.BorderRadius = 26;
+            this.LogOut.BorderThickness = 1;
+            this.LogOut.CheckedState.Parent = this.LogOut;
+            this.LogOut.CustomImages.Parent = this.LogOut;
+            this.LogOut.FillColor = System.Drawing.Color.Transparent;
+            this.LogOut.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogOut.ForeColor = System.Drawing.Color.Black;
+            this.LogOut.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.LogOut.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
+            this.LogOut.HoverState.ForeColor = System.Drawing.Color.Black;
+            this.LogOut.HoverState.Parent = this.LogOut;
+            this.LogOut.Image = global::new_project.Properties.Resources.icons8_arrow_right_30;
+            this.LogOut.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.LogOut.ImageOffset = new System.Drawing.Point(25, 0);
+            this.LogOut.ImageSize = new System.Drawing.Size(22, 22);
+            this.LogOut.Location = new System.Drawing.Point(-21, 250);
+            this.LogOut.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.LogOut.Name = "LogOut";
+            this.LogOut.ShadowDecoration.BorderRadius = 26;
+            this.LogOut.ShadowDecoration.Color = System.Drawing.Color.Transparent;
+            this.LogOut.ShadowDecoration.Enabled = true;
+            this.LogOut.ShadowDecoration.Parent = this.LogOut;
+            this.LogOut.Size = new System.Drawing.Size(211, 55);
+            this.LogOut.TabIndex = 3;
+            this.LogOut.Text = "Log Out";
+            this.LogOut.TextOffset = new System.Drawing.Point(20, 0);
+            this.LogOut.Click += new System.EventHandler(this.guna2Button4_Click);
             // 
             // Reminder
             // 
@@ -414,7 +416,7 @@ namespace new_project
         private Guna.UI2.WinForms.Guna2TextBox SearchBox;
         private Guna.UI2.WinForms.Guna2Panel User_container;
         private Guna.UI2.WinForms.Guna2Button Note;
-        private Guna.UI2.WinForms.Guna2Button TrashCan;
+        private Guna.UI2.WinForms.Guna2Button LogOut;
         private Guna.UI2.WinForms.Guna2Button Reminder;
         //private Guna.UI2.WinForms.Guna2Button row1_left;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;

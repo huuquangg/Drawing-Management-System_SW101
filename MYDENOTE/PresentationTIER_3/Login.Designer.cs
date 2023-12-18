@@ -509,6 +509,7 @@ namespace GUI
             this.Close_boxbtn.ShadowDecoration.Parent = this.Close_boxbtn;
             this.Close_boxbtn.Size = new System.Drawing.Size(66, 45);
             this.Close_boxbtn.TabIndex = 3;
+            this.Close_boxbtn.Click += new System.EventHandler(this.Close_boxbtn_Click);
             // 
             // guna2DragControl1
             // 
@@ -556,8 +557,7 @@ namespace GUI
             // 
             // Container_Form
             // 
-            //this.Container_Form.BackColor = System.Drawing.Color.Transparent;
-            this.Container_Form.BackColor = Color.FromArgb(150,Color.Black);
+            this.Container_Form.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.Container_Form.Controls.Add(this.FillingFormLOGIN_container);
             this.Container_Form.Controls.Add(this.FormContainerSIGNUP);
             this.Container_Form.Controls.Add(this.BrandLogo_Container);

@@ -106,14 +106,15 @@ namespace GUI
 
         }
 
-        private void Container_all_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
 
         private void Container_Form_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void Close_boxbtn_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

@@ -28,14 +28,25 @@ namespace MyPaint
             SavedFilePath = "";
         }
 
-
-        // method to Open MyPaint with selected blueprint path
-        public void OpenMyPaint(string path)
+        public void LoadMyPaintwithThePATH(string path)
         {
-            MessageBox.Show(path);
-            bitmap = (Bitmap)Bitmap.FromFile(path);
-            Draw_area.Image = bitmap;
+            try
+            {
+                if (System.IO.File.Exists(path))
+                {
+                    Draw_area.Image = Image.FromFile(path);
+                }
+                else
+                {
+                    MessageBox.Show("File not found: " + path, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error loading file: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
+
 
         private void MyPaint_Load(object sender, EventArgs e)
         {
@@ -57,6 +68,10 @@ namespace MyPaint
 
         private void OpenToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            // disconnect the image from its file so the file can be overwritten.
+            Draw_area.Image = null;
+            Draw_area.Image = bitmap;
+
             OpenFileDialog openFileDialog = new OpenFileDialog
             {
                 AddExtension = true,
@@ -65,7 +80,7 @@ namespace MyPaint
                 Title = "Select file to be upload",
                 Filter = "JPG (.*jpg *jpeg)|*.jpg;*.jpeg|PNG (*.png)|*.png"
             };
-
+            // disconnect the image from its file so the file can be overwritten.
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 bitmap = (Bitmap)Bitmap.FromFile(openFileDialog.FileName);
