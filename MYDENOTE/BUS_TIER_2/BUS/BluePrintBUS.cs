@@ -18,12 +18,9 @@ namespace BUS
             {
                 throw new Exception("Please fill in all the fields!");
             }
-            else
+            if (objBluePrintDAO.checkBluePrintName(objBluePrint))
             {
-                if (objBluePrintDAO.checkBluePrintName(objBluePrint))
-                {
-                    throw new Exception("Blueprint name already exists!");
-                }
+                throw new Exception("Blueprint name already exists!");
             }
             objBluePrintDAO.AddBluePrint(objBluePrint);
         }
@@ -33,36 +30,24 @@ namespace BUS
             return objBluePrintDAO.GetListBluePrint(userId);
         }
 
-        public void DeleteBluePrint(int bluePrintId)
+        public string GetBluePrintName(BluePrint objBP)
         {
-            objBluePrintDAO.DeleteBluePrint(bluePrintId);
+            return objBluePrintDAO.getBluePrintName(objBP);
         }
 
- 
-
-        public int GetBluePrintId(BluePrint objBluePrint)
+        public string GetBluePrintPath(BluePrint objBP)
         {
-            return objBluePrintDAO.GetBluePrintId(objBluePrint);
+            return objBluePrintDAO.getBluePrintPath(objBP);
         }
 
-        public string GetBluePrintName(int bluePrintId)
+        public string GetBluePrintPATHByName(string name, int currUserID)
         {
-            return objBluePrintDAO.GetBluePrintName(bluePrintId);
+            return objBluePrintDAO.getBluePrintPATHByName(name, currUserID);
         }
 
-        public string GetPath(int bluePrintId)
+        public void DeleteBluePrint(string BPname, int currUserID)
         {
-            return objBluePrintDAO.GetPath(bluePrintId);
-        }
-
-        public void UpdateDateCreatedBluePrint(int bluePrintId, DateTime dateCreatedBluePrint)
-        {
-            objBluePrintDAO.UpdateDateCreatedBluePrint(bluePrintId, dateCreatedBluePrint);
-        }
-
-        public DateTime GetDateCreatedBluePrint(int bluePrintId)
-        {
-            return objBluePrintDAO.GetDateCreatedBluePrint(bluePrintId);
+            objBluePrintDAO.DeleteBluePrint(BPname, currUserID);
         }
     }
 }

@@ -686,7 +686,6 @@ namespace GUI
         private Guna.UI2.WinForms.Guna2TextBox Password_signup_txt;
         private Guna.UI2.WinForms.Guna2GradientButton CreateAcc_btn;
         private Guna.UI2.WinForms.Guna2ToggleSwitch RememberMe_ToggleSwitch;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label AreadyHaveAnAcc_txt;
         private Guna.UI2.WinForms.Guna2Button SignUP_btn;
         private Guna.UI2.WinForms.Guna2Panel TopNavigation;

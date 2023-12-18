@@ -234,5 +234,8 @@
   <ItemGroup>
     <None Include="Resources\kitty.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\recycle-bin.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

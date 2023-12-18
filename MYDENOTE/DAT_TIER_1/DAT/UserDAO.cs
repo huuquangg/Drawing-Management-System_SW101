@@ -44,11 +44,7 @@ namespace DAT
 
                 if (ConnectoR.State != System.Data.ConnectionState.Open) { ConnectoR.Open(); }
                 OleDbCommand command = new OleDbCommand("SELECT * FROM userACCOUNT WHERE Username = @username", ConnectoR);
-
-                //command.Parameters.AddWithValue("@username", username);
-                //command.Parameters.AddWithValue("@password", password);
                 command.Parameters.Add("@username", OleDbType.VarChar).Value = objUser.Username;
-                //command.Parameters.Add("@password", OleDbType.VarChar).Value = objUser.Password;
                 OleDbDataReader reader = command.ExecuteReader();
                 if (reader.Read())
                 {
@@ -64,7 +60,6 @@ namespace DAT
                     return true;
                 }
                 ConnectoR.Close();
-
             }
             catch (Exception e)
             {
@@ -101,9 +96,7 @@ namespace DAT
                 command.Parameters.Add("@Id", OleDbType.Integer).Value = getNumberofUsers() + 1; // auto increment (auto number)
                 command.Parameters.Add("@username", OleDbType.VarChar).Value = addedUSER.Username;
                 command.Parameters.Add("@password", OleDbType.VarChar).Value = addedUSER.Password;
-
                 command.ExecuteNonQuery();
-
                 ConnectoR.Close();
             }
             catch (Exception e)
@@ -112,6 +105,29 @@ namespace DAT
                 Console.WriteLine(e.Message);
                 throw;
             }
+        }
+
+        public string getUsername(User objUSER)
+        {
+            string result = "";
+            try
+            {
+                if (ConnectoR.State != System.Data.ConnectionState.Open) { ConnectoR.Open(); }
+                OleDbCommand command = new OleDbCommand("SELECT * FROM userACCOUNT WHERE Username = @username", ConnectoR);
+                command.Parameters.Add("@username", OleDbType.VarChar).Value = objUSER.Username;
+                OleDbDataReader reader = command.ExecuteReader();
+                if (reader.Read())
+                {
+                    result = reader["Username"].ToString();
+                }
+                ConnectoR.Close();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                throw;
+            }
+            return result;
         }
     }
 }

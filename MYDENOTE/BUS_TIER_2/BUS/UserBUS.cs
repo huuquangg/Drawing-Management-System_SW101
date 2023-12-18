@@ -12,7 +12,6 @@ namespace BUS
     {
         UserDAO objUserDAO = new UserDAO();
 
-
         public bool checkLogin(User objUser)
         {
             return objUserDAO.checkLogin(objUser);
@@ -37,6 +36,11 @@ namespace BUS
         public int getUserId(User objUSER)
         {
             return objUserDAO.getUserId(objUSER);
+        }
+
+        public string getUsername(User objUSER)
+        {
+            return objUserDAO.getUsername(objUSER);
         }
        
     }

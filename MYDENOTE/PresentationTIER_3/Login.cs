@@ -20,7 +20,6 @@ namespace GUI
         public static User currUser;
         UserBUS objUserBUS = new UserBUS();
 
-
         public Login()
         {
             InitializeComponent();

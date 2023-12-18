@@ -28,6 +28,15 @@ namespace MyPaint
             SavedFilePath = "";
         }
 
+
+        // method to Open MyPaint with selected blueprint path
+        public void OpenMyPaint(string path)
+        {
+            MessageBox.Show(path);
+            bitmap = (Bitmap)Bitmap.FromFile(path);
+            Draw_area.Image = bitmap;
+        }
+
         private void MyPaint_Load(object sender, EventArgs e)
         {
             Graphics g = Graphics.FromImage(bitmap);
