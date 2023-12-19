@@ -12,16 +12,17 @@ namespace DAT
     {
         public List<BluePrint> GetListBluePrint(int userId)
         {
-            List<DTO.BluePrint> list = new List<DTO.BluePrint>();
+            List<BluePrint> list = new List<BluePrint>(); // create a list of blueprints
             try
             {
                 if (ConnectoR.State != System.Data.ConnectionState.Open) { ConnectoR.Open(); }
                 OleDbCommand command = new OleDbCommand("SELECT * FROM BluePrint WHERE userId = @userId", ConnectoR);
                 command.Parameters.Add("@userId", OleDbType.Integer).Value = userId;
                 OleDbDataReader reader = command.ExecuteReader();
-                while (reader.Read())
+
+                while (reader.Read()) // read all the BluePrints from Database
                 {
-                    DTO.BluePrint bluePrint = new DTO.BluePrint();
+                    BluePrint bluePrint = new BluePrint();
                     bluePrint.bluePrintId = (int)reader["bluePrintId"];
                     bluePrint.bluePrintName = reader["bluePrintName"].ToString();
                     bluePrint.Path = reader["Path"].ToString();
@@ -38,28 +39,7 @@ namespace DAT
             return list;
         }
 
-        public int countNumberCurrentOfBluePrint()
-        {
-            int result = 0;
-            try
-            {
-                if (ConnectoR.State != System.Data.ConnectionState.Open) { ConnectoR.Open(); }
-                OleDbCommand command = new OleDbCommand("SELECT COUNT(*) FROM BluePrint", ConnectoR);
-                OleDbDataReader reader = command.ExecuteReader();
-                if (reader.Read())
-                {
-                    result = (int)reader[0];
-                }
-                ConnectoR.Close();
-                return result;
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-                throw;
-            }
-        }
-        public void AddBluePrint(BluePrint objBluePrint)
+        public void AddBluePrint(BluePrint objBluePrint) // add a blueprint to the database
         {
             try
             {
@@ -82,7 +62,7 @@ namespace DAT
 
         public void DeleteBluePrint(string bluePrintName, int UserId)
         {
-            try
+            try // delete all the blueprints with the same name and the same user id
             {
                 if (ConnectoR.State != System.Data.ConnectionState.Open) { ConnectoR.Open(); }
                 OleDbCommand command = new OleDbCommand("DELETE FROM BluePrint WHERE bluePrintName = @bluePrintName AND userId = @userId", ConnectoR);
@@ -96,10 +76,9 @@ namespace DAT
                 Console.WriteLine(e.Message);
                 throw;
             }
-
         }
 
-        public bool checkBluePrintName(BluePrint objBluePrint)
+        public bool checkBluePrintName(BluePrint objBluePrint) // check if the blueprint name already exists
         {
             bool result = false;
             try
@@ -123,7 +102,7 @@ namespace DAT
             return result;
         }
 
-        public string getBluePrintName(BluePrint objBluePrint)
+        public string getBluePrintName(BluePrint objBluePrint) // Get Blue Print Name of a blueprint Object
         {
             string result = "";
             try
@@ -146,7 +125,7 @@ namespace DAT
             return result;
         }
 
-        public string getBluePrintPath(BluePrint objBluePrint)
+        public string getBluePrintPath(BluePrint objBluePrint) // Get Blue Print Path of a blueprint Object
         {
             string result = "";
             try
@@ -169,7 +148,7 @@ namespace DAT
             return result;
         }
 
-        public string getBluePrintPATHByName(string name, int currUserID)
+        public string getBluePrintPATHByName(string name, int currUserID) // Get Blue Print Path of a current user 
         {
             string result = "";
             try
@@ -191,37 +170,6 @@ namespace DAT
                 throw;
             }
             return result;
-        }
-
-
-        public List<BluePrint> SearchBluePrint(string bluePrintName, int userId)
-        {
-            try
-            {
-                List<BluePrint> list = new List<BluePrint>();
-                if (ConnectoR.State != System.Data.ConnectionState.Open) { ConnectoR.Open(); }
-                OleDbCommand command = new OleDbCommand("SELECT * FROM BluePrint WHERE bluePrintName LIKE @bluePrintName AND userId = @userId", ConnectoR);
-                command.Parameters.Add("@bluePrintName", OleDbType.VarChar).Value = "%" + bluePrintName + "%";
-                command.Parameters.Add("@userId", OleDbType.Integer).Value = userId;
-                OleDbDataReader reader = command.ExecuteReader();
-                while (reader.Read())
-                {
-                    BluePrint bluePrint = new BluePrint();
-                    bluePrint.bluePrintId = (int)reader["bluePrintId"];
-                    bluePrint.bluePrintName = reader["bluePrintName"].ToString();
-                    bluePrint.Path = reader["Path"].ToString();
-                    bluePrint.dateCreatedBluePrint = (DateTime)reader["dateCreatedBluePrint"];
-                    bluePrint.userId = (int)reader["userId"];
-                    list.Add(bluePrint);
-                }
-                ConnectoR.Close();
-                return list;
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-                throw;
-            }
         }
 
 

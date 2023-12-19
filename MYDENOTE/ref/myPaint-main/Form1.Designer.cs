@@ -86,7 +86,7 @@
             this.MenuOption.Location = new System.Drawing.Point(0, 0);
             this.MenuOption.Name = "MenuOption";
             this.MenuOption.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.MenuOption.Size = new System.Drawing.Size(1179, 30);
+            this.MenuOption.Size = new System.Drawing.Size(1179, 28);
             this.MenuOption.TabIndex = 3;
             this.MenuOption.Text = "menuStrip1";
             // 
@@ -99,7 +99,7 @@
             this.toolStripSeparator1,
             this.exitToolStripMenuItem});
             this.File.Name = "File";
-            this.File.Size = new System.Drawing.Size(46, 26);
+            this.File.Size = new System.Drawing.Size(46, 24);
             this.File.Text = "File";
             // 
             // newProjectToolStripMenuItem
@@ -141,7 +141,7 @@
             // helpToolStripMenuItem
             // 
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(177, 26);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(177, 24);
             this.helpToolStripMenuItem.Text = "Instructions and Credits";
             this.helpToolStripMenuItem.Click += new System.EventHandler(this.HelpToolStripMenuItem_Click);
             // 
@@ -171,10 +171,10 @@
             this.DrawTool.Controls.Add(this.btnFreeDraw);
             this.DrawTool.Controls.Add(this.btnFlip180H);
             this.DrawTool.Dock = System.Windows.Forms.DockStyle.Left;
-            this.DrawTool.Location = new System.Drawing.Point(0, 30);
+            this.DrawTool.Location = new System.Drawing.Point(0, 28);
             this.DrawTool.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.DrawTool.Name = "DrawTool";
-            this.DrawTool.Size = new System.Drawing.Size(186, 672);
+            this.DrawTool.Size = new System.Drawing.Size(186, 674);
             this.DrawTool.TabIndex = 4;
             // 
             // label9

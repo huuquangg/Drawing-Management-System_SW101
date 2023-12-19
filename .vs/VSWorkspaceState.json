@@ -2,12 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\MYDENOTE",
-    "\\MYDENOTE\\DAT_TIER_1",
     "\\MYDENOTE\\DAT_TIER_1\\DAT",
     "\\MYDENOTE\\PresentationTIER_3",
-    "\\MYDENOTE\\ref",
     "\\MYDENOTE\\ref\\myPaint-main"
   ],
-  "SelectedNode": "\\MYDENOTE\\ref\\myPaint-main\\Form1.cs",
+  "SelectedNode": "\\MYDENOTE\\PresentationTIER_3\\HomeScreen.cs",
   "PreviewInSolutionExplorer": false
 }

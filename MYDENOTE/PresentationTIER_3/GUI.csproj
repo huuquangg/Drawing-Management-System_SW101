@@ -235,6 +235,11 @@
     <None Include="Resources\kitty.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\remove24px.png" />
+    <None Include="Resources\remove1.png" />
+    <None Include="Resources\remove.png" />
+    <None Include="Resources\lion.png" />
+    <None Include="Resources\delete.png" />
     <Content Include="Resources\recycle-bin.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

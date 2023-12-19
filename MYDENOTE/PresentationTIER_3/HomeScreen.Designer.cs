@@ -40,22 +40,21 @@ namespace new_project
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.Container_workspace = new System.Windows.Forms.TableLayoutPanel();
             this.Logo_panel = new Guna.UI2.WinForms.Guna2Panel();
-            this.Icon_img = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.Brand_ = new System.Windows.Forms.Label();
             this.User_container = new Guna.UI2.WinForms.Guna2Panel();
             this.Username = new System.Windows.Forms.Label();
-            this.UserAvatar = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.LogOut = new Guna.UI2.WinForms.Guna2Button();
-            this.Reminder = new Guna.UI2.WinForms.Guna2Button();
-            this.Note = new Guna.UI2.WinForms.Guna2Button();
-            this.SearchBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.FlowBPItem = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.Icon_img = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.UserAvatar = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.LogOut = new Guna.UI2.WinForms.Guna2Button();
+            this.Note = new Guna.UI2.WinForms.Guna2Button();
+            this.SearchBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.TopNavigationHomescreen.SuspendLayout();
             this.Container_workspace.SuspendLayout();
             this.Logo_panel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Icon_img)).BeginInit();
             this.User_container.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Icon_img)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.UserAvatar)).BeginInit();
             this.SuspendLayout();
             // 
@@ -100,6 +99,7 @@ namespace new_project
             this.Zoom_btn.ShadowDecoration.Parent = this.Zoom_btn;
             this.Zoom_btn.Size = new System.Drawing.Size(67, 46);
             this.Zoom_btn.TabIndex = 2;
+            this.Zoom_btn.Click += new System.EventHandler(this.Zoom_btn_Click);
             // 
             // Close_btn
             // 
@@ -124,7 +124,7 @@ namespace new_project
             this.Container_workspace.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Container_workspace.BackColor = System.Drawing.Color.LawnGreen;
+            this.Container_workspace.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(246)))), ((int)(((byte)(240)))));
             this.Container_workspace.ColumnCount = 2;
             this.Container_workspace.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 21F));
             this.Container_workspace.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 79F));
@@ -144,7 +144,7 @@ namespace new_project
             // 
             // Logo_panel
             // 
-            this.Logo_panel.BackColor = System.Drawing.Color.Salmon;
+            this.Logo_panel.BackColor = System.Drawing.Color.Transparent;
             this.Logo_panel.Controls.Add(this.Icon_img);
             this.Logo_panel.Controls.Add(this.Brand_);
             this.Logo_panel.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -154,20 +154,6 @@ namespace new_project
             this.Logo_panel.ShadowDecoration.Parent = this.Logo_panel;
             this.Logo_panel.Size = new System.Drawing.Size(190, 74);
             this.Logo_panel.TabIndex = 3;
-            // 
-            // Icon_img
-            // 
-            this.Icon_img.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Icon_img.Image = global::new_project.Properties.Resources.color_palette;
-            this.Icon_img.Location = new System.Drawing.Point(3, 13);
-            this.Icon_img.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Icon_img.Name = "Icon_img";
-            this.Icon_img.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.Icon_img.ShadowDecoration.Parent = this.Icon_img;
-            this.Icon_img.Size = new System.Drawing.Size(45, 46);
-            this.Icon_img.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Icon_img.TabIndex = 0;
-            this.Icon_img.TabStop = false;
             // 
             // Brand_
             // 
@@ -183,11 +169,10 @@ namespace new_project
             // 
             // User_container
             // 
-            this.User_container.BackColor = System.Drawing.Color.LightPink;
+            this.User_container.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(215)))), ((int)(((byte)(187)))));
             this.User_container.Controls.Add(this.Username);
             this.User_container.Controls.Add(this.UserAvatar);
             this.User_container.Controls.Add(this.LogOut);
-            this.User_container.Controls.Add(this.Reminder);
             this.User_container.Controls.Add(this.Note);
             this.User_container.Dock = System.Windows.Forms.DockStyle.Fill;
             this.User_container.Location = new System.Drawing.Point(3, 80);
@@ -199,21 +184,47 @@ namespace new_project
             // 
             // Username
             // 
-            this.Username.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.Username.AutoSize = true;
-            this.Username.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Username.Location = new System.Drawing.Point(49, 84);
+            this.Username.Location = new System.Drawing.Point(0, 0);
             this.Username.Name = "Username";
-            this.Username.Size = new System.Drawing.Size(106, 28);
-            this.Username.TabIndex = 10;
-            this.Username.Text = "Username"; // hardcode while waiting for the above line to work
-            //this.Username.Text = objUserBUS_HomeScreen.getUsername(Login.currUser);
+            this.Username.Size = new System.Drawing.Size(100, 23);
+            this.Username.TabIndex = 0;
+            this.Username.Paint += new System.Windows.Forms.PaintEventHandler(this.Username_Paint);
+            // 
+            // FlowBPItem
+            // 
+            this.FlowBPItem.AutoSize = true;
+            this.FlowBPItem.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.FlowBPItem.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.FlowBPItem.Location = new System.Drawing.Point(199, 81);
+            this.FlowBPItem.Name = "FlowBPItem";
+            this.FlowBPItem.Padding = new System.Windows.Forms.Padding(50);
+            this.FlowBPItem.Size = new System.Drawing.Size(733, 473);
+            this.FlowBPItem.TabIndex = 14;
+            this.FlowBPItem.Paint += new System.Windows.Forms.PaintEventHandler(this.FlowBPItem_Paint);
+            // 
+            // guna2DragControl1
+            // 
+            this.guna2DragControl1.TargetControl = this.TopNavigationHomescreen;
+            // 
+            // Icon_img
+            // 
+            this.Icon_img.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Icon_img.Image = global::new_project.Properties.Resources.color_palette;
+            this.Icon_img.Location = new System.Drawing.Point(3, 13);
+            this.Icon_img.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Icon_img.Name = "Icon_img";
+            this.Icon_img.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.Icon_img.ShadowDecoration.Parent = this.Icon_img;
+            this.Icon_img.Size = new System.Drawing.Size(45, 46);
+            this.Icon_img.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Icon_img.TabIndex = 0;
+            this.Icon_img.TabStop = false;
             // 
             // UserAvatar
             // 
             this.UserAvatar.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.UserAvatar.Image = global::new_project.Properties.Resources.kitty;
-            this.UserAvatar.Location = new System.Drawing.Point(66, 25);
+            this.UserAvatar.Image = global::new_project.Properties.Resources.lion;
+            this.UserAvatar.Location = new System.Drawing.Point(69, 25);
             this.UserAvatar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.UserAvatar.Name = "UserAvatar";
             this.UserAvatar.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
@@ -228,71 +239,33 @@ namespace new_project
             this.LogOut.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.LogOut.Animated = true;
-            this.LogOut.AutoRoundedCorners = true;
             this.LogOut.BackColor = System.Drawing.Color.Transparent;
             this.LogOut.BorderColor = System.Drawing.Color.Transparent;
             this.LogOut.BorderRadius = 26;
-            this.LogOut.BorderThickness = 1;
             this.LogOut.CheckedState.Parent = this.LogOut;
+            this.LogOut.Cursor = System.Windows.Forms.Cursors.Hand;
             this.LogOut.CustomImages.Parent = this.LogOut;
-            this.LogOut.FillColor = System.Drawing.Color.Transparent;
+            this.LogOut.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(163)))), ((int)(((byte)(127)))));
             this.LogOut.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LogOut.ForeColor = System.Drawing.Color.Black;
             this.LogOut.HoverState.BorderColor = System.Drawing.Color.Transparent;
-            this.LogOut.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
             this.LogOut.HoverState.ForeColor = System.Drawing.Color.Black;
             this.LogOut.HoverState.Parent = this.LogOut;
             this.LogOut.Image = global::new_project.Properties.Resources.icons8_arrow_right_30;
             this.LogOut.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.LogOut.ImageOffset = new System.Drawing.Point(25, 0);
             this.LogOut.ImageSize = new System.Drawing.Size(22, 22);
-            this.LogOut.Location = new System.Drawing.Point(-21, 250);
+            this.LogOut.Location = new System.Drawing.Point(-23, 215);
             this.LogOut.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LogOut.Name = "LogOut";
-            this.LogOut.ShadowDecoration.BorderRadius = 26;
             this.LogOut.ShadowDecoration.Color = System.Drawing.Color.Transparent;
             this.LogOut.ShadowDecoration.Enabled = true;
             this.LogOut.ShadowDecoration.Parent = this.LogOut;
-            this.LogOut.Size = new System.Drawing.Size(211, 55);
+            this.LogOut.Size = new System.Drawing.Size(210, 55);
             this.LogOut.TabIndex = 3;
             this.LogOut.Text = "Log Out";
             this.LogOut.TextOffset = new System.Drawing.Point(20, 0);
-            this.LogOut.Click += new System.EventHandler(this.guna2Button4_Click);
-            // 
-            // Reminder
-            // 
-            this.Reminder.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Reminder.Animated = true;
-            this.Reminder.AutoRoundedCorners = true;
-            this.Reminder.BackColor = System.Drawing.Color.Transparent;
-            this.Reminder.BorderColor = System.Drawing.Color.Transparent;
-            this.Reminder.BorderRadius = 26;
-            this.Reminder.BorderThickness = 1;
-            this.Reminder.CheckedState.Parent = this.Reminder;
-            this.Reminder.CustomImages.Parent = this.Reminder;
-            this.Reminder.FillColor = System.Drawing.Color.Transparent;
-            this.Reminder.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Reminder.ForeColor = System.Drawing.Color.Black;
-            this.Reminder.HoverState.BorderColor = System.Drawing.Color.Transparent;
-            this.Reminder.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
-            this.Reminder.HoverState.ForeColor = System.Drawing.Color.Black;
-            this.Reminder.HoverState.Parent = this.Reminder;
-            this.Reminder.Image = global::new_project.Properties.Resources.icons8_bell_24;
-            this.Reminder.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.Reminder.ImageOffset = new System.Drawing.Point(25, 0);
-            this.Reminder.ImageSize = new System.Drawing.Size(22, 22);
-            this.Reminder.Location = new System.Drawing.Point(-21, 191);
-            this.Reminder.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Reminder.Name = "Reminder";
-            this.Reminder.ShadowDecoration.BorderRadius = 26;
-            this.Reminder.ShadowDecoration.Color = System.Drawing.Color.Transparent;
-            this.Reminder.ShadowDecoration.Enabled = true;
-            this.Reminder.ShadowDecoration.Parent = this.Reminder;
-            this.Reminder.Size = new System.Drawing.Size(211, 55);
-            this.Reminder.TabIndex = 8;
-            this.Reminder.Text = "Reminder";
-            this.Reminder.TextOffset = new System.Drawing.Point(20, 0);
+            this.LogOut.Click += new System.EventHandler(this.LogOut_Click);
             // 
             // Note
             // 
@@ -303,28 +276,27 @@ namespace new_project
             this.Note.BackColor = System.Drawing.Color.Transparent;
             this.Note.BorderColor = System.Drawing.Color.Transparent;
             this.Note.BorderRadius = 26;
-            this.Note.BorderThickness = 1;
             this.Note.CheckedState.Parent = this.Note;
+            this.Note.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Note.CustomImages.Parent = this.Note;
-            this.Note.FillColor = System.Drawing.Color.Transparent;
+            this.Note.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(163)))), ((int)(((byte)(127)))));
             this.Note.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Note.ForeColor = System.Drawing.Color.Black;
             this.Note.HoverState.BorderColor = System.Drawing.Color.Transparent;
-            this.Note.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(217)))));
             this.Note.HoverState.ForeColor = System.Drawing.Color.Black;
             this.Note.HoverState.Parent = this.Note;
             this.Note.Image = global::new_project.Properties.Resources.icons8_pencil_50;
             this.Note.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.Note.ImageOffset = new System.Drawing.Point(25, 0);
             this.Note.ImageSize = new System.Drawing.Size(22, 22);
-            this.Note.Location = new System.Drawing.Point(-22, 132);
+            this.Note.Location = new System.Drawing.Point(-23, 156);
             this.Note.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Note.Name = "Note";
             this.Note.ShadowDecoration.BorderRadius = 26;
             this.Note.ShadowDecoration.Color = System.Drawing.Color.Transparent;
             this.Note.ShadowDecoration.Enabled = true;
             this.Note.ShadowDecoration.Parent = this.Note;
-            this.Note.Size = new System.Drawing.Size(211, 55);
+            this.Note.Size = new System.Drawing.Size(213, 55);
             this.Note.TabIndex = 7;
             this.Note.Text = "Note";
             // 
@@ -333,7 +305,7 @@ namespace new_project
             this.SearchBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.SearchBox.Animated = true;
             this.SearchBox.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.SearchBox.BorderColor = System.Drawing.Color.LightCyan;
+            this.SearchBox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(146)))), ((int)(((byte)(106)))));
             this.SearchBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.SearchBox.DefaultText = "";
             this.SearchBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -359,23 +331,6 @@ namespace new_project
             this.SearchBox.ShadowDecoration.Parent = this.SearchBox;
             this.SearchBox.Size = new System.Drawing.Size(499, 50);
             this.SearchBox.TabIndex = 6;
-            this.SearchBox.TextChanged += new System.EventHandler(this.guna2TextBox1_TextChanged);
-            // 
-            // FlowBPItem
-            // 
-            this.FlowBPItem.AutoSize = true;
-            this.FlowBPItem.BackColor = System.Drawing.Color.Silver;
-            this.FlowBPItem.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.FlowBPItem.Location = new System.Drawing.Point(199, 81);
-            this.FlowBPItem.Name = "FlowBPItem";
-            this.FlowBPItem.Padding = new System.Windows.Forms.Padding(50);
-            this.FlowBPItem.Size = new System.Drawing.Size(733, 473);
-            this.FlowBPItem.TabIndex = 14;
-            this.FlowBPItem.Paint += new System.Windows.Forms.PaintEventHandler(this.FlowBPItem_Paint);
-            // 
-            // guna2DragControl1
-            // 
-            this.guna2DragControl1.TargetControl = this.TopNavigationHomescreen;
             // 
             // HomeScreen
             // 
@@ -394,9 +349,8 @@ namespace new_project
             this.Container_workspace.PerformLayout();
             this.Logo_panel.ResumeLayout(false);
             this.Logo_panel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Icon_img)).EndInit();
             this.User_container.ResumeLayout(false);
-            this.User_container.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Icon_img)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.UserAvatar)).EndInit();
             this.ResumeLayout(false);
 
@@ -417,14 +371,9 @@ namespace new_project
         private Guna.UI2.WinForms.Guna2Panel User_container;
         private Guna.UI2.WinForms.Guna2Button Note;
         private Guna.UI2.WinForms.Guna2Button LogOut;
-        private Guna.UI2.WinForms.Guna2Button Reminder;
-        //private Guna.UI2.WinForms.Guna2Button row1_left;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
         private Guna.UI2.WinForms.Guna2CirclePictureBox UserAvatar;
         private System.Windows.Forms.Label Username;
-        //private Guna.UI2.WinForms.Guna2Button newPaint;
-        //private System.Windows.Forms.Label row1_mid_name;
         private System.Windows.Forms.FlowLayoutPanel FlowBPItem;
-        //private System.Windows.Forms.Panel BluePrintItemContain;
     }
 }
