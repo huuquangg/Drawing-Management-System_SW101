@@ -12,7 +12,6 @@ namespace DAT
     public class UserDAO : DBConnection
     {
         public UserDAO() : base() { }
-
         public int getUserId(User objUser)
         {
             int result = 0;

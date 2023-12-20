@@ -143,3 +143,4 @@ E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3
 E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.csproj.CopyComplete
 E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\obj\Debug\new_project.exe
 E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\obj\Debug\new_project.pdb
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\BUS.dll.config
