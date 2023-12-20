@@ -91,3 +91,27 @@ E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\BUS_TIER_2\BUS\obj
 E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\BUS_TIER_2\BUS\obj\Debug\BUS.dll
 E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\BUS_TIER_2\BUS\obj\Debug\BUS.pdb
 E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\BUS.dll.config
+D:\CNPM\pa\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\dbUSER.mdb
+D:\CNPM\pa\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\BUS.dll.config
+D:\CNPM\pa\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\BUS.dll
+D:\CNPM\pa\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\BUS.pdb
+D:\CNPM\pa\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\BCrypt.Net-Next.dll
+D:\CNPM\pa\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\DAT.dll
+D:\CNPM\pa\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\DTO.dll
+D:\CNPM\pa\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\System.Buffers.dll
+D:\CNPM\pa\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\System.Memory.dll
+D:\CNPM\pa\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\System.Numerics.Vectors.dll
+D:\CNPM\pa\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\CNPM\pa\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\DAT.pdb
+D:\CNPM\pa\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\DAT.dll.config
+D:\CNPM\pa\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\DTO.pdb
+D:\CNPM\pa\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\BCrypt.Net-Next.xml
+D:\CNPM\pa\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\System.Buffers.xml
+D:\CNPM\pa\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\System.Memory.xml
+D:\CNPM\pa\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\System.Numerics.Vectors.xml
+D:\CNPM\pa\MYDENOTE\BUS_TIER_2\BUS\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\CNPM\pa\MYDENOTE\BUS_TIER_2\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+D:\CNPM\pa\MYDENOTE\BUS_TIER_2\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\CNPM\pa\MYDENOTE\BUS_TIER_2\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\CNPM\pa\MYDENOTE\BUS_TIER_2\BUS\obj\Debug\BUS.dll
+D:\CNPM\pa\MYDENOTE\BUS_TIER_2\BUS\obj\Debug\BUS.pdb

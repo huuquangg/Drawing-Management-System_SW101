@@ -40,21 +40,21 @@ namespace new_project
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.Container_workspace = new System.Windows.Forms.TableLayoutPanel();
             this.Logo_panel = new Guna.UI2.WinForms.Guna2Panel();
+            this.Icon_img = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.Brand_ = new System.Windows.Forms.Label();
             this.User_container = new Guna.UI2.WinForms.Guna2Panel();
             this.Username = new System.Windows.Forms.Label();
-            this.FlowBPItem = new System.Windows.Forms.FlowLayoutPanel();
-            this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.Icon_img = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.UserAvatar = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.LogOut = new Guna.UI2.WinForms.Guna2Button();
             this.Note = new Guna.UI2.WinForms.Guna2Button();
             this.SearchBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.FlowBPItem = new System.Windows.Forms.FlowLayoutPanel();
+            this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.TopNavigationHomescreen.SuspendLayout();
             this.Container_workspace.SuspendLayout();
             this.Logo_panel.SuspendLayout();
-            this.User_container.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Icon_img)).BeginInit();
+            this.User_container.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.UserAvatar)).BeginInit();
             this.SuspendLayout();
             // 
@@ -155,6 +155,20 @@ namespace new_project
             this.Logo_panel.Size = new System.Drawing.Size(190, 74);
             this.Logo_panel.TabIndex = 3;
             // 
+            // Icon_img
+            // 
+            this.Icon_img.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Icon_img.Image = global::new_project.Properties.Resources.color_palette;
+            this.Icon_img.Location = new System.Drawing.Point(3, 13);
+            this.Icon_img.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Icon_img.Name = "Icon_img";
+            this.Icon_img.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.Icon_img.ShadowDecoration.Parent = this.Icon_img;
+            this.Icon_img.Size = new System.Drawing.Size(45, 46);
+            this.Icon_img.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Icon_img.TabIndex = 0;
+            this.Icon_img.TabStop = false;
+            // 
             // Brand_
             // 
             this.Brand_.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -189,36 +203,6 @@ namespace new_project
             this.Username.Size = new System.Drawing.Size(100, 23);
             this.Username.TabIndex = 0;
             this.Username.Paint += new System.Windows.Forms.PaintEventHandler(this.Username_Paint);
-            // 
-            // FlowBPItem
-            // 
-            this.FlowBPItem.AutoSize = true;
-            this.FlowBPItem.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.FlowBPItem.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.FlowBPItem.Location = new System.Drawing.Point(199, 81);
-            this.FlowBPItem.Name = "FlowBPItem";
-            this.FlowBPItem.Padding = new System.Windows.Forms.Padding(50);
-            this.FlowBPItem.Size = new System.Drawing.Size(733, 473);
-            this.FlowBPItem.TabIndex = 14;
-            this.FlowBPItem.Paint += new System.Windows.Forms.PaintEventHandler(this.FlowBPItem_Paint);
-            // 
-            // guna2DragControl1
-            // 
-            this.guna2DragControl1.TargetControl = this.TopNavigationHomescreen;
-            // 
-            // Icon_img
-            // 
-            this.Icon_img.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Icon_img.Image = global::new_project.Properties.Resources.color_palette;
-            this.Icon_img.Location = new System.Drawing.Point(3, 13);
-            this.Icon_img.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Icon_img.Name = "Icon_img";
-            this.Icon_img.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.Icon_img.ShadowDecoration.Parent = this.Icon_img;
-            this.Icon_img.Size = new System.Drawing.Size(45, 46);
-            this.Icon_img.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Icon_img.TabIndex = 0;
-            this.Icon_img.TabStop = false;
             // 
             // UserAvatar
             // 
@@ -299,6 +283,7 @@ namespace new_project
             this.Note.Size = new System.Drawing.Size(213, 55);
             this.Note.TabIndex = 7;
             this.Note.Text = "Note";
+            this.Note.TextOffset = new System.Drawing.Point(10, 0);
             // 
             // SearchBox
             // 
@@ -332,6 +317,22 @@ namespace new_project
             this.SearchBox.Size = new System.Drawing.Size(499, 50);
             this.SearchBox.TabIndex = 6;
             // 
+            // FlowBPItem
+            // 
+            this.FlowBPItem.AutoSize = true;
+            this.FlowBPItem.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.FlowBPItem.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.FlowBPItem.Location = new System.Drawing.Point(199, 81);
+            this.FlowBPItem.Name = "FlowBPItem";
+            this.FlowBPItem.Padding = new System.Windows.Forms.Padding(50);
+            this.FlowBPItem.Size = new System.Drawing.Size(733, 473);
+            this.FlowBPItem.TabIndex = 14;
+            this.FlowBPItem.Paint += new System.Windows.Forms.PaintEventHandler(this.FlowBPItem_Paint);
+            // 
+            // guna2DragControl1
+            // 
+            this.guna2DragControl1.TargetControl = this.TopNavigationHomescreen;
+            // 
             // HomeScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -349,8 +350,8 @@ namespace new_project
             this.Container_workspace.PerformLayout();
             this.Logo_panel.ResumeLayout(false);
             this.Logo_panel.PerformLayout();
-            this.User_container.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Icon_img)).EndInit();
+            this.User_container.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.UserAvatar)).EndInit();
             this.ResumeLayout(false);
 

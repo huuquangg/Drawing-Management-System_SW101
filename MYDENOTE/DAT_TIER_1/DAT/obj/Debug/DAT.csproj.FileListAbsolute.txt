@@ -82,3 +82,24 @@ E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\DAT_TIER_1\DAT\obj
 E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.csproj.CopyComplete
 E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.dll
 E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.pdb
+D:\CNPM\pa\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\dbUSER.mdb
+D:\CNPM\pa\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\DAT.dll.config
+D:\CNPM\pa\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\DAT.dll
+D:\CNPM\pa\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\DAT.pdb
+D:\CNPM\pa\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\BCrypt.Net-Next.dll
+D:\CNPM\pa\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\DTO.dll
+D:\CNPM\pa\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\System.Buffers.dll
+D:\CNPM\pa\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\System.Memory.dll
+D:\CNPM\pa\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\System.Numerics.Vectors.dll
+D:\CNPM\pa\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\CNPM\pa\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\DTO.pdb
+D:\CNPM\pa\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\BCrypt.Net-Next.xml
+D:\CNPM\pa\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\System.Buffers.xml
+D:\CNPM\pa\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\System.Memory.xml
+D:\CNPM\pa\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\System.Numerics.Vectors.xml
+D:\CNPM\pa\MYDENOTE\DAT_TIER_1\DAT\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\CNPM\pa\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.csproj.AssemblyReference.cache
+D:\CNPM\pa\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.csproj.CoreCompileInputs.cache
+D:\CNPM\pa\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.csproj.CopyComplete
+D:\CNPM\pa\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.dll
+D:\CNPM\pa\MYDENOTE\DAT_TIER_1\DAT\obj\Debug\DAT.pdb

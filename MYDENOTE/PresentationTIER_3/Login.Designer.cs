@@ -85,7 +85,7 @@ namespace GUI
             this.LOGIN_FILLFORMNAME.BackColor = System.Drawing.Color.Transparent;
             this.LogSignTransition.SetDecoration(this.LOGIN_FILLFORMNAME, Guna.UI2.AnimatorNS.DecorationType.None);
             this.LOGIN_FILLFORMNAME.Font = new System.Drawing.Font("Comic Sans MS", 19.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LOGIN_FILLFORMNAME.ForeColor = System.Drawing.Color.Black;
+            this.LOGIN_FILLFORMNAME.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(167)))), ((int)(((byte)(255)))));
             this.LOGIN_FILLFORMNAME.Location = new System.Drawing.Point(161, 19);
             this.LOGIN_FILLFORMNAME.Name = "LOGIN_FILLFORMNAME";
             this.LOGIN_FILLFORMNAME.Size = new System.Drawing.Size(129, 45);
