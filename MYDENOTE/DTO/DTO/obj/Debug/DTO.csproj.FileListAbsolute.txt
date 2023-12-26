@@ -1,0 +1,18 @@
+E:\University\V Software 101\test\SW101_\MYDENOTE\DTO\DTO\bin\Debug\DTO.dll
+E:\University\V Software 101\test\SW101_\MYDENOTE\DTO\DTO\bin\Debug\DTO.pdb
+E:\University\V Software 101\test\SW101_\MYDENOTE\DTO\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+E:\University\V Software 101\test\SW101_\MYDENOTE\DTO\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+E:\University\V Software 101\test\SW101_\MYDENOTE\DTO\DTO\obj\Debug\DTO.dll
+E:\University\V Software 101\test\SW101_\MYDENOTE\DTO\DTO\obj\Debug\DTO.pdb
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\DTO\DTO\bin\Debug\DTO.dll
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\DTO\DTO\bin\Debug\DTO.pdb
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\DTO\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\DTO\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\DTO\DTO\obj\Debug\DTO.dll
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\DTO\DTO\obj\Debug\DTO.pdb
+D:\CNPM\pa\MYDENOTE\DTO\DTO\bin\Debug\DTO.dll
+D:\CNPM\pa\MYDENOTE\DTO\DTO\bin\Debug\DTO.pdb
+D:\CNPM\pa\MYDENOTE\DTO\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\CNPM\pa\MYDENOTE\DTO\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\CNPM\pa\MYDENOTE\DTO\DTO\obj\Debug\DTO.dll
+D:\CNPM\pa\MYDENOTE\DTO\DTO\obj\Debug\DTO.pdb

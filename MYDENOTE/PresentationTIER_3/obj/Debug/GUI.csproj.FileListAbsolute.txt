@@ -1,0 +1,182 @@
+C:\Users\ASUS\Source\Repos\SW101_\new_project\new_project\new_project\obj\Debug\GUI.csproj.AssemblyReference.cache
+C:\Users\ASUS\Source\Repos\SW101_\new_project\new_project\new_project\obj\Debug\GUI.Login.resources
+C:\Users\ASUS\Source\Repos\SW101_\new_project\new_project\new_project\obj\Debug\new_project.Properties.Resources.resources
+C:\Users\ASUS\Source\Repos\SW101_\new_project\new_project\new_project\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\ASUS\Source\Repos\SW101_\new_project\new_project\new_project\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Source\Repos\SW101_\new_project\new_project\new_project\obj\Debug\new_project.exe
+C:\Users\ASUS\Source\Repos\SW101_\new_project\new_project\new_project\obj\Debug\new_project.pdb
+E:\University\V Software 101\myNotePaint\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\new_project.exe.config
+E:\University\V Software 101\myNotePaint\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\new_project.exe
+E:\University\V Software 101\myNotePaint\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\new_project.pdb
+E:\University\V Software 101\myNotePaint\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\BUS.dll
+E:\University\V Software 101\myNotePaint\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\BUS.pdb
+E:\University\V Software 101\myNotePaint\SW101_\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.csproj.AssemblyReference.cache
+E:\University\V Software 101\myNotePaint\SW101_\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.Login.resources
+E:\University\V Software 101\myNotePaint\SW101_\MYDENOTE\PresentationTIER_3\obj\Debug\new_project.Properties.Resources.resources
+E:\University\V Software 101\myNotePaint\SW101_\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.csproj.GenerateResource.cache
+E:\University\V Software 101\myNotePaint\SW101_\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+E:\University\V Software 101\myNotePaint\SW101_\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.csproj.CopyComplete
+E:\University\V Software 101\myNotePaint\SW101_\MYDENOTE\PresentationTIER_3\obj\Debug\new_project.exe
+E:\University\V Software 101\myNotePaint\SW101_\MYDENOTE\PresentationTIER_3\obj\Debug\new_project.pdb
+E:\University\V Software 101\test\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\dbUSER.mdb
+E:\University\V Software 101\test\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\new_project.exe.config
+E:\University\V Software 101\test\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\new_project.exe
+E:\University\V Software 101\test\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\new_project.pdb
+E:\University\V Software 101\test\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\BUS.dll
+E:\University\V Software 101\test\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\DTO.dll
+E:\University\V Software 101\test\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\DAT.dll
+E:\University\V Software 101\test\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\BUS.pdb
+E:\University\V Software 101\test\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\DTO.pdb
+E:\University\V Software 101\test\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\DAT.pdb
+E:\University\V Software 101\test\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\DAT.dll.config
+E:\University\V Software 101\test\SW101_\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.csproj.AssemblyReference.cache
+E:\University\V Software 101\test\SW101_\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.Login.resources
+E:\University\V Software 101\test\SW101_\MYDENOTE\PresentationTIER_3\obj\Debug\new_project.Properties.Resources.resources
+E:\University\V Software 101\test\SW101_\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.csproj.GenerateResource.cache
+E:\University\V Software 101\test\SW101_\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+E:\University\V Software 101\test\SW101_\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.csproj.CopyComplete
+E:\University\V Software 101\test\SW101_\MYDENOTE\PresentationTIER_3\obj\Debug\new_project.exe
+E:\University\V Software 101\test\SW101_\MYDENOTE\PresentationTIER_3\obj\Debug\new_project.pdb
+E:\University\V Software 101\test\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\BCrypt.Net-Next.dll
+E:\University\V Software 101\test\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\System.Buffers.dll
+E:\University\V Software 101\test\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\System.Memory.dll
+E:\University\V Software 101\test\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\System.Numerics.Vectors.dll
+E:\University\V Software 101\test\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\University\V Software 101\test\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\BCrypt.Net-Next.xml
+E:\University\V Software 101\test\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\System.Buffers.xml
+E:\University\V Software 101\test\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\System.Memory.xml
+E:\University\V Software 101\test\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\System.Numerics.Vectors.xml
+E:\University\V Software 101\test\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\dbUSER.mdb
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\new_project.exe.config
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\new_project.exe
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\new_project.pdb
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\BCrypt.Net-Next.dll
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\BUS.dll
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\DTO.dll
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\System.Buffers.dll
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\System.Memory.dll
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\System.Numerics.Vectors.dll
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\DAT.dll
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\BUS.pdb
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\DTO.pdb
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\BCrypt.Net-Next.xml
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\System.Buffers.xml
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\System.Memory.xml
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\System.Numerics.Vectors.xml
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\DAT.pdb
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\bin\Debug\DAT.dll.config
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.csproj.AssemblyReference.cache
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.Login.resources
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\obj\Debug\new_project.Properties.Resources.resources
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.csproj.CopyComplete
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\obj\Debug\new_project.exe
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\obj\Debug\new_project.pdb
+D:\Test_CNPM\MYDENOTE\PresentationTIER_3\obj\Debug\new_project.HomeScreen.resources
+D:\đồ án cnpm\MYDENOTE\PresentationTIER_3\bin\Debug\dbUSER.mdb
+D:\đồ án cnpm\MYDENOTE\PresentationTIER_3\bin\Debug\new_project.exe.config
+D:\đồ án cnpm\MYDENOTE\PresentationTIER_3\bin\Debug\new_project.exe
+D:\đồ án cnpm\MYDENOTE\PresentationTIER_3\bin\Debug\new_project.pdb
+D:\đồ án cnpm\MYDENOTE\PresentationTIER_3\bin\Debug\BCrypt.Net-Next.dll
+D:\đồ án cnpm\MYDENOTE\PresentationTIER_3\bin\Debug\BUS.dll
+D:\đồ án cnpm\MYDENOTE\PresentationTIER_3\bin\Debug\DTO.dll
+D:\đồ án cnpm\MYDENOTE\PresentationTIER_3\bin\Debug\System.Buffers.dll
+D:\đồ án cnpm\MYDENOTE\PresentationTIER_3\bin\Debug\System.Memory.dll
+D:\đồ án cnpm\MYDENOTE\PresentationTIER_3\bin\Debug\System.Numerics.Vectors.dll
+D:\đồ án cnpm\MYDENOTE\PresentationTIER_3\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\đồ án cnpm\MYDENOTE\PresentationTIER_3\bin\Debug\DAT.dll
+D:\đồ án cnpm\MYDENOTE\PresentationTIER_3\bin\Debug\BUS.pdb
+D:\đồ án cnpm\MYDENOTE\PresentationTIER_3\bin\Debug\DTO.pdb
+D:\đồ án cnpm\MYDENOTE\PresentationTIER_3\bin\Debug\BCrypt.Net-Next.xml
+D:\đồ án cnpm\MYDENOTE\PresentationTIER_3\bin\Debug\System.Buffers.xml
+D:\đồ án cnpm\MYDENOTE\PresentationTIER_3\bin\Debug\System.Memory.xml
+D:\đồ án cnpm\MYDENOTE\PresentationTIER_3\bin\Debug\System.Numerics.Vectors.xml
+D:\đồ án cnpm\MYDENOTE\PresentationTIER_3\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\đồ án cnpm\MYDENOTE\PresentationTIER_3\bin\Debug\DAT.pdb
+D:\đồ án cnpm\MYDENOTE\PresentationTIER_3\bin\Debug\DAT.dll.config
+D:\đồ án cnpm\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.csproj.AssemblyReference.cache
+D:\đồ án cnpm\MYDENOTE\PresentationTIER_3\obj\Debug\new_project.HomeScreen.resources
+D:\đồ án cnpm\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.Login.resources
+D:\đồ án cnpm\MYDENOTE\PresentationTIER_3\obj\Debug\new_project.Properties.Resources.resources
+D:\đồ án cnpm\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\đồ án cnpm\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\đồ án cnpm\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.csproj.CopyComplete
+D:\đồ án cnpm\MYDENOTE\PresentationTIER_3\obj\Debug\new_project.exe
+D:\đồ án cnpm\MYDENOTE\PresentationTIER_3\obj\Debug\new_project.pdb
+D:\đồ án cnpm\MYDENOTE\PresentationTIER_3\bin\Debug\MyPaint.exe
+D:\đồ án cnpm\MYDENOTE\PresentationTIER_3\bin\Debug\MyPaint.pdb
+D:\đồ án cnpm\MYDENOTE\PresentationTIER_3\bin\Debug\MyPaint.exe.config
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\dbUSER.mdb
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\new_project.exe.config
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\new_project.exe
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\new_project.pdb
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\BCrypt.Net-Next.dll
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\BUS.dll
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\DTO.dll
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\MyPaint.exe
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\System.Buffers.dll
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\System.Memory.dll
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\System.Numerics.Vectors.dll
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\DAT.dll
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\BUS.pdb
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\DTO.pdb
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\MyPaint.pdb
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\MyPaint.exe.config
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\BCrypt.Net-Next.xml
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\System.Buffers.xml
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\System.Memory.xml
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\System.Numerics.Vectors.xml
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\DAT.pdb
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\DAT.dll.config
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.csproj.AssemblyReference.cache
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\obj\Debug\new_project.HomeScreen.resources
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.Login.resources
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\obj\Debug\new_project.Properties.Resources.resources
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.csproj.GenerateResource.cache
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.csproj.CopyComplete
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\obj\Debug\new_project.exe
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\obj\Debug\new_project.pdb
+E:\University\V Software 101\v1.1.6\huuquangg\SW101_\MYDENOTE\PresentationTIER_3\bin\Debug\BUS.dll.config
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\bin\Debug\dbUSER.mdb
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\bin\Debug\new_project.exe.config
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\bin\Debug\new_project.exe
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\bin\Debug\new_project.pdb
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\bin\Debug\BCrypt.Net-Next.dll
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\bin\Debug\BUS.dll
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\bin\Debug\DTO.dll
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\bin\Debug\Guna.UI.dll
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\bin\Debug\Guna.UI2.dll
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\bin\Debug\MyPaint.exe
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\bin\Debug\System.Buffers.dll
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\bin\Debug\System.Memory.dll
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\bin\Debug\System.Numerics.Vectors.dll
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\bin\Debug\DAT.dll
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\bin\Debug\BUS.pdb
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\bin\Debug\BUS.dll.config
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\bin\Debug\DTO.pdb
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\bin\Debug\MyPaint.pdb
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\bin\Debug\MyPaint.exe.config
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\bin\Debug\BCrypt.Net-Next.xml
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\bin\Debug\System.Buffers.xml
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\bin\Debug\System.Memory.xml
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\bin\Debug\System.Numerics.Vectors.xml
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\bin\Debug\DAT.pdb
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\bin\Debug\DAT.dll.config
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.csproj.AssemblyReference.cache
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\obj\Debug\new_project.HomeScreen.resources
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.Login.resources
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\obj\Debug\new_project.Properties.Resources.resources
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\obj\Debug\GUI.csproj.CopyComplete
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\obj\Debug\new_project.exe
+D:\CNPM\pa\MYDENOTE\PresentationTIER_3\obj\Debug\new_project.pdb
