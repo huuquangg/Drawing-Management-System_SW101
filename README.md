@@ -6,7 +6,7 @@ Deton is a cutting-edge management drawing application designed to streamline th
 
 ### Login UI
 
-![image](https://github.com/huuquangg/Drawing-Management-System_SW101/assets/98322281/5d0eb9e5-6586-4e28-9aaf-2569298ddbfc =100x20)
+![image](https://github.com/huuquangg/Drawing-Management-System_SW101/assets/98322281/5d0eb9e5-6586-4e28-9aaf-2569298ddbfc){:height="36px" width="36px"}.
 
 ### Sign Up UI
 
