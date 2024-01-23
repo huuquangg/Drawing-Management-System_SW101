@@ -19,10 +19,12 @@ Deton is a cutting-edge management drawing application designed to streamline th
 ![image](https://github.com/huuquangg/Drawing-Management-System_SW101/assets/98322281/72f91ef1-dd59-4ee8-8138-d252c086138c)
 
 <p>Created by https://www.toptal.com/developers/gitignore/api/csharp.
-<\p>Edit at https://www.toptal.com/developers/gitignore?templates=csharp.
-
+Edit at https://www.toptal.com/developers/gitignore?templates=csharp.
+<\p>
 ### Requirements
 
 Adapt most functional and non-functional requirements, following SRS: 
 [AppSWDocs1.pdf](https://github.com/huuquangg/Drawing-Management-System_SW101/files/14021466/AppSWDocs1.pdf)
 
+## Overall view
+![image](https://github.com/huuquangg/Drawing-Management-System_SW101/assets/98322281/31ea2fb0-9576-4aa9-aa5e-73c32870ac8d)
