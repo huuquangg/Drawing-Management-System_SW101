@@ -17,9 +17,9 @@ Deton is a cutting-edge management drawing application designed to streamline th
 ### Drawing Paint UI
 
 ![image](https://github.com/huuquangg/Drawing-Management-System_SW101/assets/98322281/72f91ef1-dd59-4ee8-8138-d252c086138c)
-.
-Created by https://www.toptal.com/developers/gitignore/api/csharp.
-Edit at https://www.toptal.com/developers/gitignore?templates=csharp
+
+<p>Created by https://www.toptal.com/developers/gitignore/api/csharp.
+<\p>Edit at https://www.toptal.com/developers/gitignore?templates=csharp.
 
 ### Requirements
 
